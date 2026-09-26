@@ -1,0 +1,39 @@
+{
+  "slug": "why-not-to-say-dangsin-for-you",
+  "version": "0.1",
+  "korean": "당신",
+  "romanization": "dang-sin",
+  "literal_meaning": "You",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "Why You Shouldn't Say '당신' for 'You' in Korean | AI Translation Mistake",
+    "meta_description": "AI translators turn every 'you' into '당신', which can sound cold or even confrontational in Korean. Learn how Koreans actually address each other."
+  },
+  "ai_failure": {
+    "situation": "Asking a coworker or acquaintance a simple question, like 'Did you eat lunch?'",
+    "ai_mistake": "Outputs '당신은 점심을 먹었습니까?', mapping English 'you' directly to 당신.",
+    "why_it_fails": "In conversation, 당신 addressed to a peer or stranger can sound distant or even like the start of an argument. Korean usually drops 'you' or uses a name/title instead."
+  },
+  "natural_solution": {
+    "rule": "Drop 'you' when context is clear, or use the person's name + title. Reserve 당신 for spouses, song lyrics, ads, or written text.",
+    "alternatives": [
+      {
+        "phrase": "점심 드셨어요?",
+        "romanization": "jeom-sim deu-syeo-sseo-yo",
+        "context": "No pronoun at all — the most natural default"
+      },
+      {
+        "phrase": "민수 씨는 어떻게 생각하세요?",
+        "romanization": "min-su ssi-neun eo-tteo-ke saeng-ga-ka-se-yo",
+        "context": "Name + 씨 for colleagues of similar rank"
+      },
+      {
+        "phrase": "팀장님은 어떻게 생각하세요?",
+        "romanization": "tim-jang-nim-eun eo-tteo-ke saeng-ga-ka-se-yo",
+        "context": "Job title + 님 for superiors"
+      }
+    ]
+  },
+  "nuance": "Korean doesn't have a neutral, all-purpose 'you'. Speakers position each other through names, titles and kinship terms (선배님, 언니, 사장님), or simply omit the subject. 당신 survives in a few special registers: between married couples, in poetry and song, in advertising copy, and — spoken with an edge — in quarrels ('당신이 뭔데?'). Because AI defaults to 당신, learners often sound either like a textbook or like they're picking a fight.",
+  "tags": ["pronouns", "honorifics", "misunderstood"]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "jeohui-nara-vs-uri-nara",
+  "version": "0.1",
+  "korean": "저희 나라",
+  "romanization": "jeo-hui na-ra",
+  "literal_meaning": "Our (humble) country",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "'저희 나라' or '우리나라'? | The Humble Form AI Overuses",
+    "meta_description": "AI often makes 'our country' extra polite as '저희 나라' — but Koreans say '우리나라' even in formal speech. Here's why."
+  },
+  "ai_failure": {
+    "situation": "Politely telling a Korean person something about Korea, e.g. 'In our country, we eat rice cake soup on New Year's.'",
+    "ai_mistake": "Uses '저희 나라' because 저희 is the humble form of 'we/our' and the sentence is polite.",
+    "why_it_fails": "Humbling your own nation in front of fellow Koreans makes no sense — the listener belongs to the same country. Standard guidance treats 우리나라 as correct even in formal speech."
+  },
+  "natural_solution": {
+    "rule": "Say 우리나라 (or 한국) for Korea in every register. Use 저희 only for groups the listener is not part of — your company, your family, your team.",
+    "alternatives": [
+      {
+        "phrase": "우리나라에서는 설날에 떡국을 먹어요.",
+        "romanization": "u-ri-na-ra-e-seo-neun seol-la-re tteok-gu-geul meo-geo-yo",
+        "context": "Talking about Korea, polite and natural"
+      },
+      {
+        "phrase": "저희 회사는 금요일에 일찍 퇴근해요.",
+        "romanization": "jeo-hui hoe-sa-neun geu-myo-i-re il-jjik toe-geun-hae-yo",
+        "context": "Correct use of 저희 — the listener isn't part of your company"
+      }
+    ]
+  },
+  "nuance": "저희 lowers the speaker's group relative to the listener, so it only works when the listener stands outside that group. A nation is a group every Korean listener shares, so 우리나라 is written as a single word and used by presidents and news anchors alike. The trap shows how Korean politeness isn't a dial you simply turn up — it depends on who is inside and who is outside the 'we'.",
+  "tags": ["honorifics", "humble-speech", "misunderstood"]
+}

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+  --font-serif: var(--font-serif-kr), "Noto Serif KR", Georgia, serif;
+
+  --color-ink: #1c1917;
+  --color-paper: #faf8f4;
+  --color-line: #e7e2d9;
+  --color-muted: #78716c;
+  --color-accent: #b4432f;      /* 단청 주홍 */
+  --color-fail: #b42318;
+  --color-fail-soft: #fef1ef;
+  --color-ok: #1f7a4d;
+  --color-ok-soft: #edf7f1;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}

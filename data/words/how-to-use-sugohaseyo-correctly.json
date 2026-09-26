@@ -1,0 +1,34 @@
+{
+  "slug": "how-to-use-sugohaseyo-correctly",
+  "version": "0.1",
+  "korean": "수고하세요",
+  "romanization": "su-go-ha-se-yo",
+  "literal_meaning": "Keep working hard",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "Can You Say '수고하세요' to Your Boss? | Why AI Gets It Wrong",
+    "meta_description": "Translating '수고하세요' literally causes awkward workplace mistakes in Korea. Discover natural alternatives for superiors and elders."
+  },
+  "ai_failure": {
+    "situation": "Saying goodbye to a boss or client at the end of the day",
+    "ai_mistake": "Translates as a polite 'Keep up the good work' and recommends using it to anyone.",
+    "why_it_fails": "Sounds condescending when used toward superiors or elders."
+  },
+  "natural_solution": {
+    "rule": "Only use toward peers or subordinates. Never to superiors.",
+    "alternatives": [
+      {
+        "phrase": "먼저 들어가 보겠습니다.",
+        "romanization": "meon-jeo deu-reo-ga bo-ges-seum-ni-da",
+        "context": "Leaving the office before your boss/colleagues"
+      },
+      {
+        "phrase": "오늘 고생 많으셨습니다.",
+        "romanization": "o-neul go-saeng ma-neu-syeot-seum-ni-da",
+        "context": "Polite acknowledgment of shared hard work to senior colleagues"
+      }
+    ]
+  },
+  "nuance": "수고하세요 literally asks the listener to keep enduring effort. Telling someone to keep working implies you are in a position to evaluate or direct their labor — which is the senior's role. That is why the phrase flows naturally downward or sideways (a customer to a cashier, a manager to a team) but feels presumptuous upward. Many Koreans also avoid it with elders entirely and switch to phrases that acknowledge effort already spent, like 고생 많으셨습니다.",
+  "tags": ["workplace", "honorifics", "misunderstood"]
+}
