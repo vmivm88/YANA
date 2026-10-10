@@ -1,0 +1,39 @@
+{
+  "slug": "arasseoyo-vs-algesseumnida",
+  "version": "0.1",
+  "korean": "알았어요",
+  "romanization": "a-ra-sseo-yo",
+  "literal_meaning": "(I) knew / Got it",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "'알았어요' vs '알겠습니다' | How to Say 'Got It' to Your Boss in Korean",
+    "meta_description": "AI often renders 'Okay, got it' as '알았어요', which can sound curt to a Korean superior. Learn why '알겠습니다' is the natural reply."
+  },
+  "ai_failure": {
+    "situation": "Your manager asks you to send a report by 3 p.m. and you want to reply 'Okay, got it.'",
+    "ai_mistake": "Suggests '알았어요' because it ends in polite 요 and literally means 'understood'.",
+    "why_it_fails": "To a superior, 알았어요 sounds brief and a little reluctant, like 'Fine, I heard you.' The expected reply to an instruction is 알겠습니다, which signals you accept the task."
+  },
+  "natural_solution": {
+    "rule": "Reply to instructions from a superior with 네, 알겠습니다. Keep 알았어요 / 알았어 for friends, family and juniors.",
+    "alternatives": [
+      {
+        "phrase": "네, 알겠습니다.",
+        "romanization": "ne, al-get-seum-ni-da",
+        "context": "The standard workplace reply to any request or instruction"
+      },
+      {
+        "phrase": "네, 3시까지 보내 드리겠습니다.",
+        "romanization": "ne, se-si-kka-ji bo-nae deu-ri-get-seum-ni-da",
+        "context": "Even better: confirm the task back in your answer"
+      },
+      {
+        "phrase": "확인했습니다.",
+        "romanization": "hwa-gin-haet-seum-ni-da",
+        "context": "Common in chat or email when acknowledging information"
+      }
+    ]
+  },
+  "nuance": "The difference isn't only the speech level. 알았- (past tense) reports that the information has been received, while 알겠- (with the future/volitional -겠-) signals readiness to act on it. That is why 알겠습니다 sounds cooperative and deferential, and why 알았어요 can come across as closing the conversation. Among close friends the reverse is true: 알겠습니다 would sound stiff or even sarcastic.",
+  "tags": ["workplace", "speech-levels", "replies", "misunderstood"]
+}

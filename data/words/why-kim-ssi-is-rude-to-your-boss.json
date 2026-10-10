@@ -1,0 +1,39 @@
+{
+  "slug": "why-kim-ssi-is-rude-to-your-boss",
+  "version": "0.1",
+  "korean": "김 씨",
+  "romanization": "gim ssi",
+  "literal_meaning": "Mr./Ms. Kim",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "Is '김 씨' the Same as 'Mr. Kim'? | Addressing Your Korean Boss",
+    "meta_description": "AI translates 'Mr. Kim' as '김 씨', but calling a manager that in Korea sounds disrespectful. Learn how Koreans address superiors with job titles."
+  },
+  "ai_failure": {
+    "situation": "Writing an email or speaking to your team leader, Kim Minjun",
+    "ai_mistake": "Turns 'Mr. Kim' into '김 씨' or '김민준 씨', treating 씨 as a polite equivalent of Mr./Ms.",
+    "why_it_fails": "씨 is polite only between equals or toward juniors. Surname + 씨 alone can even sound like you're addressing a laborer or a stranger you look down on. Superiors are called by their job title."
+  },
+  "natural_solution": {
+    "rule": "Address superiors by job title + 님 (with or without the surname). Use full name + 씨 only for peers or juniors.",
+    "alternatives": [
+      {
+        "phrase": "김 팀장님, 회의 자료 보내 드렸습니다.",
+        "romanization": "gim tim-jang-nim, hoe-ui ja-ryo bo-nae deu-ryeot-seum-ni-da",
+        "context": "Surname + title + 님 — the safe default for a superior"
+      },
+      {
+        "phrase": "부장님, 잠깐 시간 괜찮으세요?",
+        "romanization": "bu-jang-nim, jam-kkan si-gan gwaen-cha-neu-se-yo",
+        "context": "Title + 님 alone, the most common form in person"
+      },
+      {
+        "phrase": "민준 씨, 이것 좀 확인해 줄래요?",
+        "romanization": "min-jun ssi, i-geot jom hwa-gin-hae jul-lae-yo",
+        "context": "Given name + 씨 — fine for a colleague at your level or below"
+      }
+    ]
+  },
+  "nuance": "In Korean workplaces, a person's position effectively becomes their name: 과장님, 팀장님, 대표님. Adding the surname (김 과장님) helps when there are several people with the same title. 씨 sits much lower than English 'Mr.' suggests — it is respectful between equals, but used upward it erases the hierarchy the listener expects to be acknowledged. And surname + 씨 alone (김 씨) is the riskiest form of all, often heard in condescending or impersonal contexts.",
+  "tags": ["workplace", "honorifics", "titles", "misunderstood"]
+}
