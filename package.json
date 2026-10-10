@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate": "node scripts/validate-words.mjs",
+    "prebuild": "node scripts/validate-words.mjs"
   },
   "dependencies": {
     "next": "^16.0.0",
