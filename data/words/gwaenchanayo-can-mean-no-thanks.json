@@ -1,0 +1,39 @@
+{
+  "slug": "gwaenchanayo-can-mean-no-thanks",
+  "version": "0.1",
+  "korean": "괜찮아요",
+  "romanization": "gwaen-cha-na-yo",
+  "literal_meaning": "It's okay / It's fine",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "Does '괜찮아요' Mean Yes or No? | The Korean 'It's Okay' AI Misreads",
+    "meta_description": "'괜찮아요' can mean 'I'm fine', 'it's good' or 'no thanks'. AI picks one meaning and causes confusion. Here's how to read it in context."
+  },
+  "ai_failure": {
+    "situation": "A shop clerk asks '봉투 필요하세요?' (Do you need a bag?) and the customer answers '괜찮아요.'",
+    "ai_mistake": "Translates the answer as 'It's okay / That's fine', so a learner thinks the customer accepted the bag.",
+    "why_it_fails": "In reply to an offer, 괜찮아요 almost always means 'No thanks, I'm fine without it.' Learners also use it to accept things and end up refusing by accident."
+  },
+  "natural_solution": {
+    "rule": "After an offer, 괜찮아요 = polite refusal. To accept, say 네, 주세요 or 네, 좋아요.",
+    "alternatives": [
+      {
+        "phrase": "아니요, 괜찮아요.",
+        "romanization": "a-ni-yo, gwaen-cha-na-yo",
+        "context": "Clear, polite 'no thanks'"
+      },
+      {
+        "phrase": "네, 주세요.",
+        "romanization": "ne, ju-se-yo",
+        "context": "Accepting an offered item (a bag, a receipt, more food)"
+      },
+      {
+        "phrase": "네, 좋아요.",
+        "romanization": "ne, jo-a-yo",
+        "context": "Accepting a suggestion or invitation"
+      }
+    ]
+  },
+  "nuance": "괜찮다 literally means 'to be all right', and its English-like uses are real: 괜찮아요? (Are you okay?), 이거 괜찮네 (This is pretty good). But as an answer to an offer it works as a soft no — it says 'I'm fine as I am' without the bluntness of 아니요 alone. Korean hosts may offer food two or three times because a first 괜찮아요 is sometimes politeness rather than a real refusal, so tone and repetition matter.",
+  "tags": ["refusals", "politeness", "everyday", "misunderstood"]
+}

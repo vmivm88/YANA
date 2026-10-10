@@ -1,0 +1,39 @@
+{
+  "slug": "bap-meogeosseoyo-is-a-greeting",
+  "version": "0.1",
+  "korean": "밥 먹었어요?",
+  "romanization": "bap meo-geo-sseo-yo",
+  "literal_meaning": "Did you eat (rice)?",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "Why Koreans Ask '밥 먹었어요?' | It's a Greeting, Not a Dinner Invite",
+    "meta_description": "AI translates '밥 먹었어요?' as 'Did you eat?' and suggests a literal answer. Learn why it works like 'How are you?' in Korean."
+  },
+  "ai_failure": {
+    "situation": "A Korean coworker passes you in the hallway around lunchtime and asks '밥 먹었어요?'",
+    "ai_mistake": "Translates it as 'Did you eat?' and suggests a detailed answer, or explains it as an invitation to eat together.",
+    "why_it_fails": "Most of the time it's a casual check-in, close to 'How's it going?' The speaker usually isn't asking about your menu and isn't necessarily inviting you."
+  },
+  "natural_solution": {
+    "rule": "Answer briefly and bounce the question back. Treat it as an invitation only if a time or place follows.",
+    "alternatives": [
+      {
+        "phrase": "네, 먹었어요. 식사하셨어요?",
+        "romanization": "ne, meo-geo-sseo-yo. sik-sa-ha-syeo-sseo-yo",
+        "context": "Short answer + the polite version back (식사하다 is the respectful 'eat')"
+      },
+      {
+        "phrase": "아직요. 이따 먹으려고요.",
+        "romanization": "a-jik-yo. i-tta meo-geu-ryeo-go-yo",
+        "context": "Haven't eaten yet — still a complete, natural reply"
+      },
+      {
+        "phrase": "점심 맛있게 드셨어요?",
+        "romanization": "jeom-sim ma-sit-ge deu-syeo-sseo-yo",
+        "context": "Your own after-lunch greeting to a senior colleague"
+      }
+    ]
+  },
+  "nuance": "Asking whether someone has eaten is a way of showing care, and it fits the Korean habit of greeting through situation rather than with a fixed phrase ('Going home?', 'Did you eat?', 'You came early!'). When you ask a superior, switch the verb to 식사하셨어요? or 드셨어요? — 밥 먹었어요? is fine for peers but too plain for elders.",
+  "tags": ["greetings", "small-talk", "food", "misunderstood"]
+}
