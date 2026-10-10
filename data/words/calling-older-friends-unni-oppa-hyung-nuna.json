@@ -1,0 +1,39 @@
+{
+  "slug": "calling-older-friends-unni-oppa-hyung-nuna",
+  "version": "0.1",
+  "korean": "언니 · 오빠 · 형 · 누나",
+  "romanization": "eon-ni · o-ppa · hyeong · nu-na",
+  "literal_meaning": "Older sister / older brother (depends on your gender)",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "Calling an Older Korean Friend by Name? | 언니, 오빠, 형, 누나 Explained",
+    "meta_description": "AI keeps using a friend's first name in Korean, but calling an older friend by name can feel rude. Learn when to use 언니, 오빠, 형 and 누나."
+  },
+  "ai_failure": {
+    "situation": "Texting a friend who is two years older than you: 'Jiwon, are you free tomorrow?'",
+    "ai_mistake": "Outputs '지원아, 내일 시간 있어?' — the older friend's bare name plus casual speech, copying the English.",
+    "why_it_fails": "Calling someone older by their bare name (with 아/야) is how you address equals or juniors. Even close friends usually call an older friend with a kinship title, and AI also mixes up which title matches whose gender."
+  },
+  "natural_solution": {
+    "rule": "The title depends on BOTH your gender and theirs. Women say 언니 (older woman) and 오빠 (older man). Men say 누나 (older woman) and 형 (older man). Add the name for clarity: 지원 언니.",
+    "alternatives": [
+      {
+        "phrase": "언니, 내일 시간 있어요?",
+        "romanization": "eon-ni, nae-il si-gan i-sseo-yo",
+        "context": "A woman to an older female friend"
+      },
+      {
+        "phrase": "형, 내일 시간 있어?",
+        "romanization": "hyeong, nae-il si-gan i-sseo",
+        "context": "A man to an older male friend he's close with"
+      },
+      {
+        "phrase": "지원 선배님, 내일 시간 괜찮으세요?",
+        "romanization": "ji-won seon-bae-nim, nae-il si-gan gwaen-cha-neu-se-yo",
+        "context": "Older person from school or work you're not close to yet"
+      }
+    ]
+  },
+  "nuance": "Koreans establish relative age early in a relationship because it decides how people address each other. Kinship titles turn friends into a kind of chosen family and carry real warmth — 오빠 in particular can also sound affectionate or flirtatious, so context matters. Before you're close, 선배(님) or name + 씨 keeps a respectful distance. Moving to bare names usually happens only when the older person suggests it, often with 말 놓자 (let's drop the formal speech).",
+  "tags": ["kinship-terms", "age", "friendship", "misunderstood"]
+}

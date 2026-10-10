@@ -1,0 +1,39 @@
+{
+  "slug": "eonje-bap-hanbeon-meogeoyo-not-a-real-plan",
+  "version": "0.1",
+  "korean": "언제 밥 한번 먹어요",
+  "romanization": "eon-je bap han-beon meo-geo-yo",
+  "literal_meaning": "Let's eat together sometime",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "'언제 밥 한번 먹어요' Isn't a Real Invitation | Korean Social Nuance",
+    "meta_description": "AI reads '언제 밥 한번 먹어요' as a dinner invitation. In Korea it's often a friendly goodbye. Learn how to tell — and how to make a real plan."
+  },
+  "ai_failure": {
+    "situation": "Ending a chat with an acquaintance you ran into, who says '언제 밥 한번 먹어요!'",
+    "ai_mistake": "Translates it as 'Let's have a meal sometime' and suggests replying with dates to set up the dinner.",
+    "why_it_fails": "It's usually a warm way to say goodbye and keep the relationship open, like 'We should catch up sometime.' Pinning down a date right away can feel awkward unless the other person clearly means it."
+  },
+  "natural_solution": {
+    "rule": "Return the warmth without forcing a schedule. A real plan comes with a concrete day, place or follow-up message.",
+    "alternatives": [
+      {
+        "phrase": "네, 좋아요! 연락할게요.",
+        "romanization": "ne, jo-a-yo! yeol-lak-hal-ge-yo",
+        "context": "Friendly, natural reply that keeps it open"
+      },
+      {
+        "phrase": "다음 주 목요일 점심 어때요?",
+        "romanization": "da-eum ju mo-gyo-il jeom-sim eo-ttae-yo",
+        "context": "When you actually want to meet — propose a specific time"
+      },
+      {
+        "phrase": "조만간 꼭 봬요.",
+        "romanization": "jo-man-gan kkok bwae-yo",
+        "context": "Warm goodbye toward someone older or more senior"
+      }
+    ]
+  },
+  "nuance": "Shared meals are central to Korean relationships, so offering one is a way of saying 'I value this connection.' Because the phrase carries goodwill rather than logistics, both sides understand it can stay hypothetical. The word 언제 (sometime) is the giveaway. If a Korean friend follows up later with a specific day, or the phrase becomes 이번 주에 밥 먹어요 (let's eat this week), it has turned into a real invitation.",
+  "tags": ["invitations", "small-talk", "food", "indirectness"]
+}

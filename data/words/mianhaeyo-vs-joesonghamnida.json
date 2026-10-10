@@ -1,0 +1,39 @@
+{
+  "slug": "mianhaeyo-vs-joesonghamnida",
+  "version": "0.1",
+  "korean": "미안해요",
+  "romanization": "mi-an-hae-yo",
+  "literal_meaning": "I'm sorry",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "'미안해요' or '죄송합니다'? | How to Apologize Properly in Korean",
+    "meta_description": "AI turns every 'I'm sorry' into '미안해요'. To elders, bosses and customers it can sound too light. Learn when to use '죄송합니다' instead."
+  },
+  "ai_failure": {
+    "situation": "Apologizing to your professor for submitting an assignment late",
+    "ai_mistake": "Translates 'I'm so sorry' as '정말 미안해요', because it's polite (ends in 요) and means sorry.",
+    "why_it_fails": "미안하다 is the apology word for equals and juniors. To a professor, boss, customer or elder, even with 요 it can sound like you aren't taking the mistake seriously. 죄송하다 is the respectful form."
+  },
+  "natural_solution": {
+    "rule": "Apologize upward with 죄송합니다 / 죄송해요. Use 미안해요 / 미안해 with friends, partners and people younger than you.",
+    "alternatives": [
+      {
+        "phrase": "교수님, 늦게 제출해서 정말 죄송합니다.",
+        "romanization": "gyo-su-nim, neut-ge je-chul-hae-seo jeong-mal joe-song-ham-ni-da",
+        "context": "Formal apology to a professor or boss"
+      },
+      {
+        "phrase": "늦어서 죄송해요.",
+        "romanization": "neu-jeo-seo joe-song-hae-yo",
+        "context": "Polite but softer — a senior you're close to, a shop owner"
+      },
+      {
+        "phrase": "늦어서 미안해!",
+        "romanization": "neu-jeo-seo mi-an-hae",
+        "context": "Casual apology to a friend"
+      }
+    ]
+  },
+  "nuance": "Korean has two apology verbs, and the choice signals the relationship before the sentence ends. 죄송하다 contains 죄 (fault, offense) and expresses deeper humility, which is why it's also used by staff to customers and in public announcements. The reverse mistake matters too: saying 죄송합니다 to a close friend sounds distant, as if something serious has happened between you. 'Excuse me' to get past someone is a different expression entirely — 잠시만요 or 저기요, not an apology.",
+  "tags": ["apologies", "honorifics", "speech-levels", "misunderstood"]
+}
