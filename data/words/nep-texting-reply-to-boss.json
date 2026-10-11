@@ -1,0 +1,39 @@
+{
+  "slug": "nep-texting-reply-to-boss",
+  "version": "0.2",
+  "korean": "네.",
+  "romanization": "ne",
+  "literal_meaning": "Yes.",
+  "category": "Texting & Online",
+  "seo": {
+    "meta_title": "Why Koreans Text '넵' Instead of '네.' | Replying to Your Boss on Kakao",
+    "meta_description": "AI tells you to reply '네.' to a work message. On KakaoTalk it can feel cold. Learn why Korean office workers text 넵, 네네 and 네! instead."
+  },
+  "ai_failure": {
+    "situation": "Your team leader messages you on KakaoTalk: 'Please send the file by 5.' You want to reply 'Yes.'",
+    "ai_mistake": "Suggests '네.' — the polite word for yes, ending with a period.",
+    "why_it_fails": "In chat, a bare 네 with a period can read as flat or even annoyed. Korean texting relies on small softeners to show a cheerful, cooperative tone that the face and voice would carry in person."
+  },
+  "natural_solution": {
+    "rule": "In work chats, soften a one-word yes: 넵, 네네, 네! or 네~. For very senior people or formal channels, use a full sentence.",
+    "alternatives": [
+      {
+        "phrase": "넵!",
+        "romanization": "nep",
+        "context": "The go-to quick, eager reply among office workers"
+      },
+      {
+        "phrase": "네네 확인했습니다!",
+        "romanization": "ne-ne hwa-gin-haet-seum-ni-da",
+        "context": "Acknowledging a message with a friendly tone"
+      },
+      {
+        "phrase": "네, 5시까지 보내 드리겠습니다.",
+        "romanization": "ne, da-seot-si-kka-ji bo-nae deu-ri-get-seum-ni-da",
+        "context": "Safer with executives or people you don't know well"
+      }
+    ]
+  },
+  "nuance": "Text strips away tone of voice, so Korean chat culture compensates with tiny markers: a doubled word (네네), an exclamation mark, a tilde (~), or the clipped 넵, which sounds brisk and willing. The same logic applies beyond 'yes': 알겠어. with a period can feel like the end of an argument, while 알겠어~ or 알겠어ㅎㅎ sounds easygoing. Some people joke about '넵 anxiety' — workers agonizing over 넵 vs 넵! vs 넵넵 — which shows how much these small choices carry.",
+  "tags": ["texting", "kakaotalk", "workplace", "tone"]
+}

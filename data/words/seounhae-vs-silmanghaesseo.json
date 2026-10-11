@@ -1,0 +1,39 @@
+{
+  "slug": "seounhae-vs-silmanghaesseo",
+  "version": "0.2",
+  "korean": "실망했어",
+  "romanization": "sil-mang-hae-sseo",
+  "literal_meaning": "I'm disappointed (in you)",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "'I'm a Little Hurt' in Korean | 서운해 vs 실망했어",
+    "meta_description": "AI translates 'I'm a bit hurt' as '실망했어', which sounds like a harsh judgment. Koreans say '서운해' for hurt feelings between close people."
+  },
+  "ai_failure": {
+    "situation": "Your close friend went to a concert with others and didn't invite you. You want to say 'Honestly, I'm a little hurt.'",
+    "ai_mistake": "Translates it as '솔직히 좀 실망했어' or '상처받았어'.",
+    "why_it_fails": "실망했어 judges the other person — 'you let me down' — and can sound like the relationship itself is in question. 상처받았어 is heavy. The gentle, very common word for this feeling is 서운하다."
+  },
+  "natural_solution": {
+    "rule": "Use 서운하다 (or 섭섭하다) for the small hurt of being overlooked by someone close. Save 실망했다 for real disappointment in someone's actions or character.",
+    "alternatives": [
+      {
+        "phrase": "나 빼고 갔다니 좀 서운하다.",
+        "romanization": "na ppae-go gat-da-ni jom seo-un-ha-da",
+        "context": "Gently telling a friend you felt left out"
+      },
+      {
+        "phrase": "연락이 없어서 서운했어요.",
+        "romanization": "yeol-la-gi eop-seo-seo seo-un-hae-sseo-yo",
+        "context": "Polite, to someone you're close with but older"
+      },
+      {
+        "phrase": "섭섭하네~",
+        "romanization": "seop-seo-pa-ne",
+        "context": "Light, half-joking version"
+      }
+    ]
+  },
+  "nuance": "서운하다 has no single English word. It names the feeling that comes from an expectation inside a relationship not being met — not being invited, not being told news first, a friend forgetting your birthday. Saying it openly is actually a way of affirming closeness: 'I care because we're close.' Elders also use 섭섭하다 when someone leaves or a farewell comes, mixing sadness with affection. Because it's soft, it invites an apology or reassurance rather than an argument.",
+  "tags": ["emotions", "friendship", "untranslatable", "misunderstood"]
+}

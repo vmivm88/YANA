@@ -1,0 +1,39 @@
+{
+  "slug": "how-to-start-a-korean-email",
+  "version": "0.2",
+  "korean": "이 이메일이 잘 도착하길 바랍니다",
+  "romanization": "i i-me-i-ri jal do-cha-ka-gil ba-ram-ni-da",
+  "literal_meaning": "I hope this email arrives well (I hope this email finds you well)",
+  "category": "Email & Formal Writing",
+  "seo": {
+    "meta_title": "How to Start a Korean Email | Not 'I Hope This Email Finds You Well'",
+    "meta_description": "AI translates 'I hope this email finds you well' word for word into Korean. Korean emails open differently: greet, then say who you are. See examples."
+  },
+  "ai_failure": {
+    "situation": "Writing a first email to a Korean business contact or professor.",
+    "ai_mistake": "Opens with a literal translation like '이 이메일이 당신에게 잘 도착하길 바랍니다' or '이 메일이 당신을 잘 찾기를 바랍니다'.",
+    "why_it_fails": "The English idiom has no Korean equivalent, so the translation sounds strange — and it uses 당신, which is cold in emails. Korean emails start by greeting and immediately stating your name and affiliation."
+  },
+  "natural_solution": {
+    "rule": "Open with 안녕하세요, then '[affiliation] [name]입니다.' Close with 감사합니다 and '[name] 드림'.",
+    "alternatives": [
+      {
+        "phrase": "안녕하세요, ○○대학교 한국어교육과 김소피입니다.",
+        "romanization": "an-nyeong-ha-se-yo, ○○ dae-hak-gyo han-gu-geo-gyo-yuk-gwa gim-so-pi-im-ni-da",
+        "context": "First email to a professor or someone who doesn't know you (○○ = your school)"
+      },
+      {
+        "phrase": "안녕하세요, 지난주 미팅에서 인사드렸던 김소피입니다.",
+        "romanization": "an-nyeong-ha-se-yo, ji-nan-ju mi-ting-e-seo in-sa-deu-ryeot-deon gim-so-pi-im-ni-da",
+        "context": "Reminding them where you met"
+      },
+      {
+        "phrase": "감사합니다. 김소피 드림",
+        "romanization": "gam-sa-ham-ni-da. gim-so-pi deu-rim",
+        "context": "Standard closing — 드림 means 'humbly given by'"
+      }
+    ]
+  },
+  "nuance": "English email openers ease into the message with a wish for the reader's wellbeing. Korean business emails get to identity first, because knowing who is writing (and from which organization) tells the reader how to place you. Seasonal small talk does exist — 날씨가 많이 쌀쌀해졌는데 잘 지내고 계신가요? — but it comes after the introduction and is used with people you already know. ○○○ in Korean templates simply marks where a name goes.",
+  "tags": ["email", "business-korean", "formal-writing", "translation"]
+}
