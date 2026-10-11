@@ -15,6 +15,6 @@ export const SITE = {
     "Open-source collection of Korean expressions that AI translators get wrong — with the natural alternatives Koreans actually use, explained through hierarchy and context.",
   url: siteUrl,
   version: "0.1",
-  feedbackUrl: process.env.NEXT_PUBLIC_FEEDBACK_URL ?? "https://tally.so",
+  feedbackUrl: process.env.NEXT_PUBLIC_FEEDBACK_URL ?? "https://tally.so/r/LZAXxp",
   repoUrl: "https://github.com/vmivm88/YANA",
 };

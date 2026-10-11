@@ -134,7 +134,7 @@ export default async function WordPage({ params }: Props) {
       <aside className="mt-12 flex flex-col items-start gap-4 rounded-2xl border border-line bg-white p-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="font-medium">Found a weird AI Korean translation?</p>
         <a
-          href={SITE.feedbackUrl}
+          href={`${SITE.feedbackUrl}?expression=${encodeURIComponent(word.korean)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper hover:bg-accent"

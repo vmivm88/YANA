@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { WordEntry } from "@/lib/types";
 import WordCard from "./WordCard";
+import { SITE } from "@/lib/site";
 
 interface Props {
   words: WordEntry[];
@@ -84,7 +85,16 @@ export default function WordGrid({ words, categories }: Props) {
         </ul>
       ) : (
         <div className="mt-3 rounded-2xl border border-dashed border-line px-6 py-12 text-center text-muted">
-          No matches yet. Know one AI gets wrong? Submit it — that&apos;s how v0.2 gets built.
+          No matches yet. Know one AI gets wrong?{" "}
+          <a
+            href={query ? `${SITE.feedbackUrl}?expression=${encodeURIComponent(query)}` : SITE.feedbackUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-accent underline"
+          >
+            Submit it
+          </a>{" "}
+          — that&apos;s how v0.2 gets built.
         </div>
       )}
     </section>
