@@ -3,7 +3,10 @@
 export type Category =
   | "Workplace & Hierarchy"
   | "Daily Life"
-  | "Emotion & Relationships";
+  | "Emotion & Relationships"
+  | "Food & Dining"
+  | "Texting & Online"
+  | "Email & Formal Writing";
 
 export interface Alternative {
   phrase: string;

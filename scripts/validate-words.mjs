@@ -4,7 +4,14 @@ import fs from "node:fs";
 import path from "node:path";
 
 const DIR = path.join(process.cwd(), "data", "words");
-const CATEGORIES = ["Workplace & Hierarchy", "Daily Life", "Emotion & Relationships"];
+const CATEGORIES = [
+  "Workplace & Hierarchy",
+  "Daily Life",
+  "Emotion & Relationships",
+  "Food & Dining",
+  "Texting & Online",
+  "Email & Formal Writing",
+];
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const errors = [];

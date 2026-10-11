@@ -14,6 +14,9 @@ Thanks for helping! This project collects Korean expressions that AI translators
    - `Workplace & Hierarchy`
    - `Daily Life`
    - `Emotion & Relationships`
+   - `Food & Dining`
+   - `Texting & Online`
+   - `Email & Formal Writing`
 4. Run the checker:
    ```bash
    npm run validate
