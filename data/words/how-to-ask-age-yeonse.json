@@ -1,0 +1,39 @@
+{
+  "slug": "how-to-ask-age-yeonse",
+  "version": "0.2",
+  "korean": "몇 살이에요?",
+  "romanization": "myeot sa-ri-e-yo",
+  "literal_meaning": "How many years old are you?",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "How to Ask Someone's Age in Korean Politely | '몇 살이에요?' vs '연세'",
+    "meta_description": "AI translates 'How old are you?' as '몇 살이에요?' for anyone. To adults and elders it sounds childish or rude. Learn the polite ways Koreans ask age."
+  },
+  "ai_failure": {
+    "situation": "Chatting with an older neighbor or a new adult acquaintance and asking 'How old are you?'",
+    "ai_mistake": "Gives '몇 살이에요?' or '몇 살이세요?' regardless of who you're talking to.",
+    "why_it_fails": "몇 살 is how you ask children or close peers. Asked to an adult you've just met, it sounds childish; to an elder it is rude. Korean switches the noun itself: 나이 for adults, 연세 for elders."
+  },
+  "natural_solution": {
+    "rule": "Children/close peers: 몇 살이야? Adults: 나이가 어떻게 되세요? Elders: 연세가 어떻게 되세요? Among young adults, birth year is also common.",
+    "alternatives": [
+      {
+        "phrase": "연세가 어떻게 되세요?",
+        "romanization": "yeon-se-ga eo-tteo-ke doe-se-yo",
+        "context": "Asking an older person, e.g. a neighbor or a friend's parent"
+      },
+      {
+        "phrase": "실례지만 나이가 어떻게 되세요?",
+        "romanization": "sil-lye-ji-man na-i-ga eo-tteo-ke doe-se-yo",
+        "context": "Asking an adult you've just met, with a softening 'excuse me'"
+      },
+      {
+        "phrase": "몇 년생이세요?",
+        "romanization": "myeot nyeon-saeng-i-se-yo",
+        "context": "Common among people of similar age to work out who's older"
+      }
+    ]
+  },
+  "nuance": "Age is asked early in Korea not out of nosiness but because it decides speech levels and titles (언니, 형, 선배). That makes the question itself sensitive to hierarchy: 연세 is the honorific noun for age, just as 성함 is for a name and 댁 is for a home. Asking 몇 년생 (birth year) has become a popular, neutral workaround, partly because Korea moved to international age in 2023 and people still sometimes count differently.",
+  "tags": ["age", "honorifics", "questions", "elders"]
+}

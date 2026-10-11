@@ -1,0 +1,39 @@
+{
+  "slug": "honorific-verbs-deuseyo-jumuseyo",
+  "version": "0.2",
+  "korean": "먹으세요",
+  "romanization": "meo-geu-se-yo",
+  "literal_meaning": "Please eat",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "'먹으세요' or '드세요'? | Special Honorific Verbs AI Forgets",
+    "meta_description": "Adding -시- isn't always enough. Some Korean verbs change completely for elders: 먹다→드시다, 자다→주무시다, 있다→계시다. Learn the ones AI gets wrong."
+  },
+  "ai_failure": {
+    "situation": "Inviting your grandmother or your boss to start eating: 'Please enjoy your meal.'",
+    "ai_mistake": "Builds the honorific by adding -(으)세요 to the basic verb: '할머니, 먹으세요' or '맛있게 먹으세요'.",
+    "why_it_fails": "For a handful of everyday verbs, Korean uses a completely different word for respected people. 먹으세요 to an elder sounds like a grammar exercise and can come across as impolite."
+  },
+  "natural_solution": {
+    "rule": "Learn the special honorific verbs: 먹다/마시다 → 드시다, 자다 → 주무시다, 있다 (to be somewhere) → 계시다, 말하다 → 말씀하시다, 아프다 → 편찮으시다.",
+    "alternatives": [
+      {
+        "phrase": "할머니, 맛있게 드세요.",
+        "romanization": "hal-meo-ni, ma-sit-ge deu-se-yo",
+        "context": "Inviting an elder to eat"
+      },
+      {
+        "phrase": "안녕히 주무세요.",
+        "romanization": "an-nyeong-hi ju-mu-se-yo",
+        "context": "Good night to parents, grandparents, a host family"
+      },
+      {
+        "phrase": "부장님 지금 사무실에 계세요?",
+        "romanization": "bu-jang-nim ji-geum sa-mu-si-re gye-se-yo",
+        "context": "Asking whether a superior is in"
+      }
+    ]
+  },
+  "nuance": "Most Korean verbs become honorific by adding -시-, which is why learners (and AI) apply the rule everywhere. But the most frequent actions in daily life — eating, sleeping, being somewhere, speaking — have their own respectful vocabulary, and those are exactly the words you use with elders every day. Using the special verb shows you see the person as someone to honor, not just someone to be polite to. Note the split for 있다: 계시다 for a person being somewhere, but 있으시다 for possessions (시간 있으세요?).",
+  "tags": ["honorifics", "verbs", "elders", "grammar"]
+}

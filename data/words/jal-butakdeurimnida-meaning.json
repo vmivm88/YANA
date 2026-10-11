@@ -1,0 +1,39 @@
+{
+  "slug": "jal-butakdeurimnida-meaning",
+  "version": "0.2",
+  "korean": "잘 부탁드립니다",
+  "romanization": "jal bu-tak-deu-rim-ni-da",
+  "literal_meaning": "I ask you (for things) well / Please take care of me",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "What Does '잘 부탁드립니다' Really Mean? | Not 'Please Take Care of Me'",
+    "meta_description": "AI translates '잘 부탁드립니다' as 'Please take care of me' and misses when Koreans use it. Learn the phrase for first days, new teams and new partners."
+  },
+  "ai_failure": {
+    "situation": "Introducing yourself to your new team on your first day: 'Nice to meet you. I look forward to working with you.'",
+    "ai_mistake": "Translates the second sentence literally as '여러분과 함께 일하기를 기대하고 있습니다', and explains 잘 부탁드립니다 as 'Please take care of me'.",
+    "why_it_fails": "The literal sentence sounds like a stiff speech. Koreans close almost every first introduction with 잘 부탁드립니다 — it means 'I'm counting on our good relationship', and leaving it out feels like something is missing."
+  },
+  "natural_solution": {
+    "rule": "End first introductions, new working relationships and requests with 잘 부탁드립니다. Treat it as a fixed social closing, not a literal request.",
+    "alternatives": [
+      {
+        "phrase": "처음 뵙겠습니다. 김소피입니다. 앞으로 잘 부탁드립니다.",
+        "romanization": "cheo-eum boep-get-seum-ni-da. gim-so-pi-im-ni-da. ap-eu-ro jal bu-tak-deu-rim-ni-da",
+        "context": "Standard self-introduction on a first day or at a first meeting"
+      },
+      {
+        "phrase": "이번 프로젝트 잘 부탁드립니다.",
+        "romanization": "i-beon peu-ro-jek-teu jal bu-tak-deu-rim-ni-da",
+        "context": "Starting work with a new partner or client"
+      },
+      {
+        "phrase": "잘 부탁해!",
+        "romanization": "jal bu-tak-hae",
+        "context": "Casual version among friends, e.g. a new teammate in a club"
+      }
+    ]
+  },
+  "nuance": "English has no fixed phrase for the moment a relationship begins, so translations either drop it or turn it into something odd like 'Please take care of me.' In Korean the phrase signals humility and goodwill: you are entering someone's group and acknowledging that you will depend on each other. You'll also hear it after a request (이 서류 확인 잘 부탁드립니다) and at the end of business emails, where it works like 'Thank you in advance.'",
+  "tags": ["introductions", "workplace", "set-phrases", "misunderstood"]
+}
