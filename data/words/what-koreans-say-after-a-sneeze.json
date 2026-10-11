@@ -1,0 +1,39 @@
+{
+  "slug": "what-koreans-say-after-a-sneeze",
+  "version": "0.2",
+  "korean": "축복해요",
+  "romanization": "chuk-bo-kae-yo",
+  "literal_meaning": "I bless (you)",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "How Do You Say 'Bless You' in Korean? | Why AI Says '축복해요'",
+    "meta_description": "AI translates 'Bless you' after a sneeze as '축복해요', which Koreans never say. Here's what actually happens after someone sneezes in Korea."
+  },
+  "ai_failure": {
+    "situation": "Your Korean coworker sneezes and you want to say 'Bless you.'",
+    "ai_mistake": "Translates it as '축복해요' or '신의 축복을' as if it were the Korean equivalent.",
+    "why_it_fails": "Korean has no sneeze response. 축복해요 sounds like a religious blessing out of nowhere and will confuse people. Usually, saying nothing is the polite choice."
+  },
+  "natural_solution": {
+    "rule": "After a single sneeze, say nothing. If someone keeps sneezing or seems unwell, show concern instead.",
+    "alternatives": [
+      {
+        "phrase": "괜찮아요?",
+        "romanization": "gwaen-cha-na-yo",
+        "context": "After repeated sneezing or coughing"
+      },
+      {
+        "phrase": "감기 걸렸어요?",
+        "romanization": "gam-gi geol-lyeo-sseo-yo",
+        "context": "Friendly concern toward a coworker or friend"
+      },
+      {
+        "phrase": "휴지 드릴까요?",
+        "romanization": "hyu-ji deu-ril-kka-yo",
+        "context": "Offering a tissue — action speaks louder than a phrase"
+      }
+    ]
+  },
+  "nuance": "'Bless you' is a cultural reflex in English, not a meaning, so translating its words produces something no Korean would say. Many polite phrases work this way: their job is social, and the Korean counterpart (if any) has to be found by asking 'What do Koreans do in this moment?' rather than 'What do these words mean?' In Korea, drawing attention to a sneeze can even feel slightly awkward, which is why silence is the default.",
+  "tags": ["set-phrases", "cultural-gap", "small-talk", "misunderstood"]
+}

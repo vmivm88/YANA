@@ -1,0 +1,39 @@
+{
+  "slug": "cheonmaneyo-youre-welcome",
+  "version": "0.2",
+  "korean": "천만에요",
+  "romanization": "cheon-ma-ne-yo",
+  "literal_meaning": "Not at all (lit. 'out of ten million')",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "How to Say 'You're Welcome' in Korean | Why Not '천만에요'",
+    "meta_description": "AI and textbooks teach '천만에요' for 'You're welcome', but Koreans rarely say it. Learn the natural replies: 아니에요, 별말씀을요, 뭘요."
+  },
+  "ai_failure": {
+    "situation": "A colleague thanks you for helping move some boxes, and you want to say 'You're welcome.'",
+    "ai_mistake": "Translates 'You're welcome' as '천만에요', the textbook equivalent.",
+    "why_it_fails": "천만에요 is grammatically correct but sounds old-fashioned and theatrical in everyday speech. Koreans usually brush off thanks by denying there's anything to thank them for."
+  },
+  "natural_solution": {
+    "rule": "Reply to thanks with 아니에요 (polite default), 별말씀을요 (to elders or in formal settings) or 뭘요 / 아니야 (casual).",
+    "alternatives": [
+      {
+        "phrase": "아니에요.",
+        "romanization": "a-ni-e-yo",
+        "context": "The everyday polite reply — 'No, it's nothing'"
+      },
+      {
+        "phrase": "별말씀을요.",
+        "romanization": "byeol-mal-sseu-meul-lyo",
+        "context": "More respectful, to someone older or a customer"
+      },
+      {
+        "phrase": "뭘~ 아니야.",
+        "romanization": "mwol a-ni-ya",
+        "context": "Casual, with friends"
+      }
+    ]
+  },
+  "nuance": "English answers thanks by welcoming it ('You're welcome', 'My pleasure'). Korean answers by downplaying the favor: 아니에요 literally means 'It isn't (so)', i.e. 'You don't need to thank me.' That modesty is the point, which is why the textbook phrase — itself a strong denial — sounds overdone when real speakers just shrug it off. Staff in shops may also reply 감사합니다 back, thanking the customer in return.",
+  "tags": ["set-phrases", "politeness", "textbook-korean", "misunderstood"]
+}

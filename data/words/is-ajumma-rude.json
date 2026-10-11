@@ -1,0 +1,39 @@
+{
+  "slug": "is-ajumma-rude",
+  "version": "0.2",
+  "korean": "아줌마",
+  "romanization": "a-jum-ma",
+  "literal_meaning": "Middle-aged married woman / Ma'am",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "Is '아줌마' Rude? | How to Say 'Ma'am' in Korean",
+    "meta_description": "AI translates 'ma'am' or 'excuse me' to a woman as '아줌마'. Many Korean women find it rude. Learn what Koreans actually call shop owners and servers."
+  },
+  "ai_failure": {
+    "situation": "Getting the attention of a woman running a small restaurant: 'Excuse me, ma'am, could we order?'",
+    "ai_mistake": "Translates 'ma'am' as '아줌마' or '아주머니', presenting it as the polite word for an adult woman.",
+    "why_it_fails": "아줌마 labels a woman as middle-aged and 'just a housewife', and many women find it dismissive — especially if they're younger than you assumed. 아주머니 is more formal but carries the same age label."
+  },
+  "natural_solution": {
+    "rule": "Don't address strangers by an age-and-gender word. Use 저기요/여기요 to get attention, 사장님 for owners, and 이모 only in casual eateries where it's the norm.",
+    "alternatives": [
+      {
+        "phrase": "저기요, 주문할게요.",
+        "romanization": "jeo-gi-yo, ju-mun-hal-ge-yo",
+        "context": "Getting a server's attention — works for anyone"
+      },
+      {
+        "phrase": "사장님, 여기 계산이요.",
+        "romanization": "sa-jang-nim, yeo-gi gye-sa-ni-yo",
+        "context": "Addressing the owner of a shop or restaurant, regardless of gender"
+      },
+      {
+        "phrase": "이모, 여기 반찬 좀 더 주세요.",
+        "romanization": "i-mo, yeo-gi ban-chan jom deo ju-se-yo",
+        "context": "Friendly, casual eateries only — literally 'auntie'"
+      }
+    ]
+  },
+  "nuance": "Korean has no neutral equivalent of 'ma'am' or 'sir', so speakers borrow titles: job titles (사장님, 기사님 for drivers, 선생님 for many professionals) or kinship words (이모, 어머님). The trend is toward flattering or neutral options — 사장님 is used generously even for employees. 아줌마 appears in dramas constantly, which is why learners pick it up, but in real life it is often heard in arguments or as a stereotype. 아저씨, the male counterpart, is less charged but still risky with younger men.",
+  "tags": ["addressing-people", "titles", "restaurants", "misunderstood"]
+}
