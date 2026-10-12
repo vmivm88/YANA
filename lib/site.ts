@@ -23,10 +23,10 @@ export const SITE = {
 // 사업자 정보 (전자상거래법상 통신판매업자 표시 사항)
 export const COMPANY = {
   name: "Fine Pearls",
-  nameKo: "__상호(한글)__",
-  representative: "__대표자명__",
-  bizRegNo: "__사업자등록번호__",
-  mailOrderNo: "__통신판매업신고번호__",
-  address: "__사업장 주소__",
+  nameKo: "파인펄스",
+  representative: "신연화",
+  bizRegNo: "112-41-17165",
+  mailOrderNo: "2023-경기양평-1030",
+  address: "경기도 양평군 단월면",
   founded: "2023-09-23",
 };
