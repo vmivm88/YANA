@@ -1,4 +1,5 @@
 import WordGrid from "@/components/WordGrid";
+import SubscribeForm from "@/components/SubscribeForm";
 import { getAllWords, getCategories } from "@/lib/words";
 import { SITE } from "@/lib/site";
 
@@ -62,6 +63,10 @@ export default function HomePage() {
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         <WordGrid words={words} categories={categories} />
       </div>
+
+      <section className="mx-auto max-w-6xl px-4 pb-16 sm:px-6" aria-label="Newsletter">
+        <SubscribeForm source="/" />
+      </section>
     </>
   );
 }
