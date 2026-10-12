@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Serif_KR } from "next/font/google";
 import Link from "next/link";
-import { SITE } from "@/lib/site";
+import { SITE, COMPANY } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -62,9 +62,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1">{children}</main>
 
         <footer className="border-t border-line">
-          <div className="mx-auto max-w-6xl px-4 py-8 text-sm text-muted sm:px-6">
-            {SITE.name} v{SITE.version} · Open source, curated by native speakers ·{" "}
-            <a href={SITE.repoUrl} className="underline hover:text-ink">Contribute on GitHub</a>
+          <div className="mx-auto max-w-6xl space-y-4 px-4 py-8 text-sm text-muted sm:px-6">
+            <p>
+              {SITE.name} v{SITE.version} · Open source, curated by native speakers ·{" "}
+              <a href={SITE.repoUrl} className="underline hover:text-ink">Contribute on GitHub</a> ·{" "}
+              <Link href="/about" className="underline hover:text-ink">About</Link>
+            </p>
+            <p className="text-xs leading-relaxed">
+              {SITE.name} is operated by <span className="font-medium text-ink">{COMPANY.name}</span> ({COMPANY.nameKo})
+              <br />
+              대표자 {COMPANY.representative} · 사업자등록번호 {COMPANY.bizRegNo} · 통신판매업신고 {COMPANY.mailOrderNo}
+              <br />
+              {COMPANY.address} ·{" "}
+              <a href={`mailto:${SITE.contactEmail}`} className="underline hover:text-ink">{SITE.contactEmail}</a>
+            </p>
           </div>
         </footer>
       </body>

@@ -17,4 +17,16 @@ export const SITE = {
   version: "0.2",
   feedbackUrl: process.env.NEXT_PUBLIC_FEEDBACK_URL ?? "https://tally.so/r/LZAXxp",
   repoUrl: "https://github.com/vmivm88/YANA",
+  contactEmail: "hello@yanakorean.com",
+};
+
+// 사업자 정보 (전자상거래법상 통신판매업자 표시 사항)
+export const COMPANY = {
+  name: "Fine Pearls",
+  nameKo: "__상호(한글)__",
+  representative: "__대표자명__",
+  bizRegNo: "__사업자등록번호__",
+  mailOrderNo: "__통신판매업신고번호__",
+  address: "__사업장 주소__",
+  founded: "2023-09-23",
 };
