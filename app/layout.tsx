@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Noto_Serif_KR } from "next/font/google";
 import Link from "next/link";
 import { SITE, COMPANY } from "@/lib/site";
+import { CATEGORIES } from "@/lib/categories";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -28,9 +29,19 @@ export const metadata: Metadata = {
     description: SITE.description,
     url: "/",
     locale: "en_US",
+    images: [{ url: "/og/default.png", width: 1200, height: 630, alt: SITE.tagline }],
   },
-  twitter: { card: "summary_large_image", title: SITE.tagline, description: SITE.description },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE.tagline,
+    description: SITE.description,
+    images: ["/og/default.png"],
+  },
   robots: { index: true, follow: true },
+  // 구글 서치 콘솔 소유 확인 (HTML 태그 방식). Vercel 환경변수에 코드만 넣으면 됩니다.
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -63,6 +74,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <footer className="border-t border-line">
           <div className="mx-auto max-w-6xl space-y-4 px-4 py-8 text-sm text-muted sm:px-6">
+            <nav aria-label="Topics">
+              <ul className="flex flex-wrap gap-x-5 gap-y-2">
+                {CATEGORIES.map((c) => (
+                  <li key={c.slug}>
+                    <Link href={`/topics/${c.slug}`} className="hover:text-ink">{c.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
             <p>
               {SITE.name} v{SITE.version} · Open source, curated by native speakers ·{" "}
               <a href={SITE.repoUrl} className="underline hover:text-ink">Contribute on GitHub</a> ·{" "}

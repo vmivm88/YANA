@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { WordEntry } from "@/lib/types";
 
-export default function WordCard({ word }: { word: WordEntry }) {
+export default function WordCard({ word, headingLevel = 2 }: { word: WordEntry; headingLevel?: 2 | 3 }) {
+  const Heading = headingLevel === 3 ? "h3" : "h2";
   const top = word.natural_solution.alternatives[0];
 
   return (
@@ -14,7 +15,7 @@ export default function WordCard({ word }: { word: WordEntry }) {
         <span className="text-xs text-muted">v{word.version}</span>
       </div>
 
-      <h2 className="mt-3 font-serif text-3xl font-bold leading-tight">{word.korean}</h2>
+      <Heading lang="ko" className="mt-3 font-serif text-3xl font-bold leading-tight">{word.korean}</Heading>
       <p className="mt-1 text-sm text-muted">
         {word.romanization} · <span className="italic">“{word.literal_meaning}”</span>
       </p>
