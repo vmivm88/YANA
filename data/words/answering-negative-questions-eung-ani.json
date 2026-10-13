@@ -1,0 +1,39 @@
+{
+  "slug": "answering-negative-questions-eung-ani",
+  "version": "0.3",
+  "korean": "아직 안 끝났어?",
+  "romanization": "a-jik an kkeun-na-sseo",
+  "literal_meaning": "(You're) not finished yet?",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "Yes or No to Negative Questions in Korean | '아직 안 끝났어?'",
+    "meta_description": "Why Koreans answer '응' to 'You're not done yet?' when they aren't done. How 네 and 아니요 work with negative questions, and why AI gets it backwards."
+  },
+  "ai_failure": {
+    "situation": "A friend checks in on your assignment: '아직 안 끝났어?' (You're not done yet?) You aren't done, and want to say 'No, not yet.'",
+    "ai_mistake": "Follows English logic: 'No, not yet' becomes '아니, 아직 안 끝났어.' and 'Yes, I'm done' becomes '응, 끝났어.'",
+    "why_it_fails": "Korean 응/네 and 아니/아니요 answer whether the question is right, not whether the fact is positive. Starting with 아니 tells the listener 'you're wrong', so they may think you've finished — then the rest of your sentence says the opposite."
+  },
+  "natural_solution": {
+    "rule": "With a negative question, agree or disagree with the question itself. If it's true (you're not done), start with 응/네. If it's wrong (you are done), start with 아니/아니요. When unsure, skip yes/no and just state the fact.",
+    "alternatives": [
+      {
+        "phrase": "응, 아직 안 끝났어.",
+        "romanization": "eung, a-jik an kkeun-na-sseo",
+        "context": "You're still not done — agreeing with '아직 안 끝났어?'"
+      },
+      {
+        "phrase": "아니, 끝났어.",
+        "romanization": "a-ni, kkeun-na-sseo",
+        "context": "You've actually finished — disagreeing with the question"
+      },
+      {
+        "phrase": "네, 아직 안 먹었어요.",
+        "romanization": "ne, a-jik an meo-geo-sseo-yo",
+        "context": "Polite reply to '아직 식사 안 하셨어요?' (Haven't you eaten yet?) when you haven't"
+      }
+    ]
+  },
+  "nuance": "English yes and no follow the fact: if you're not done, you say 'no' whatever the question was. Korean 네 and 아니요 work more like 'Right' and 'That's not right' — they respond to the speaker's sentence. So when someone asks a negative question (아직 안 끝났어?, 안 매워요?, 내일 안 와요?), agreeing that the negative is true means saying 네/응. This trips up learners in both directions, and a mismatch can lead to real misunderstandings: a manager who hears '아니요' to '보고서 아직 안 보냈어요?' (You haven't sent the report yet?) will assume it has been sent. The safest habit is to follow 네 or 아니요 with the full verb, so the meaning survives even if the first word lands wrong: 네, 아직 안 보냈어요 / 아니요, 아까 보냈어요.",
+  "tags": ["yes-no", "negative-questions", "grammar", "misunderstood"]
+}
