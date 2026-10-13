@@ -1,0 +1,43 @@
+{
+  "slug": "saranghaeyo-for-things",
+  "version": "0.3",
+  "korean": "사랑해요",
+  "romanization": "sa-rang-hae-yo",
+  "literal_meaning": "I love (you/it)",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "How to Say 'I Love It' in Korean | Not Always '사랑해요'",
+    "meta_description": "'I love this coffee' isn't 이 커피 사랑해요 in everyday Korean. How Koreans say they love food, places and hobbies — 좋아해요, 최고예요 and more."
+  },
+  "ai_failure": {
+    "situation": "Your Korean coworker brings you a pastry from a local bakery, and you want to say 'I love this!'",
+    "ai_mistake": "Translates 'I love it' as 이거 사랑해요.",
+    "why_it_fails": "사랑하다 is a heavy word, used for people, family and deep devotion. Saying it about a pastry sounds like an ad slogan or an over-the-top joke rather than a natural reaction."
+  },
+  "natural_solution": {
+    "rule": "For things you like, use 좋아해요 (I like it, in general) or react to the thing itself: 너무 맛있어요, 진짜 좋아요, 최고예요.",
+    "alternatives": [
+      {
+        "phrase": "와, 너무 맛있어요!",
+        "romanization": "wa, neo-mu ma-si-sseo-yo",
+        "context": "Reacting to food you're eating right now"
+      },
+      {
+        "phrase": "저 이 빵 진짜 좋아해요.",
+        "romanization": "jeo i ppang jin-jja jo-a-hae-yo",
+        "context": "Saying you love something in general"
+      },
+      {
+        "phrase": "여기 완전 제 스타일이에요.",
+        "romanization": "yeo-gi wan-jeon je seu-ta-i-ri-e-yo",
+        "context": "Loving a place, a café, an outfit — casual-polite"
+      }
+    ]
+  },
+  "nuance": "English uses 'love' for everything from a partner to a sandwich. Korean keeps 사랑하다 mostly for people and deep attachments, and switches to 좋아하다 ('like') for food, hobbies and places — even when the feeling is strong. You'll still hear playful exaggerations like 떡볶이 사랑해! among friends or in advertising, but as a default, describing the thing (맛있다, 예쁘다, 최고다) sounds far more natural.",
+  "tags": [
+    "feelings",
+    "reactions",
+    "misunderstood"
+  ]
+}

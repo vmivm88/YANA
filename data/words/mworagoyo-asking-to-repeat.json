@@ -1,0 +1,43 @@
+{
+  "slug": "mworagoyo-asking-to-repeat",
+  "version": "0.3",
+  "korean": "뭐라고요?",
+  "romanization": "mwo-ra-go-yo",
+  "literal_meaning": "What did you say?",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "How to Say 'Pardon?' in Korean Politely | Not '뭐라고요?'",
+    "meta_description": "뭐라고요? can sound like 'Excuse me?!' in an argument. How to politely ask someone to repeat themselves in Korean: 네? and 다시 한번 말씀해 주시겠어요?"
+  },
+  "ai_failure": {
+    "situation": "On a call with a client, you didn't catch what they said and want to ask 'Sorry, could you say that again?'",
+    "ai_mistake": "Translates 'What did you say?' or 'Pardon?' as 뭐라고요?",
+    "why_it_fails": "뭐라고요? with a rising tone is what people say when they can't believe what they just heard — closer to 'Excuse me?!' or 'What did you just say?' In a polite setting it can sound offended or confrontational."
+  },
+  "natural_solution": {
+    "rule": "For a quick 'Sorry?', use 네? For a polite, full request, apologize first and ask them to say it once more using the honorific 말씀.",
+    "alternatives": [
+      {
+        "phrase": "죄송하지만, 다시 한번 말씀해 주시겠어요?",
+        "romanization": "joe-song-ha-ji-man, da-si han-beon mal-sseum-hae ju-si-ge-sseo-yo",
+        "context": "The safe, polite way — to a client, boss, teacher or stranger"
+      },
+      {
+        "phrase": "네?",
+        "romanization": "ne",
+        "context": "A quick 'Sorry?' with a rising tone when you just missed a word"
+      },
+      {
+        "phrase": "잘 못 들었어요. 다시 한번만요.",
+        "romanization": "jal mot deu-reo-sseo-yo. da-si han-beon-man-nyo",
+        "context": "Casual-polite, to someone close: 'I didn't catch that, once more please'"
+      }
+    ]
+  },
+  "nuance": "뭐라고 literally asks 'what (did you) say', and the 요 makes it technically polite. But tone carries a lot in Korean, and this phrase is closely tied to disbelief or irritation, as in arguments and TV dramas. 말씀 is the honorific word for someone else's speech, so 다시 한번 말씀해 주시겠어요? both shows respect and makes clear that the problem is your hearing, not what they said.",
+  "tags": [
+    "politeness",
+    "phone",
+    "misunderstood"
+  ]
+}

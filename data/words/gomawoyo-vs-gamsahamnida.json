@@ -1,0 +1,43 @@
+{
+  "slug": "gomawoyo-vs-gamsahamnida",
+  "version": "0.3",
+  "korean": "고마워요",
+  "romanization": "go-ma-wo-yo",
+  "literal_meaning": "Thanks",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "'고마워요' or '감사합니다'? | How to Thank Your Boss in Korean",
+    "meta_description": "고마워요 is polite, but to a boss, professor or elder it can sound too light. When to use 감사합니다 and how Koreans thank people above them."
+  },
+  "ai_failure": {
+    "situation": "Your team leader stays late to help you fix a report, and you want to say 'Thank you so much.'",
+    "ai_mistake": "Offers 정말 고마워요 because it has the polite ending 요.",
+    "why_it_fails": "고마워요 is warm and polite between equals or toward someone younger, but to a superior it can sound a little casual, as if you're thanking a peer. 감사합니다 is the expected form upward."
+  },
+  "natural_solution": {
+    "rule": "Thank superiors, elders, customers and strangers with 감사합니다. Keep 고마워요 / 고마워 for friends, partners and people younger than you.",
+    "alternatives": [
+      {
+        "phrase": "도와주셔서 정말 감사합니다.",
+        "romanization": "do-wa-ju-syeo-seo jeong-mal gam-sa-ham-ni-da",
+        "context": "Thanking a boss or senior for their help"
+      },
+      {
+        "phrase": "신경 써 주셔서 감사합니다.",
+        "romanization": "sin-gyeong sseo ju-syeo-seo gam-sa-ham-ni-da",
+        "context": "Thanking someone for their care or attention"
+      },
+      {
+        "phrase": "고마워!",
+        "romanization": "go-ma-wo",
+        "context": "Casual, to a close friend or someone younger"
+      }
+    ]
+  },
+  "nuance": "Both words mean 'thank you', but they come from different registers. 고맙다 is a native Korean word that feels personal and warm. 감사하다 comes from Sino-Korean and feels more formal and respectful, which is why it's the safe default at work and with anyone older. Many Koreans also add what they're thankful for (~해 주셔서 감사합니다), which sounds more sincere than a bare thank-you.",
+  "tags": [
+    "workplace",
+    "honorifics",
+    "thanks"
+  ]
+}

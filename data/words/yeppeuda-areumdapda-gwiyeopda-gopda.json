@@ -1,0 +1,43 @@
+{
+  "slug": "yeppeuda-areumdapda-gwiyeopda-gopda",
+  "version": "0.3",
+  "korean": "아름다워요",
+  "romanization": "a-reum-da-wo-yo",
+  "literal_meaning": "(You're) beautiful",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "예쁘다, 귀엽다, 아름답다, 곱다 | Saying 'Beautiful' in Korean",
+    "meta_description": "Four Korean words for 'pretty' or 'beautiful', and they aren't interchangeable. When to use 예쁘다, 귀엽다, 아름답다 and 곱다 — and which AI overuses."
+  },
+  "ai_failure": {
+    "situation": "Complimenting a coworker's outfit: 'You look beautiful today!'",
+    "ai_mistake": "Translates 'beautiful' as 아름다워요: 오늘 정말 아름다워요.",
+    "why_it_fails": "아름답다 sounds literary — it's for scenery, art, music or a moving act, and sounds like poetry when said about someone's outfit at the office. For everyday compliments Koreans say 예쁘다."
+  },
+  "natural_solution": {
+    "rule": "예쁘다: everyday 'pretty' for people, clothes and things. 귀엽다: cute — for children, pets, friends, partners, never for superiors. 아름답다: scenery, art, music, deeds; formal or written. 곱다: gentle, refined beauty — a classic compliment for older women, hanbok, colors, a kind heart.",
+    "alternatives": [
+      {
+        "phrase": "오늘 옷 정말 예뻐요.",
+        "romanization": "o-neul ot jeong-mal ye-ppeo-yo",
+        "context": "Everyday compliment on someone's outfit"
+      },
+      {
+        "phrase": "어머님, 한복이 참 고우세요.",
+        "romanization": "eo-meo-nim, han-bo-gi cham go-u-se-yo",
+        "context": "Complimenting an older woman — 곱다 suits elders far better than 예쁘다 or 귀엽다"
+      },
+      {
+        "phrase": "경치가 정말 아름답네요.",
+        "romanization": "gyeong-chi-ga jeong-mal a-reum-dam-ne-yo",
+        "context": "Scenery, a view, a performance"
+      }
+    ]
+  },
+  "nuance": "Each word carries its own picture. 예쁘다 is bright, everyday prettiness and is the safe default. 귀엽다 adds affection and smallness; it's lovely for a friend, a partner or a child, but calling your boss or an elder 귀여워요 sounds like you're looking down on them. 아름답다 is grand and a little formal — 아름다운 경치, 아름다운 음악, 아름다운 마음. 곱다 is soft, graceful beauty: 곱게 나이 드셨어요 is a warm compliment to an older person, and 마음씨가 곱다 means 'kind-hearted'. AI tools often reach for 아름답다 because it's the dictionary match for 'beautiful'.",
+  "tags": [
+    "compliments",
+    "adjectives",
+    "nuance"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "korean-backchannel-chuimsae",
+  "version": "0.3",
+  "korean": "이해합니다",
+  "romanization": "i-hae-ham-ni-da",
+  "literal_meaning": "I understand",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "How to Say 'I See' in Korean | Natural Listening Responses (추임새)",
+    "meta_description": "Repeating 이해합니다 or staying silent can make Korean conversation feel stiff. The small responses Koreans use to show they're listening: 아~, 그렇구나, 맞아요."
+  },
+  "ai_failure": {
+    "situation": "A Korean friend is telling you about their weekend, and you want to show you're listening: 'I see… really? Oh, I get it.'",
+    "ai_mistake": "Translates 'I see' as 이해합니다 or 알겠습니다 and suggests repeating it.",
+    "why_it_fails": "이해합니다 and 알겠습니다 sound like you're acknowledging a lecture or an instruction. In a chat, Koreans keep the conversation going with short, warm sounds called 추임새. Without them — or with stiff ones — you can seem bored or distant."
+  },
+  "natural_solution": {
+    "rule": "While someone talks, nod along with short responses: 아~, 네네, 그렇구나 / 그렇군요, 진짜요?, 맞아요, 그러니까요. Match the level to the person: 진짜? and 헐 for friends, 아 그러세요? and 그렇군요 for elders.",
+    "alternatives": [
+      {
+        "phrase": "아~ 그렇구나.",
+        "romanization": "a~ geu-reo-ku-na",
+        "context": "'Oh, I see' — casual, with friends"
+      },
+      {
+        "phrase": "아, 그러세요? 그렇군요.",
+        "romanization": "a, geu-reo-se-yo? geu-reo-kun-nyo",
+        "context": "Polite version for elders, bosses and clients"
+      },
+      {
+        "phrase": "맞아요, 그러니까요!",
+        "romanization": "ma-ja-yo, geu-reo-ni-kka-yo",
+        "context": "'Right, exactly!' — agreeing warmly"
+      }
+    ]
+  },
+  "nuance": "Korean conversation relies heavily on 추임새, the listener's small interjections, much like the call-and-response in traditional pansori where the drummer shouts 얼씨구! to encourage the singer. They tell the speaker 'I'm with you'. Common ones include 네네 and 응응 (yes, yes), 아~ (oh), 진짜요? / 정말요? (really?), 대박 (wow, casual), 헐 (no way, very casual), 그렇구나 (I see), 맞아요 (right) and 그러니까요 (exactly). With seniors, avoid 헐 and 대박, and lean on 네, 아 그러세요? and 그렇군요.",
+  "tags": [
+    "conversation",
+    "listening",
+    "chuimsae"
+  ]
+}
