@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 type Props = {
-  /** 어디서 구독했는지 (예: "/", "/words/sugohaseyo") — Kit referrer 로 저장 */
+  /** 어디서 구독했는지 (예: "/", "/words/sugohaseyo") */
   source: string;
   /** 카드 상단 문구를 페이지마다 바꿀 때 */
   heading?: string;
@@ -59,7 +59,7 @@ export default function SubscribeForm({ source, heading, compact = false }: Prop
       <div className="rounded-2xl border border-ok/20 bg-ok-soft p-6" role="status">
         <p className="font-semibold text-ok">You&apos;re on the list. 감사합니다!</p>
         <p className="mt-1 text-sm text-muted">
-          Check your inbox to confirm. New expressions and early access to the checker will land there.
+          Keep an eye on your inbox (and spam folder). New expressions and early access to the checker will land there.
         </p>
       </div>
     );

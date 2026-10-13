@@ -48,10 +48,10 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-semibold">Who processes it</h2>
           <p className="mt-2">
-            Emails are stored and sent through Kit (kit.com), our newsletter provider, which may store data outside
-            Korea. We never sell your data.
+            Emails are stored and sent through MailerLite (mailerlite.com), our newsletter provider, which may store
+            data outside Korea. We never sell your data.
           </p>
-          <p className="mt-1 text-sm text-muted">처리 위탁 및 국외 이전: Kit (뉴스레터 발송·구독자 관리)</p>
+          <p className="mt-1 text-sm text-muted">처리 위탁 및 국외 이전: MailerLite (뉴스레터 발송·구독자 관리)</p>
         </section>
 
         <section>
