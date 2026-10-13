@@ -19,6 +19,14 @@ export default function HomePage() {
         inLanguage: "en",
       },
       {
+        "@type": "Organization",
+        name: SITE.name,
+        url: SITE.url,
+        logo: `${SITE.url}/icon.png`,
+        email: SITE.contactEmail,
+        sameAs: [SITE.repoUrl],
+      },
+      {
         "@type": "ItemList",
         name: "Korean expressions AI gets wrong",
         itemListElement: words.map((w, i) => ({

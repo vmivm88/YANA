@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import fs from "node:fs";
+import path from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getWordBySlug, getWordSlugs } from "@/lib/words";
+import { getAllWords, getWordBySlug, getWordSlugs } from "@/lib/words";
+import { getCategoryByName } from "@/lib/categories";
+import WordCard from "@/components/WordCard";
 import { SITE } from "@/lib/site";
 import SubscribeForm from "@/components/SubscribeForm";
 
@@ -18,6 +22,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const word = getWordBySlug(slug);
   if (!word) return {};
   const url = `/words/${word.slug}`;
+  // scripts/build-og.py 로 만든 미리보기 이미지. 없으면 기본 이미지
+  const og = fs.existsSync(path.join(process.cwd(), "public", "og", `${word.slug}.png`))
+    ? `/og/${word.slug}.png`
+    : "/og/default.png";
   return {
     title: { absolute: word.seo.meta_title },
     description: word.seo.meta_description,
@@ -29,8 +37,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: word.seo.meta_description,
       url,
       siteName: SITE.name,
+      images: [{ url: og, width: 1200, height: 630, alt: `${word.korean} — ${word.literal_meaning}` }],
     },
-    twitter: { card: "summary_large_image", title: word.seo.meta_title, description: word.seo.meta_description },
+    twitter: {
+      card: "summary_large_image",
+      title: word.seo.meta_title,
+      description: word.seo.meta_description,
+      images: [og],
+    },
   };
 }
 
@@ -40,6 +54,14 @@ export default async function WordPage({ params }: Props) {
   if (!word) notFound();
 
   const { ai_failure: fail, natural_solution: fix } = word;
+  const topic = getCategoryByName(word.category);
+
+  // 관련 표현: 같은 카테고리 먼저, 모자라면 다른 카테고리에서 채움 (내부 링크 → 검색 노출에 도움)
+  const others = getAllWords().filter((w) => w.slug !== word.slug);
+  const related = [
+    ...others.filter((w) => w.category === word.category),
+    ...others.filter((w) => w.category !== word.category),
+  ].slice(0, 3);
 
   // FAQPage 구조화 데이터 → 구글 리치 스니펫 후보
   const jsonLd = {
@@ -67,7 +89,10 @@ export default async function WordPage({ params }: Props) {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
-          { "@type": "ListItem", position: 2, name: word.korean, item: `${SITE.url}/words/${word.slug}` },
+          ...(topic
+            ? [{ "@type": "ListItem", position: 2, name: topic.name, item: `${SITE.url}/topics/${topic.slug}` }]
+            : []),
+          { "@type": "ListItem", position: topic ? 3 : 2, name: word.korean, item: `${SITE.url}/words/${word.slug}` },
         ],
       },
     ],
@@ -78,11 +103,16 @@ export default async function WordPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <nav aria-label="Breadcrumb" className="text-sm text-muted">
-        <Link href="/" className="hover:text-ink">All expressions</Link> <span aria-hidden>/</span> {word.category}
+        <Link href="/" className="hover:text-ink">All expressions</Link> <span aria-hidden>/</span>{" "}
+        {topic ? (
+          <Link href={`/topics/${topic.slug}`} className="hover:text-ink">{word.category}</Link>
+        ) : (
+          word.category
+        )}
       </nav>
 
       <header className="mt-6">
-        <h1 className="font-serif text-5xl font-bold sm:text-6xl">{word.korean}</h1>
+        <h1 lang="ko" className="font-serif text-5xl font-bold sm:text-6xl">{word.korean}</h1>
         <p className="mt-2 text-muted">
           {word.romanization} · literally <span className="italic">“{word.literal_meaning}”</span>
         </p>
@@ -108,7 +138,7 @@ export default async function WordPage({ params }: Props) {
           <ul className="mt-4 space-y-3 border-t border-ok/15 pt-4">
             {fix.alternatives.map((a) => (
               <li key={a.phrase}>
-                <p className="font-serif text-xl font-medium">{a.phrase}</p>
+                <p lang="ko" className="font-serif text-xl font-medium">{a.phrase}</p>
                 {a.romanization && <p className="text-xs text-muted">{a.romanization}</p>}
                 <p className="text-sm text-muted">{a.context}</p>
               </li>
@@ -131,6 +161,26 @@ export default async function WordPage({ params }: Props) {
           </li>
         ))}
       </ul>
+
+      {related.length > 0 && (
+        <section className="mt-14" aria-labelledby="related-heading">
+          <h2 id="related-heading" className="text-2xl font-semibold tracking-tight">
+            {topic ? `More on ${topic.name.toLowerCase()}` : "More expressions AI gets wrong"}
+          </h2>
+          <ul className="mt-5 grid gap-4 sm:grid-cols-3">
+            {related.map((w) => (
+              <li key={w.slug}>
+                <WordCard word={w} headingLevel={3} />
+              </li>
+            ))}
+          </ul>
+          {topic && (
+            <Link href={`/topics/${topic.slug}`} className="mt-4 inline-block text-sm text-accent underline">
+              See all {topic.name.toLowerCase()} expressions
+            </Link>
+          )}
+        </section>
+      )}
 
       <div className="mt-12">
         <SubscribeForm

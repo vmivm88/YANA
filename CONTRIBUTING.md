@@ -36,3 +36,13 @@ All entries are reviewed by a native speaker before release.
 ## Releases
 
 Entries are grouped into versioned releases (v0.1, v0.2 …). Set `version` to the upcoming release number.
+
+## 미리보기 이미지 (검색·SNS 공유용)
+
+표현을 추가하거나 고친 뒤에는 미리보기 이미지를 다시 만들어 주세요.
+
+```bash
+npm run og        # public/og/<slug>.png 와 app/icon.png 생성 (Python + Playwright 필요)
+```
+
+이미지가 없어도 기본 이미지(`public/og/default.png`)로 대체되므로 사이트가 깨지지는 않습니다.
