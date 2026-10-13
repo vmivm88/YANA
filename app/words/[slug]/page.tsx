@@ -135,7 +135,7 @@ export default async function WordPage({ params }: Props) {
       <div className="mt-12">
         <SubscribeForm
           source={`/words/${word.slug}`}
-          heading="Get one Korean expression AI gets wrong, every week."
+          heading="Get all 20 traps in one printable checklist."
           compact
         />
       </div>

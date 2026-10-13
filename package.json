@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "validate": "node scripts/validate-words.mjs",
-    "prebuild": "node scripts/validate-words.mjs"
+    "prebuild": "node scripts/validate-words.mjs",
+    "checklist": "python3 scripts/build-checklist.py"
   },
   "dependencies": {
     "next": "^16.0.0",

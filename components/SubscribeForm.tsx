@@ -13,6 +13,8 @@ type Props = {
 
 type Status = "idle" | "loading" | "done" | "error";
 
+const CHECKLIST_URL = "/free/ai-korean-trap-checklist.pdf";
+
 const USES = [
   { value: "", label: "What do you mostly use Korean for? (optional)" },
   { value: "work", label: "Work — a Korean boss, coworkers, clients" },
@@ -58,25 +60,28 @@ export default function SubscribeForm({ source, heading, compact = false }: Prop
     return (
       <div className="rounded-2xl border border-ok/20 bg-ok-soft p-6" role="status">
         <p className="font-semibold text-ok">You&apos;re on the list. 감사합니다!</p>
-        <p className="mt-1 text-sm text-muted">
-          Keep an eye on your inbox (and spam folder). New expressions and early access to the checker will land there.
-        </p>
+        <p className="mt-1 text-sm text-muted">Here&apos;s your checklist. New expressions will land in your inbox.</p>
+        <a
+          href={CHECKLIST_URL}
+          download
+          className="mt-4 inline-block rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper hover:bg-accent"
+        >
+          Download the checklist (PDF)
+        </a>
       </div>
     );
   }
 
   return (
     <form onSubmit={onSubmit} className="rounded-2xl border border-line bg-white p-6" noValidate>
-      <p className="text-xs font-semibold uppercase tracking-wider text-accent">Free newsletter</p>
-      <h2 className={`mt-2 font-semibold tracking-tight ${compact ? "text-lg" : "text-2xl"}`}>
-        {heading ?? "Stop sending Korean that sounds wrong."}
+      <p className="text-sm font-medium text-accent">Free PDF</p>
+      <h2 className={`mt-1 font-semibold tracking-tight ${compact ? "text-lg" : "text-2xl"}`}>
+        {heading ?? "Get the AI Korean Trap Checklist."}
       </h2>
-      {!compact && (
-        <p className="mt-2 max-w-xl text-muted">
-          Get new expressions AI gets wrong, and be first to try our upcoming checker — paste what an AI wrote, see
-          how it sounds to your boss, your partner&apos;s parents, or a friend.
-        </p>
-      )}
+      <p className={`mt-2 max-w-xl text-muted ${compact ? "text-sm" : ""}`}>
+        20 phrases AI gets wrong and a 7-point check to run before you send anything an AI wrote. Plus new
+        expressions by email, and first access to our upcoming checker.
+      </p>
 
       <div className="mt-5 flex flex-col gap-3 sm:flex-row">
         <label htmlFor={`email-${source}`} className="sr-only">
@@ -97,7 +102,7 @@ export default function SubscribeForm({ source, heading, compact = false }: Prop
           disabled={status === "loading"}
           className="rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper hover:bg-accent disabled:opacity-60"
         >
-          {status === "loading" ? "Subscribing…" : "Subscribe"}
+          {status === "loading" ? "Sending…" : "Get the checklist"}
         </button>
       </div>
 
