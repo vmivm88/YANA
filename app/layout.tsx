@@ -66,7 +66,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <p>
               {SITE.name} v{SITE.version} · Open source, curated by native speakers ·{" "}
               <a href={SITE.repoUrl} className="underline hover:text-ink">Contribute on GitHub</a> ·{" "}
-              <Link href="/about" className="underline hover:text-ink">About</Link>
+              <Link href="/about" className="underline hover:text-ink">About</Link> ·{" "}
+              <Link href="/privacy" className="underline hover:text-ink">Privacy</Link>
             </p>
             <p className="text-xs leading-relaxed">
               {SITE.name} is operated by <span className="font-medium text-ink">{COMPANY.name}</span> ({COMPANY.nameKo})

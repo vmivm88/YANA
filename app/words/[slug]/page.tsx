@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getWordBySlug, getWordSlugs } from "@/lib/words";
 import { SITE } from "@/lib/site";
+import SubscribeForm from "@/components/SubscribeForm";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -131,7 +132,15 @@ export default async function WordPage({ params }: Props) {
         ))}
       </ul>
 
-      <aside className="mt-12 flex flex-col items-start gap-4 rounded-2xl border border-line bg-white p-6 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mt-12">
+        <SubscribeForm
+          source={`/words/${word.slug}`}
+          heading="Get one Korean expression AI gets wrong, every week."
+          compact
+        />
+      </div>
+
+      <aside className="mt-6 flex flex-col items-start gap-4 rounded-2xl border border-line bg-white p-6 sm:flex-row sm:items-center sm:justify-between">
         <p className="font-medium">Found a weird AI Korean translation?</p>
         <a
           href={`${SITE.feedbackUrl}?expression=${encodeURIComponent(word.korean)}`}
