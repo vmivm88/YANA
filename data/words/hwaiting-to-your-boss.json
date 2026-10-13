@@ -1,0 +1,43 @@
+{
+  "slug": "hwaiting-to-your-boss",
+  "version": "0.3",
+  "korean": "화이팅",
+  "romanization": "hwa-i-ting",
+  "literal_meaning": "Fighting! (Go for it!)",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "Can You Say '화이팅' to Your Boss? | Formal Ways to Cheer in Korean",
+    "meta_description": "화이팅 is great with friends but can sound flippant to a boss or elder. From 응원합니다 to 좋은 성과 있기를 기원합니다: how to wish someone well formally."
+  },
+  "ai_failure": {
+    "situation": "Your director is about to give a big presentation to the board, and you want to wish them luck.",
+    "ai_mistake": "Suggests 화이팅입니다! or 부장님 화이팅! as a polite way to say 'Good luck.'",
+    "why_it_fails": "화이팅 is energetic slang between friends and teammates. Adding 입니다 doesn't make it formal. To a senior it can sound like you're cheering them on from the sidelines as an equal."
+  },
+  "natural_solution": {
+    "rule": "Friends and juniors: 화이팅! Seniors you're close to: 응원합니다. Someone far above you, or a formal occasion: even 응원 can feel presumptuous, so wish them success instead.",
+    "alternatives": [
+      {
+        "phrase": "응원합니다!",
+        "romanization": "eung-won-ham-ni-da",
+        "context": "More formal than 화이팅입니다 — for a senior colleague you get along with"
+      },
+      {
+        "phrase": "좋은 성과 있기를 기원합니다.",
+        "romanization": "jo-eun seong-gwa it-gi-reul gi-won-ham-ni-da",
+        "context": "Fully formal — to an executive, a professor, or in a written message"
+      },
+      {
+        "phrase": "좋은 결과 있으시길 바랍니다.",
+        "romanization": "jo-eun gyeol-gwa i-sseu-si-gil ba-ram-ni-da",
+        "context": "Polite and safe in speech or writing: 'I hope it goes well'"
+      }
+    ]
+  },
+  "nuance": "Cheering someone on implies you're in a position to encourage them, which is natural among peers but can feel upside-down toward someone much more senior. That's why Korean has a ladder: 화이팅 for friends, 응원합니다 ('I'm rooting for you') for seniors you're close to, and for someone you'd never presume to cheer — a CEO, a professor, an elder at a formal event — a wish phrased as a hope: 좋은 성과 있기를 기원합니다 ('I hope for good results'). Avoid 잘하세요 ('do well') toward seniors too — it can sound like you're grading them.",
+  "tags": [
+    "workplace",
+    "honorifics",
+    "encouragement"
+  ]
+}

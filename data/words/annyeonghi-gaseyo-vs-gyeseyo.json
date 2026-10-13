@@ -1,0 +1,43 @@
+{
+  "slug": "annyeonghi-gaseyo-vs-gyeseyo",
+  "version": "0.3",
+  "korean": "안녕히 가세요",
+  "romanization": "an-nyeong-hi ga-se-yo",
+  "literal_meaning": "Go in peace",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "안녕히 가세요 or 안녕히 계세요? | How to Say Goodbye in Korean",
+    "meta_description": "Korean has two goodbyes: one for the person leaving, one for the person staying. Why AI mixes up 안녕히 가세요 and 안녕히 계세요, and which to use."
+  },
+  "ai_failure": {
+    "situation": "You've just paid at a café and are walking out. You want to say 'Goodbye' to the staff.",
+    "ai_mistake": "Translates 'Goodbye' as 안녕히 가세요 in every situation, including when you are the one leaving.",
+    "why_it_fails": "안녕히 가세요 means 'Go in peace' — it's said to the person who is leaving. If you're walking out and say it to staff who are staying, you're telling them to leave."
+  },
+  "natural_solution": {
+    "rule": "Leaving? Say 안녕히 계세요 ('Stay in peace') to those who stay. Staying? Say 안녕히 가세요 to those who leave. If both of you are leaving, 안녕히 가세요 works for both.",
+    "alternatives": [
+      {
+        "phrase": "안녕히 계세요.",
+        "romanization": "an-nyeong-hi gye-se-yo",
+        "context": "You're leaving a shop, office or someone's home"
+      },
+      {
+        "phrase": "안녕히 가세요.",
+        "romanization": "an-nyeong-hi ga-se-yo",
+        "context": "You're staying and someone else is leaving — or you both head off in different directions"
+      },
+      {
+        "phrase": "들어가세요.",
+        "romanization": "deu-reo-ga-se-yo",
+        "context": "Common, warm goodbye on the phone or when parting on the street with someone older"
+      }
+    ]
+  },
+  "nuance": "Korean goodbyes describe what the other person is about to do. 가세요 means 'go' and 계세요 is the honorific form of 'stay'. So the phrase changes depending on who is walking away. On the phone, where nobody is going anywhere, people often say 들어가세요 ('Go on in') or simply 네, 안녕히 계세요. With friends, both collapse into 안녕, 잘 가 or 들어가.",
+  "tags": [
+    "greetings",
+    "goodbye",
+    "misunderstood"
+  ]
+}

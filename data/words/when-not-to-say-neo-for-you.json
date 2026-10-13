@@ -1,0 +1,43 @@
+{
+  "slug": "when-not-to-say-neo-for-you",
+  "version": "0.3",
+  "korean": "너",
+  "romanization": "neo",
+  "literal_meaning": "You (informal)",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "When Can You Say '너' in Korean? | Use Their Name Instead",
+    "meta_description": "AI translates casual 'you' as 너, but Koreans rarely say it unless the other person is much younger or a very close friend. Use their name instead."
+  },
+  "ai_failure": {
+    "situation": "Texting a new acquaintance your age, after you've both agreed to speak casually: 'Did you eat?'",
+    "ai_mistake": "Translates casual 'you' as 너: 너 밥 먹었어?",
+    "why_it_fails": "너 is used freely only toward children much younger than you, or with very close friends your age or younger. With anyone else — even in 반말 — it can sound blunt or rude. Koreans call the person by name instead."
+  },
+  "natural_solution": {
+    "rule": "Say 너 only to a young child or a close friend who is your age or younger. Otherwise, even in casual speech, use their name (with 야/아) or drop 'you' altogether.",
+    "alternatives": [
+      {
+        "phrase": "지수야, 밥 먹었어?",
+        "romanization": "ji-su-ya, bap meo-geo-sseo",
+        "context": "Casual speech with a friend — call them by name instead of 너"
+      },
+      {
+        "phrase": "밥 먹었어?",
+        "romanization": "bap meo-geo-sseo",
+        "context": "Just drop 'you' when it's clear who you're talking to"
+      },
+      {
+        "phrase": "너 진짜 웃긴다 ㅋㅋ",
+        "romanization": "neo jin-jja ut-gin-da",
+        "context": "Fine with a very close friend your age or younger"
+      }
+    ]
+  },
+  "nuance": "Korean doesn't need a word for 'you' most of the time, and when it does, names and titles do the job. 너 is the plain second-person pronoun, and it signals that the other person is clearly below you in age or that you're very close. Agreeing to speak 반말 with someone doesn't automatically make 너 okay: many people still prefer being called by name, and 너 from someone who isn't close can sound like the start of a fight. See also 당신, which has its own problems.",
+  "tags": [
+    "pronouns",
+    "casual-speech",
+    "relationships"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "na-vs-jeo-humble-i",
+  "version": "0.3",
+  "korean": "나는",
+  "romanization": "na-neun",
+  "literal_meaning": "I (plain)",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "'나' or '저'? | How to Say 'I' Politely in Korean",
+    "meta_description": "AI often writes 나는 even in polite sentences. In front of a boss, interviewer or elder, Koreans say 저는. How the humble 'I' works."
+  },
+  "ai_failure": {
+    "situation": "Introducing yourself in a job interview: 'I'm Sophie, and I studied Korean education.'",
+    "ai_mistake": "Writes 나는 소피예요. 나는 한국어교육을 공부했어요, mixing plain 'I' with polite endings.",
+    "why_it_fails": "나 is the plain 'I' for friends and juniors. With polite endings it sounds mismatched, and in front of an interviewer, boss or elder it comes across as not knowing your place. The humble 'I' is 저."
+  },
+  "natural_solution": {
+    "rule": "Whenever you speak with 요 or -습니다, use 저 (저는, 제가, 제). Use 나 (나는, 내가, 내) only in casual speech.",
+    "alternatives": [
+      {
+        "phrase": "저는 소피라고 합니다.",
+        "romanization": "jeo-neun so-pi-ra-go ham-ni-da",
+        "context": "Formal self-introduction — interviews, first meetings"
+      },
+      {
+        "phrase": "제가 하겠습니다.",
+        "romanization": "je-ga ha-get-seum-ni-da",
+        "context": "'I'll do it' to a boss — note 제가, not 내가"
+      },
+      {
+        "phrase": "나는 괜찮아.",
+        "romanization": "na-neun gwaen-cha-na",
+        "context": "Casual, with a friend"
+      }
+    ]
+  },
+  "nuance": "Korean expresses respect not only by raising the listener but by lowering yourself. 저 is the humble 'I', and it comes with its own forms: 저는 (I), 제가 (I, as subject) and 제 (my). AI tools often keep 나 because it's the dictionary default, then add 요 at the end, producing a sentence that's half casual and half polite. The same logic gives 저희 ('we, humbly') for your team or family.",
+  "tags": [
+    "pronouns",
+    "honorifics",
+    "interview"
+  ]
+}
