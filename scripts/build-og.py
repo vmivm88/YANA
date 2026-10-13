@@ -19,7 +19,7 @@ WORDS = ROOT / "data" / "words"
 OG_DIR = ROOT / "public" / "og"
 
 # 표제어 자체가 '올바른 표현'인 항목은 취소선을 긋지 않습니다
-NO_STRIKE = {"calling-older-friends-unni-oppa-hyung-nuna"}
+NO_STRIKE = {"calling-older-friends-unni-oppa-hyung-nuna", "answering-negative-questions-eung-ani"}
 
 BASE_CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
