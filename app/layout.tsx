@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Serif_KR } from "next/font/google";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import { SITE, COMPANY } from "@/lib/site";
 import { CATEGORIES } from "@/lib/categories";
 import "./globals.css";
@@ -55,6 +56,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="font-semibold tracking-tight">{SITE.name}</span>
             </Link>
             <div className="flex items-center gap-5 text-sm text-muted">
+              <Link href="/contributors" className="hidden hover:text-ink sm:inline">
+                Contributors
+              </Link>
               <a href={SITE.repoUrl} className="hover:text-ink" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
@@ -86,6 +90,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <p>
               {SITE.name} v{SITE.version} · Open source, curated by native speakers ·{" "}
               <a href={SITE.repoUrl} className="underline hover:text-ink">Contribute on GitHub</a> ·{" "}
+              <Link href="/contributors" className="underline hover:text-ink">Contributors</Link> ·{" "}
               <Link href="/about" className="underline hover:text-ink">About</Link> ·{" "}
               <Link href="/privacy" className="underline hover:text-ink">Privacy</Link>
             </p>
@@ -99,6 +104,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </p>
           </div>
         </footer>
+        {/* 페이지별 방문 수 (쿠키 없음). Vercel → Analytics 탭에서 확인 */}
+        <Analytics />
       </body>
     </html>
   );

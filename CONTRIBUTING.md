@@ -46,3 +46,21 @@ npm run og        # public/og/<slug>.png 와 app/icon.png 생성 (Python + Playw
 ```
 
 이미지가 없어도 기본 이미지(`public/og/default.png`)로 대체되므로 사이트가 깨지지는 않습니다.
+
+## 기여자 크레딧 (운영자용)
+
+제보나 검수가 실리면 기여자 이름을 항목에 올립니다.
+
+1. `data/contributors.json`에 한 줄 추가합니다.
+   ```json
+   { "id": "ana-lima", "name": "Ana Lima", "title": "UX designer", "country": "Brazil",
+     "url": "https://www.linkedin.com/in/...", "joined": "2026-10-20", "founding": true }
+   ```
+   - `title`, `country`, `url`은 선택입니다. 본인이 원한 것만 넣으세요.
+   - **첫 50명은 `"founding": true`** (Founding Contributor). 검증 스크립트가 50명을 넘지 않게 막아 줍니다.
+2. 해당 항목 JSON에 `contributors`를 추가합니다. role은 `submitted`(제보) / `written`(작성) / `reviewed`(원어민 검수).
+   ```json
+   "contributors": [{ "id": "ana-lima", "role": "submitted" }]
+   ```
+3. `npm run validate` → `npm run og` (미리보기 카드에 이름이 들어갑니다) → 커밋.
+4. 기여자에게 항목 링크를 보내 주세요. 공유 버튼으로 바로 자랑할 수 있습니다.
