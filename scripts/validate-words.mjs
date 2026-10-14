@@ -15,6 +15,34 @@ const CATEGORIES = [
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 const errors = [];
+
+// 기여자 목록 검증
+const ROLES = ["submitted", "written", "reviewed"];
+const CONTRIB_FILE = path.join(process.cwd(), "data", "contributors.json");
+const contributorIds = new Set();
+if (fs.existsSync(CONTRIB_FILE)) {
+  let list = [];
+  try {
+    list = JSON.parse(fs.readFileSync(CONTRIB_FILE, "utf8"));
+  } catch (e) {
+    errors.push(`contributors.json: JSON 형식 오류 — ${e.message}`);
+  }
+  if (!Array.isArray(list)) errors.push("contributors.json: 배열이어야 합니다");
+  else {
+    let founding = 0;
+    list.forEach((c, i) => {
+      const where = `contributors.json[${i}]`;
+      if (!c?.id || !SLUG_RE.test(c.id)) errors.push(`${where}: id는 영문 소문자·숫자·하이픈만 사용하세요`);
+      if (contributorIds.has(c?.id)) errors.push(`${where}: id "${c.id}" 중복`);
+      if (!c?.name) errors.push(`${where}: name이 없습니다`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(c?.joined ?? "")) errors.push(`${where}: joined는 YYYY-MM-DD 형식이어야 합니다`);
+      if (c?.url && !/^https?:\/\//.test(c.url)) errors.push(`${where}: url은 http(s)://로 시작해야 합니다`);
+      if (c?.founding) founding++;
+      contributorIds.add(c?.id);
+    });
+    if (founding > 50) errors.push(`contributors.json: Founding Contributor가 50명을 넘습니다 (${founding}명)`);
+  }
+}
 const seenKorean = new Map();
 
 const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json"));
@@ -53,6 +81,15 @@ for (const file of files) {
   else alts.forEach((a, i) => (!a.phrase || !a.context) && err(`alternatives[${i}]에 phrase/context가 없습니다`));
 
   if (!Array.isArray(d.tags) || d.tags.length === 0) err("tags가 최소 1개 필요합니다");
+
+  if (d.contributors !== undefined) {
+    if (!Array.isArray(d.contributors)) err("contributors는 배열이어야 합니다");
+    else
+      d.contributors.forEach((c, i) => {
+        if (!contributorIds.has(c?.id)) err(`contributors[${i}].id("${c?.id}")가 data/contributors.json에 없습니다`);
+        if (!ROLES.includes(c?.role)) err(`contributors[${i}].role은 ${ROLES.join(" / ")} 중 하나여야 합니다`);
+      });
+  }
 
   if (d.korean) {
     if (seenKorean.has(d.korean)) err(`"${d.korean}"은(는) ${seenKorean.get(d.korean)}와 중복됩니다`);

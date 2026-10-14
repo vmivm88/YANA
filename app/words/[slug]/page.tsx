@@ -8,6 +8,9 @@ import { getCategoryByName } from "@/lib/categories";
 import WordCard from "@/components/WordCard";
 import { SITE } from "@/lib/site";
 import SubscribeForm from "@/components/SubscribeForm";
+import ShareLinks from "@/components/ShareLinks";
+import FoundingBadge from "@/components/FoundingBadge";
+import { creditsFor, ROLE_LABEL } from "@/lib/contributors";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -55,6 +58,7 @@ export default async function WordPage({ params }: Props) {
 
   const { ai_failure: fail, natural_solution: fix } = word;
   const topic = getCategoryByName(word.category);
+  const credits = creditsFor(word);
 
   // 관련 표현: 같은 카테고리 먼저, 모자라면 다른 카테고리에서 채움 (내부 링크 → 검색 노출에 도움)
   const others = getAllWords().filter((w) => w.slug !== word.slug);
@@ -119,6 +123,19 @@ export default async function WordPage({ params }: Props) {
         <p className="mt-6 text-lg">
           <span className="font-medium">Situation:</span> {fail.situation}
         </p>
+        {credits.length > 0 && (
+          <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted" aria-label="Contributors">
+            {credits.map((c) => (
+              <li key={`${c.role}-${c.id}`} className="flex flex-wrap items-center gap-1.5">
+                {ROLE_LABEL[c.role]}{" "}
+                <Link href={`/contributors#${c.id}`} className="font-medium text-ink hover:text-accent">
+                  {c.person.name}
+                </Link>
+                {c.person.founding && <FoundingBadge small />}
+              </li>
+            ))}
+          </ul>
+        )}
       </header>
 
       {/* Before / After split view */}
@@ -190,8 +207,28 @@ export default async function WordPage({ params }: Props) {
         />
       </div>
 
+      <section className="mt-12" aria-labelledby="share-heading">
+        <h2 id="share-heading" className="text-sm font-medium text-muted">Share this entry</h2>
+        <div className="mt-3">
+          <ShareLinks
+            url={`${SITE.url}/words/${word.slug}`}
+            text={
+              credits.length > 0
+                ? `I helped build this entry on ${SITE.name}: ${word.korean} — Korean that AI gets wrong`
+                : `${word.korean} — Korean that AI gets wrong`
+            }
+          />
+        </div>
+      </section>
+
       <aside className="mt-6 flex flex-col items-start gap-4 rounded-2xl border border-line bg-white p-6 sm:flex-row sm:items-center sm:justify-between">
-        <p className="font-medium">Found a weird AI Korean translation?</p>
+        <div>
+          <p className="font-medium">Found a weird AI Korean translation?</p>
+          <p className="mt-1 text-sm text-muted">
+            If we publish it, your name goes on the entry. The first 50 contributors become{" "}
+            <Link href="/contributors" className="underline hover:text-ink">Founding Contributors</Link>.
+          </p>
+        </div>
         <a
           href={`${SITE.feedbackUrl}?expression=${encodeURIComponent(word.korean)}`}
           target="_blank"

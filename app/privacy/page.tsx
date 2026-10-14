@@ -12,7 +12,7 @@ export default function PrivacyPage() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
       <h1 className="text-4xl font-semibold tracking-tight">Privacy notice</h1>
-      <p className="mt-2 text-sm text-muted">개인정보 수집·이용 안내 · Last updated: October 12, 2026</p>
+      <p className="mt-2 text-sm text-muted">개인정보 수집·이용 안내 · Last updated: October 14, 2026</p>
 
       <div className="mt-10 space-y-8 leading-relaxed">
         <section>
@@ -52,6 +52,28 @@ export default function PrivacyPage() {
             data outside Korea. We never sell your data.
           </p>
           <p className="mt-1 text-sm text-muted">처리 위탁 및 국외 이전: MailerLite (뉴스레터 발송·구독자 관리)</p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold">Contributor credit</h2>
+          <p className="mt-2">
+            When you submit a case through our form (Tally), we ask for your email so we can confirm your credit before
+            publishing. Your email is never shown. If we publish your case, we show only the name, title and link you
+            asked us to show. Ask us at any time to change or remove your credit.
+          </p>
+          <p className="mt-1 text-sm text-muted">
+            기여자 표시: 제보 시 이메일(비공개, 크레딧 확인용)을 받으며, 본인이 동의한 이름·소개·링크만 공개합니다. 요청 시
+            수정·삭제합니다. 제보 폼 처리: Tally
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold">Anonymous visit statistics</h2>
+          <p className="mt-2">
+            We count page views with Vercel Web Analytics to see which expressions help learners most and to show
+            contributors how many people their entries reach. It uses no cookies and doesn&apos;t identify you.
+          </p>
+          <p className="mt-1 text-sm text-muted">방문 통계: 쿠키 없이 페이지별 방문 수만 익명으로 집계 (Vercel Web Analytics)</p>
         </section>
 
         <section>

@@ -35,8 +35,22 @@ body { width: 1200px; height: 630px; background: #faf8f4; color: #1c1917;
 """
 
 
-def word_html(w):
+ROLE = {"submitted": "Submitted by", "written": "Written by", "reviewed": "Reviewed by"}
+
+
+def credit_line(w, people):
+    """예: 'Submitted by Ana · Founding Contributor'. 기여자가 없으면 빈 문자열"""
+    for ref in w.get("contributors", []):
+        p = people.get(ref["id"])
+        if p:
+            badge = ' <span class="badge">Founding Contributor</span>' if p.get("founding") else ""
+            return f'{ROLE[ref["role"]]} <b>{escape(p["name"])}</b>{badge}'
+    return ""
+
+
+def word_html(w, people):
     ai = w["korean"]
+    credit = credit_line(w, people)
     fix = w["natural_solution"]["alternatives"][0]["phrase"]
     ai_size = 64 if len(ai) <= 12 else 46
     fix_size = 92 if len(fix) <= 10 else (72 if len(fix) <= 16 else 54)
@@ -44,12 +58,14 @@ def word_html(w):
 .ai {{ margin-top: 70px; font-size: {ai_size}px; }}
 .fix {{ margin-top: 18px; font-size: {fix_size}px; font-weight: 700; line-height: 1.15; }}
 .sit {{ margin-top: 22px; font-size: 28px; color: #6f6862; max-width: 1000px; }}
+.credit {{ font-size: 26px; color: #1c1917; margin-bottom: 10px; display: flex; align-items: center; gap: 14px; }}
+.badge {{ font-size: 20px; color: #b4432f; border: 2px solid #b4432f; border-radius: 999px; padding: 2px 14px; }}
 </style></head><body><div class="frame">
 <div class="brand"><span class="ko">맥락</span><span>Context Korean</span></div>
 <p class="ai ko{'' if w['slug'] in NO_STRIKE else ' struck'}">{escape(ai)}</p>
 <p class="fix ko">{escape(fix)}</p>
 <p class="sit">{escape(w["ai_failure"]["situation"])}</p>
-<p class="foot">Korean that AI gets wrong · yanakorean.com</p>
+<div class="foot">{f'<p class="credit">{credit}</p>' if credit else ''}<p>Korean that AI gets wrong · yanakorean.com</p></div>
 </div></body></html>"""
 
 
@@ -79,6 +95,8 @@ def main():
 
     OG_DIR.mkdir(parents=True, exist_ok=True)
     words = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(WORDS.glob("*.json"))]
+    contrib_file = ROOT / "data" / "contributors.json"
+    people = {c["id"]: c for c in json.loads(contrib_file.read_text(encoding="utf-8"))} if contrib_file.exists() else {}
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -87,7 +105,7 @@ def main():
         page.set_content(DEFAULT_HTML)
         page.screenshot(path=str(OG_DIR / "default.png"))
         for w in words:
-            page.set_content(word_html(w))
+            page.set_content(word_html(w, people))
             page.screenshot(path=str(OG_DIR / f"{w['slug']}.png"))
 
         for size, out in [(512, ROOT / "app" / "icon.png"), (180, ROOT / "app" / "apple-icon.png")]:
