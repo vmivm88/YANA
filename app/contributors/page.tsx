@@ -122,7 +122,7 @@ export default function ContributorsPage() {
         </ul>
         <p className="mt-4 text-muted">
           Tell us the name you’d like shown and, if you want, a short title and a link to your site or profile. You can
-          stay anonymous too.
+          stay anonymous too. We’ll email you to confirm before your name goes up — your email is never shown.
         </p>
       </section>
     </div>

@@ -57,10 +57,14 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-semibold">Contributor credit</h2>
           <p className="mt-2">
-            If you send us a case and we publish it, we show only the name, title and link you asked us to show. Ask us
-            at any time to change or remove your credit.
+            When you submit a case through our form (Tally), we ask for your email so we can confirm your credit before
+            publishing. Your email is never shown. If we publish your case, we show only the name, title and link you
+            asked us to show. Ask us at any time to change or remove your credit.
           </p>
-          <p className="mt-1 text-sm text-muted">기여자 표시: 본인이 동의한 이름·소개·링크만 공개하며, 요청 시 수정·삭제합니다.</p>
+          <p className="mt-1 text-sm text-muted">
+            기여자 표시: 제보 시 이메일(비공개, 크레딧 확인용)을 받으며, 본인이 동의한 이름·소개·링크만 공개합니다. 요청 시
+            수정·삭제합니다. 제보 폼 처리: Tally
+          </p>
         </section>
 
         <section>
