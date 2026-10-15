@@ -1,0 +1,49 @@
+{
+  "slug": "sorikkun-meaning-kkun-suffix",
+  "version": "0.4",
+  "korean": "소리꾼",
+  "romanization": "so-ri-kkun",
+  "literal_meaning": "Sound + person who does it",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "What Does 소리꾼 Mean? | The Korean -꾼 Suffix in K-pop Lyrics",
+    "meta_description": "AI translates 소리꾼 as 'noisemaker'. It actually means a traditional Korean singer. Learn the -꾼 suffix behind 소리꾼, 술꾼 and 사기꾼."
+  },
+  "ai_failure": {
+    "situation": "You see the word 소리꾼 in a K-pop song title or lyric and ask an AI tool what it means.",
+    "ai_mistake": "Translates it as 'noisemaker' or 'loud person', reading 소리 as 'noise' and -꾼 as simply 'person'.",
+    "why_it_fails": "Here 소리 is the traditional word for singing, especially pansori and folk song. A 소리꾼 is a traditional singer whose voice carries a story — a word with pride and Korean heritage built in, not a complaint about volume."
+  },
+  "natural_solution": {
+    "rule": "When a word ends in -꾼, ask 'what activity?' -꾼 marks someone skilled at, or hooked on, that activity. Whether it sounds proud or insulting depends on the activity.",
+    "alternatives": [
+      {
+        "phrase": "소리꾼",
+        "romanization": "so-ri-kkun",
+        "context": "A singer of pansori or Korean folk song — respectful, often proud"
+      },
+      {
+        "phrase": "일꾼",
+        "romanization": "il-kkun",
+        "context": "A hard worker — usually praise: '우리 팀 일꾼이에요'"
+      },
+      {
+        "phrase": "술꾼",
+        "romanization": "sul-kkun",
+        "context": "A heavy drinker — teasing at best, not a compliment"
+      },
+      {
+        "phrase": "사기꾼",
+        "romanization": "sa-gi-kkun",
+        "context": "A con artist — clearly an insult"
+      }
+    ]
+  },
+  "nuance": "-꾼 is an old, earthy suffix. It turns an activity into a kind of person: 나무꾼 (woodcutter), 사냥꾼 (hunter), 장사꾼 (trader, sometimes with a hint of 'only cares about money'), 노름꾼 (gambler). K-pop uses words like 소리꾼 on purpose: they sound traditional and bold, and a group calling itself 소리꾼 is claiming to be performers rooted in Korean sound. Stray Kids' 2021 song 소리꾼 (English title 'Thunderous') is a well-known example, mixing traditional Korean musical imagery with hip-hop. Word-by-word translation misses all of that.",
+  "tags": [
+    "kpop",
+    "lyrics",
+    "suffix",
+    "vocabulary"
+  ]
+}

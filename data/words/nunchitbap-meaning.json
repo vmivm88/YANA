@@ -1,0 +1,44 @@
+{
+  "slug": "nunchitbap-meaning",
+  "version": "0.4",
+  "korean": "눈칫밥",
+  "romanization": "nun-chit-bap",
+  "literal_meaning": "Nunchi rice",
+  "category": "Food & Dining",
+  "seo": {
+    "meta_title": "What Does 눈칫밥 먹다 Mean? | Korean Food Idiom AI Gets Wrong",
+    "meta_description": "AI translates 눈칫밥 먹다 as 'eat nunchi rice'. It means living or working where you feel unwelcome and must watch everyone's mood."
+  },
+  "ai_failure": {
+    "situation": "A Korean friend who just started a new job sighs: 요즘 회사에서 눈칫밥 먹고 있어.",
+    "ai_mistake": "Translates it as 'I'm eating nunchi rice at work' or 'eating food with good sense'.",
+    "why_it_fails": "눈치 is reading other people's moods. 눈칫밥 is the meal you eat while worrying how others see you — at a relative's house you depend on, in a new team, under in-laws. It means feeling like a burden and tiptoeing around everyone."
+  },
+  "natural_solution": {
+    "rule": "눈칫밥(을) 먹다 = live or work somewhere you feel unwelcome, constantly watching others' moods. Spelled 눈칫밥, though many people write 눈치밥.",
+    "alternatives": [
+      {
+        "phrase": "신입이라 눈칫밥 먹는 중이에요.",
+        "romanization": "si-ni-bi-ra nun-chit-bap meong-neun jung-i-e-yo",
+        "context": "'I'm new, so I'm tiptoeing around everyone' — self-deprecating, common at work"
+      },
+      {
+        "phrase": "어릴 때 친척 집에서 눈칫밥 먹으면서 컸어요.",
+        "romanization": "eo-ril ttae chin-cheok ji-be-seo nun-chit-bap meo-geu-myeon-seo keo-sseo-yo",
+        "context": "'I grew up at relatives' houses, always feeling like a burden' — serious, emotional"
+      },
+      {
+        "phrase": "눈치 보여요.",
+        "romanization": "nun-chi bo-yeo-yo",
+        "context": "Everyday, lighter version: 'I feel awkward / I feel like I should be careful here'"
+      }
+    ]
+  },
+  "nuance": "Korean measures belonging through food. Being fed freely means you're family; eating while someone watches the rice pot means you're a guest who's overstayed. That's why 눈칫밥 carries so much weight: it describes a whole childhood or a whole first year at a job in one word. If a Korean says it about their past, respond with sympathy (많이 힘드셨겠어요), not a food joke.",
+  "tags": [
+    "idiom",
+    "food",
+    "nunchi",
+    "workplace"
+  ]
+}

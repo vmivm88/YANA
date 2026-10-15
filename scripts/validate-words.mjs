@@ -11,6 +11,7 @@ const CATEGORIES = [
   "Food & Dining",
   "Texting & Online",
   "Email & Formal Writing",
+  "K-pop & Fandom",
 ];
 const SLUG_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 

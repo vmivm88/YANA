@@ -17,6 +17,7 @@ Thanks for helping! This project collects Korean expressions that AI translators
    - `Food & Dining`
    - `Texting & Online`
    - `Email & Formal Writing`
+   - `K-pop & Fandom`
 4. Run the checker:
    ```bash
    npm run validate

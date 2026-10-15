@@ -6,7 +6,8 @@ export type Category =
   | "Emotion & Relationships"
   | "Food & Dining"
   | "Texting & Online"
-  | "Email & Formal Writing";
+  | "Email & Formal Writing"
+  | "K-pop & Fandom";
 
 export interface Alternative {
   phrase: string;
