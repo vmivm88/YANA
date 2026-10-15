@@ -7,7 +7,7 @@
   "category": "Daily Life",
   "seo": {
     "meta_title": "짖어 대다, 웃어 대다 | Korean -아/어 대다 for Annoying Repetition",
-    "meta_description": "Word glosses read 짖어 대다 as 'bark and touch'. -아/어 대다 means doing something over and over, annoyingly. Why not to use it about your boss."
+    "meta_description": "Word glosses read 짖어 대다 as 'bark and touch'. -아/어 대다 means doing something over and over, annoyingly — so it always sounds like a complaint."
   },
   "ai_failure": {
     "situation": "Your neighbor says: 옆집 개가 밤새 짖어 대서 한숨도 못 잤어요.",
@@ -15,7 +15,7 @@
     "why_it_fails": "대다 after a verb means doing it over and over, too much — and the speaker is annoyed. The dog didn't just bark; it wouldn't stop barking all night."
   },
   "natural_solution": {
-    "rule": "Verb + 아/어 대다 = keeps doing it, annoyingly. It carries complaint, so don't use it about someone you should respect.",
+    "rule": "Verb + 아/어 대다 = keeps doing it, annoyingly. It always carries a complaint.",
     "alternatives": [
       {
         "phrase": "애가 장난감 사 달라고 졸라 대요.",
@@ -28,13 +28,13 @@
         "context": "'The person next to me keeps laughing — I can't focus'"
       },
       {
-        "phrase": "부장님이 계속 전화하셨어요.",
-        "romanization": "bu-jang-ni-mi gye-sok jeon-hwa-ha-syeo-sseo-yo",
-        "context": "About a senior: say 계속 ('kept') instead. 전화해 대셨어요 would sound like complaining about them."
+        "phrase": "요즘 과자를 너무 먹어 대요.",
+        "romanization": "yo-jeum gwa-ja-reul neo-mu meo-geo dae-yo",
+        "context": "Joking about yourself: 'I've been eating way too many snacks lately'"
       }
     ]
   },
-  "nuance": "Compare 먹다 ('eat') with 먹어 대다 ('stuff yourself, eat nonstop') or 떠들다 ('chat') with 떠들어 대다 ('won't stop yapping'). The 대다 version always has an edge. It's natural for kids, pets, noisy neighbors and yourself in a joke (요즘 과자를 먹어 대요), but risky about elders and bosses.",
+  "nuance": "Compare 먹다 ('eat') with 먹어 대다 ('stuff yourself, eat nonstop') or 떠들다 ('chat') with 떠들어 대다 ('won't stop yapping'). The 대다 version always has an edge. You'll hear it most about kids, pets, noisy neighbors, or yourself in a joke.",
   "tags": [
     "double-verbs",
     "grammar",
