@@ -12,15 +12,25 @@
   "ai_failure": {
     "situation": "Politely telling a Korean person something about Korea, e.g. 'In our country, we eat rice cake soup on New Year's.'",
     "ai_mistake": "Uses '저희 나라' because 저희 is the humble form of 'we/our' and the sentence is polite.",
-    "why_it_fails": "Humbling your own nation in front of fellow Koreans makes no sense — the listener belongs to the same country. Standard guidance treats 우리나라 as correct even in formal speech."
+    "why_it_fails": "When Koreans talk about Korea, 저희 나라 humbles the nation itself. To a Korean listener that makes no sense, since they belong to the same country, and there's no reason to lower your country in front of foreigners either. Standard guidance from the National Institute of Korean Language treats 우리나라 as correct in every register, whoever the listener is."
   },
   "natural_solution": {
-    "rule": "Say 우리나라 (or 한국) for Korea in every register. Use 저희 only for groups the listener is not part of — your company, your family, your team.",
+    "rule": "Koreans say 우리나라 (or 한국) for Korea in every register, to Koreans and foreigners alike. Learners talking about their own country: use the country's name, or 우리 나라 with a space. Written as one word, 우리나라 means Korea. Use 저희 for groups the listener is not part of: your company, your family, your team.",
     "alternatives": [
       {
         "phrase": "우리나라에서는 설날에 떡국을 먹어요.",
         "romanization": "u-ri-na-ra-e-seo-neun seol-la-re tteok-gu-geul meo-geo-yo",
-        "context": "Talking about Korea, polite and natural"
+        "context": "A Korean talking about Korea, to anyone"
+      },
+      {
+        "phrase": "미국에서는 추수감사절에 칠면조를 먹어요.",
+        "romanization": "mi-gu-ge-seo-neun chu-su-gam-sa-jeo-re chil-myeon-jo-reul meo-geo-yo",
+        "context": "A learner talking about their own country — naming it is clearest"
+      },
+      {
+        "phrase": "우리 나라에서는 크리스마스가 제일 큰 명절이에요.",
+        "romanization": "u-ri na-ra-e-seo-neun keu-ri-seu-ma-seu-ga je-il keun myeong-jeo-ri-e-yo",
+        "context": "A learner's 'my country', with a space, so it isn't read as Korea"
       },
       {
         "phrase": "저희 회사는 금요일에 일찍 퇴근해요.",
@@ -29,6 +39,10 @@
       }
     ]
   },
-  "nuance": "저희 lowers the speaker's group relative to the listener, so it only works when the listener stands outside that group. A nation is a group every Korean listener shares, so 우리나라 is written as a single word and used by presidents and news anchors alike. The trap shows how Korean politeness isn't a dial you simply turn up — it depends on who is inside and who is outside the 'we'.",
-  "tags": ["honorifics", "humble-speech", "misunderstood"]
+  "nuance": "저희 lowers the speaker's group relative to the listener, so it only works when the listener stands outside that group. For Koreans, the nation isn't something to lower to anyone, so 우리나라 is written as a single word and used by presidents and news anchors alike. As one word it refers only to Korea, which is why a learner's 'my country' is safer as the country's name or 우리 나라 with a space. Learners do often say 저희 나라 about their own country to Koreans; it is heard as humble rather than wrong, but it isn't necessary. The trap shows how Korean politeness isn't a dial you simply turn up — it depends on who is inside and who is outside the 'we'.",
+  "tags": [
+    "honorifics",
+    "humble-speech",
+    "misunderstood"
+  ]
 }

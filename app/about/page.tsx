@@ -23,6 +23,11 @@ export default function AboutPage() {
           Korean speaker with experience teaching Korean to foreign learners. Anyone can suggest a new
           case through the submission form or on GitHub.
         </p>
+        <p>
+          Romanization on this site is a pronunciation guide, not the official Revised Romanization.
+          Syllables are split with hyphens and sound changes are spelled as you hear them, so
+          축하해요 appears as chu-ka-hae-yo rather than chukhahaeyo.
+        </p>
       </div>
 
       <h2 className="mt-12 text-xl font-semibold">Company</h2>
