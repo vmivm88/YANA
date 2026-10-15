@@ -7,8 +7,7 @@ export type Category =
   | "Food & Dining"
   | "Texting & Online"
   | "Email & Formal Writing"
-  | "K-pop & Fandom"
-  | "Double Verbs";
+  | "K-pop & Fandom";
 
 export interface Alternative {
   phrase: string;

@@ -1,10 +1,13 @@
-import type { Category } from "./types";
+import type { WordEntry } from "./types";
 
 // 카테고리 랜딩 페이지(/topics/[slug])용 정보.
 // title/description 은 구글 검색 결과에 그대로 보이는 문구라서, 사람들이 실제로 검색할 말로 씁니다.
 export interface CategoryInfo {
   slug: string;
-  name: Category;
+  /** 카테고리 주제: WordEntry.category 값과 같은 이름. 태그 주제: 화면에 보일 이름 */
+  name: string;
+  /** 있으면 태그 기반 주제: 이 태그가 붙은 표현을 카테고리와 상관없이 모읍니다 */
+  tag?: string;
   title: string; // <title> (60자 안팎)
   heading: string; // 페이지 h1
   description: string; // meta description (155자 안팎)
@@ -85,6 +88,7 @@ export const CATEGORIES: CategoryInfo[] = [
   {
     slug: "double-verbs",
     name: "Double Verbs",
+    tag: "double-verbs",
     title: "Korean Double Verbs: 먹어 버리다, 봐주다, 빼먹다 Explained",
     heading: "Korean double verbs: when two verbs make a new meaning",
     description:
@@ -99,5 +103,15 @@ export function getCategoryBySlug(slug: string) {
 }
 
 export function getCategoryByName(name: string) {
-  return CATEGORIES.find((c) => c.name === name) ?? null;
+  return CATEGORIES.find((c) => !c.tag && c.name === name) ?? null;
+}
+
+/** 주제 페이지에 들어갈 표현: 태그 주제는 태그로, 나머지는 카테고리로 */
+export function getWordsForTopic<T extends Pick<WordEntry, "category" | "tags">>(cat: CategoryInfo, words: T[]): T[] {
+  return words.filter((w) => (cat.tag ? w.tags.includes(cat.tag) : w.category === cat.name));
+}
+
+/** 이 표현이 속한 태그 주제들 (예: Double Verbs) */
+export function getTagTopicsFor(word: Pick<WordEntry, "tags">): CategoryInfo[] {
+  return CATEGORIES.filter((c) => c.tag && word.tags.includes(c.tag));
 }

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import fs from "node:fs";
 import path from "node:path";
 import { getAllWords } from "@/lib/words";
-import { CATEGORIES } from "@/lib/categories";
+import { CATEGORIES, getWordsForTopic } from "@/lib/categories";
 import { SITE } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -17,9 +17,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // 표현이 하나라도 있는 카테고리만
-  const topics = CATEGORIES.filter((c) => all.some((w) => w.category === c.name)).map((c) => {
-    const inTopic = all.filter((w) => w.category === c.name);
+  // 표현이 하나라도 있는 주제만 (카테고리 + 태그 주제)
+  const topics = CATEGORIES.filter((c) => getWordsForTopic(c, all).length > 0).map((c) => {
+    const inTopic = getWordsForTopic(c, all);
     const latest = new Date(Math.max(...inTopic.map((w) => mtime(w.slug).getTime())));
     return {
       url: `${SITE.url}/topics/${c.slug}`,
