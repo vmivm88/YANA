@@ -19,7 +19,33 @@ WORDS = ROOT / "data" / "words"
 OG_DIR = ROOT / "public" / "og"
 
 # 표제어 자체가 '올바른 표현'인 항목은 취소선을 긋지 않습니다
-NO_STRIKE = {"calling-older-friends-unni-oppa-hyung-nuna", "answering-negative-questions-eung-ani"}
+# (v0.4~ 단어 설명형 항목: 소리꾼, 이중동사, 밥 표현 등)
+NO_STRIKE = {
+    "calling-older-friends-unni-oppa-hyung-nuna",
+    "answering-negative-questions-eung-ani",
+    "badameokda-korean-double-verbs",
+    "bread-is-not-bap",
+    "bwajuda-let-it-slide",
+    "deureojuda-grant-a-request",
+    "doragasida-passed-away",
+    "dosirak-ssa-deulgo-mallida-idiom",
+    "eo-beorida-not-throw-away",
+    "eo-boda-try-not-sidohada",
+    "eo-daeda-doing-too-much",
+    "eo-duda-noda-in-advance",
+    "eo-juda-asking-favors",
+    "eo-naeda-pull-through",
+    "eodeomeokda-being-treated-scolded",
+    "how-to-write-a-fan-letter-in-korean",
+    "japatteda-flatly-deny",
+    "jjambap-meaning-seniority",
+    "marameokda-ruin-bomb",
+    "neomeogada-let-it-go-fooled",
+    "nunchitbap-meaning",
+    "ppaemeokda-meaning-skip-leave-out",
+    "sorikkun-meaning-kkun-suffix",
+    "ttemeokda-unpaid-wages-money",
+}
 
 BASE_CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
