@@ -1,0 +1,43 @@
+{
+  "slug": "marameokda-ruin-bomb",
+  "version": "0.5",
+  "korean": "말아먹다",
+  "romanization": "ma-ra-meok-da",
+  "literal_meaning": "Roll up and eat",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "What Does 말아먹다 Mean? | Korean Slang for Ruining Something",
+    "meta_description": "AI translates 시험 말아먹었어 as 'I rolled up and ate the exam'. It means 'I bombed it'. Learn 말아먹다, 망했어 and polite alternatives."
+  },
+  "ai_failure": {
+    "situation": "Your Korean classmate walks out of the exam room groaning: 시험 완전히 말아먹었어.",
+    "ai_mistake": "Translates it as 'I completely rolled up and ate the exam.'",
+    "why_it_fails": "말아먹다 is slang for ruining something completely: an exam, a presentation, a business. It sounds like a total, often self-inflicted failure."
+  },
+  "natural_solution": {
+    "rule": "말아먹다 = ruin, bomb (casual slang). With friends it's fine. In formal settings, say 결과가 안 좋았어요.",
+    "alternatives": [
+      {
+        "phrase": "시험 망했어.",
+        "romanization": "si-heom mang-hae-sseo",
+        "context": "The most common casual version: 'I failed the exam'"
+      },
+      {
+        "phrase": "그 사람이 회사를 말아먹었대.",
+        "romanization": "geu sa-ra-mi hoe-sa-reul ma-ra-meo-geot-dae",
+        "context": "'I heard he ran the company into the ground' — gossip, harsh"
+      },
+      {
+        "phrase": "발표 결과가 좋지 않았습니다.",
+        "romanization": "bal-pyo gyeol-gwa-ga jo-chi a-nat-seum-ni-da",
+        "context": "To a boss or teacher: 'The presentation didn't go well'"
+      }
+    ]
+  },
+  "nuance": "말다 means 'to roll' (김밥을 말다) or 'to mix rice into soup' (국에 밥을 말다), so 말아먹다 pictures something finished off in one go. As slang it's punchy and a bit rough. About yourself it sounds self-deprecating; about someone else's business or show it's a harsh judgment.",
+  "tags": [
+    "double-verbs",
+    "slang",
+    "school"
+  ]
+}

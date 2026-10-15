@@ -1,0 +1,44 @@
+{
+  "slug": "eo-boda-try-not-sidohada",
+  "version": "0.5",
+  "korean": "-아/어 보다",
+  "romanization": "-a/eo bo-da",
+  "literal_meaning": "Do and see",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "How to Say 'Try' in Korean | 먹어 보세요, Not 시도해 보세요",
+    "meta_description": "AI translates 'Try this kimchi' as 이 김치를 시도해 보세요. Koreans say 먹어 보세요. How -아/어 보다 means 'try' and 'have you ever'."
+  },
+  "ai_failure": {
+    "situation": "You want to tell a Korean guest 'Try this kimchi, I made it' and 'Have you been to Jeju?'",
+    "ai_mistake": "Writes 이 김치를 시도해 보세요 and 제주도에 가 본 적이 있습니까? in stiff textbook style.",
+    "why_it_fails": "시도하다 is a formal word for 'attempt' — fine for a new strategy, odd for food. Korean says 'try' by adding 보다 to the action itself: 먹어 보다, 입어 보다. And 가 봤어요? alone already means 'Have you ever been?'"
+  },
+  "natural_solution": {
+    "rule": "'Try X' = X verb + 아/어 보세요. 'Have you ever…?' = 아/어 봤어요?",
+    "alternatives": [
+      {
+        "phrase": "이거 제가 만든 김치예요. 드셔 보세요!",
+        "romanization": "i-geo je-ga man-deun gim-chi-ye-yo. deu-syeo bo-se-yo",
+        "context": "To a guest or elder: 'Try it!' (드시다 is the honorific 'eat')"
+      },
+      {
+        "phrase": "한번 입어 보세요.",
+        "romanization": "han-beon i-beo bo-se-yo",
+        "context": "Shop staff: 'Try it on'"
+      },
+      {
+        "phrase": "제주도 가 봤어요?",
+        "romanization": "je-ju-do ga bwa-sseo-yo",
+        "context": "'Have you been to Jeju?' — natural everyday question"
+      }
+    ]
+  },
+  "nuance": "보다 ('see') after a verb turns it into an experiment: do it and see what happens. That's why 생각해 볼게요 ('I'll think about it') can be a polite no, and 해 볼게요 ('I'll give it a go') sounds modest rather than confident. 한번 often comes with it to sound lighter: 한번 해 보세요.",
+  "tags": [
+    "double-verbs",
+    "grammar",
+    "food",
+    "experience"
+  ]
+}

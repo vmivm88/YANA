@@ -4,7 +4,7 @@ import path from "node:path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllWords, getWordBySlug, getWordSlugs } from "@/lib/words";
-import { getCategoryByName } from "@/lib/categories";
+import { getCategoryByName, getTagTopicsFor } from "@/lib/categories";
 import WordCard from "@/components/WordCard";
 import { SITE } from "@/lib/site";
 import SubscribeForm from "@/components/SubscribeForm";
@@ -58,6 +58,7 @@ export default async function WordPage({ params }: Props) {
 
   const { ai_failure: fail, natural_solution: fix } = word;
   const topic = getCategoryByName(word.category);
+  const tagTopics = getTagTopicsFor(word);
   const credits = creditsFor(word);
 
   // 관련 표현: 같은 카테고리 먼저, 모자라면 다른 카테고리에서 채움 (내부 링크 → 검색 노출에 도움)
@@ -196,6 +197,11 @@ export default async function WordPage({ params }: Props) {
               See all {topic.name.toLowerCase()} expressions
             </Link>
           )}
+          {tagTopics.map((t) => (
+            <Link key={t.slug} href={`/topics/${t.slug}`} className="mt-4 ml-4 inline-block text-sm text-accent underline">
+              See all {t.name.toLowerCase()}
+            </Link>
+          ))}
         </section>
       )}
 

@@ -1,0 +1,44 @@
+{
+  "slug": "eo-juda-asking-favors",
+  "version": "0.5",
+  "korean": "-아/어 주다",
+  "romanization": "-a/eo ju-da",
+  "literal_meaning": "Do and give",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "Asking Favors in Korean | 보내 주실 수 있어요? vs 보낼 수 있어요?",
+    "meta_description": "AI turns 'Can you send me the file?' into 보낼 수 있어요?, which asks about ability. Korean asks favors with -아/어 주다. To a boss, offer with 드리다."
+  },
+  "ai_failure": {
+    "situation": "You message your team leader: 'Can you send me the file?' Later you offer: 'I'll do it for you.'",
+    "ai_mistake": "Writes 파일을 보낼 수 있어요? and 제가 해 줄게요.",
+    "why_it_fails": "Without 주다, 보낼 수 있어요? asks whether they're able to send it, not whether they will. And 해 줄게요 to a senior sounds like you're doing them a favor from above. Korean marks favors with 주다, and favors to seniors with 드리다."
+  },
+  "natural_solution": {
+    "rule": "Asking a favor: verb + 아/어 주시겠어요? Offering help to a senior: verb + 아/어 드릴게요.",
+    "alternatives": [
+      {
+        "phrase": "파일 보내 주실 수 있으세요?",
+        "romanization": "pa-il bo-nae ju-sil su i-sseu-se-yo",
+        "context": "Polite request to a senior: 'Could you send me the file?'"
+      },
+      {
+        "phrase": "제가 정리해 드릴게요.",
+        "romanization": "je-ga jeong-ni-hae deu-ril-ge-yo",
+        "context": "Offering to a senior: 'I'll organize it for you'"
+      },
+      {
+        "phrase": "이거 좀 해 줄 수 있어?",
+        "romanization": "i-geo jom hae jul su i-sseo",
+        "context": "Casual request to a friend or junior"
+      }
+    ]
+  },
+  "nuance": "주다 ('give') after a verb means the action is a gift to someone. The direction matters: 주다 goes to equals or juniors, 드리다 goes up to seniors, and 주시다 is used when a senior does something for you. 좀 softens a request (해 줄 수 있어?) and is almost always there in natural speech.",
+  "tags": [
+    "double-verbs",
+    "requests",
+    "honorifics",
+    "workplace"
+  ]
+}

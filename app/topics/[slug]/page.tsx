@@ -3,15 +3,15 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import WordCard from "@/components/WordCard";
 import SubscribeForm from "@/components/SubscribeForm";
-import { CATEGORIES, getCategoryBySlug } from "@/lib/categories";
+import { CATEGORIES, getCategoryBySlug, getWordsForTopic } from "@/lib/categories";
 import { getAllWords } from "@/lib/words";
 import { SITE } from "@/lib/site";
 
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  const used = new Set(getAllWords().map((w) => w.category));
-  return CATEGORIES.filter((c) => used.has(c.name)).map((c) => ({ slug: c.slug }));
+  const all = getAllWords();
+  return CATEGORIES.filter((c) => getWordsForTopic(c, all).length > 0).map((c) => ({ slug: c.slug }));
 }
 export const dynamicParams = false;
 
@@ -41,7 +41,7 @@ export default async function TopicPage({ params }: Props) {
   const cat = getCategoryBySlug(slug);
   if (!cat) notFound();
 
-  const words = getAllWords().filter((w) => w.category === cat.name);
+  const words = getWordsForTopic(cat, getAllWords());
   if (words.length === 0) notFound();
 
   const jsonLd = {

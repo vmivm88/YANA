@@ -1,0 +1,44 @@
+{
+  "slug": "doragasida-passed-away",
+  "version": "0.5",
+  "korean": "돌아가시다",
+  "romanization": "do-ra-ga-si-da",
+  "literal_meaning": "Go back (honorific)",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "돌아가셨어요 Means 'Passed Away' | Talking About Death in Korean",
+    "meta_description": "AI reads 할머니가 돌아가셨어요 as 'Grandma went back'. It means she passed away. How to talk about death and offer condolences in Korean."
+  },
+  "ai_failure": {
+    "situation": "A Korean coworker says she'll be away for a few days: 할머니가 돌아가셨어요.",
+    "ai_mistake": "Translates it as 'My grandmother went back (home)', so you ask when she'll return. In the other direction, it renders 'My grandfather died' as 할아버지가 죽었어요.",
+    "why_it_fails": "돌아가시다 is the respectful way to say someone has died — literally 'returned'. 죽었어요 is used for animals or in blunt speech, and sounds disrespectful for a family member or elder."
+  },
+  "natural_solution": {
+    "rule": "For a person's death, especially an elder's, use 돌아가셨어요. Respond with sympathy, not questions.",
+    "alternatives": [
+      {
+        "phrase": "작년에 할아버지가 돌아가셨어요.",
+        "romanization": "jang-nyeo-ne ha-ra-beo-ji-ga do-ra-ga-syeo-sseo-yo",
+        "context": "Talking about your own family member's death"
+      },
+      {
+        "phrase": "삼가 고인의 명복을 빕니다.",
+        "romanization": "sam-ga go-i-nui myeong-bo-geul bim-ni-da",
+        "context": "Formal condolence: in writing, at a funeral, to a coworker"
+      },
+      {
+        "phrase": "많이 힘드시겠어요.",
+        "romanization": "ma-ni him-deu-si-ge-sseo-yo",
+        "context": "Warm spoken response: 'This must be so hard for you'"
+      }
+    ]
+  },
+  "nuance": "Context tells the two meanings apart. 이쪽으로 돌아가세요 means 'Please go around this way', and 고향에 돌아가셨어요 can mean 'went back to their hometown'. But 'someone + 돌아가셨어요' with no destination almost always means death. Korean has softer and more formal words too: 세상을 떠나다 ('left this world') and 별세하다 (news and formal notices).",
+  "tags": [
+    "double-verbs",
+    "honorifics",
+    "funeral",
+    "condolences"
+  ]
+}

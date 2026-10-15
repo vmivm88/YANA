@@ -1,0 +1,43 @@
+{
+  "slug": "eo-duda-noda-in-advance",
+  "version": "0.5",
+  "korean": "-아/어 두다 · 놓다",
+  "romanization": "-a/eo du-da · no-ta",
+  "literal_meaning": "Do and put down",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "예약해 둘게요 | Korean -아/어 두다 and 놓다 for 'In Advance'",
+    "meta_description": "Word glosses read 사 놓다 as 'buy and put down'. -아/어 두다 and 놓다 mean doing something ahead so it's ready, or leaving it that way."
+  },
+  "ai_failure": {
+    "situation": "Your Korean host texts: 방 청소해 놨어요. 문은 열어 둘게요.",
+    "ai_mistake": "Glosses it as 'I cleaned and put down the room. I'll open and place the door.'",
+    "why_it_fails": "놓다 and 두다 ('put') after a verb mean the action is done ahead of time and the result stays in place. Your host is saying 'The room's ready, and I'll leave the door open for you.'"
+  },
+  "natural_solution": {
+    "rule": "Verb + 아/어 두다/놓다 = do it in advance, or leave it in that state. 놓다 is more casual, 두다 slightly neater; both are common.",
+    "alternatives": [
+      {
+        "phrase": "제가 식당 예약해 둘게요.",
+        "romanization": "je-ga sik-dang ye-ya-kae dul-ge-yo",
+        "context": "'I'll book the restaurant ahead' — sounds organized and considerate"
+      },
+      {
+        "phrase": "물 사 놨어?",
+        "romanization": "mul sa na-sseo",
+        "context": "'Did you get water (so we have it)?'"
+      },
+      {
+        "phrase": "창문 좀 열어 놔 주세요.",
+        "romanization": "chang-mun jom yeo-reo nwa ju-se-yo",
+        "context": "'Please leave the window open'"
+      }
+    ]
+  },
+  "nuance": "English often needs 'already' or 'ahead' to say this; Korean builds it into the verb. Compare 예약했어요 ('I booked it') with 예약해 놨어요 ('I've booked it, so it's taken care of'). The second sounds more thoughtful, which is why it's common when doing something for someone else.",
+  "tags": [
+    "double-verbs",
+    "grammar",
+    "planning"
+  ]
+}

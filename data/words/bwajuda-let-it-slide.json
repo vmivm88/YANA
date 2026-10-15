@@ -1,0 +1,43 @@
+{
+  "slug": "bwajuda-let-it-slide",
+  "version": "0.5",
+  "korean": "봐주다",
+  "romanization": "bwa-ju-da",
+  "literal_meaning": "See for someone",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "한 번만 봐주세요 Meaning | Not 'Please Look at Me Once'",
+    "meta_description": "AI translates 한 번만 봐주세요 as 'Please look at me once'. It means 'Please let it slide this time.' The three meanings of 봐주다."
+  },
+  "ai_failure": {
+    "situation": "You're late paying a parking fee and the attendant is writing a ticket. A Korean friend whispers: 한 번만 봐달라고 해.",
+    "ai_mistake": "Translates 한 번만 봐주세요 as 'Please look at me just once.'",
+    "why_it_fails": "봐주다 has three meanings: look at something for someone, look after someone, and let someone off. 한 번만 봐주세요 is the classic plea: 'Please let it go just this once.'"
+  },
+  "natural_solution": {
+    "rule": "Check the object. 이것 좀 = 'take a look'. 아이 좀 = 'look after'. 한 번만 = 'let me off'.",
+    "alternatives": [
+      {
+        "phrase": "이것 좀 봐 주시겠어요?",
+        "romanization": "i-geot jom bwa ju-si-ge-sseo-yo",
+        "context": "'Could you take a look at this?' — asking for a review or help"
+      },
+      {
+        "phrase": "잠깐 아이 좀 봐 줄 수 있어?",
+        "romanization": "jam-kkan a-i jom bwa jul su i-sseo",
+        "context": "'Can you watch my kid for a moment?'"
+      },
+      {
+        "phrase": "죄송해요, 한 번만 봐주세요.",
+        "romanization": "joe-song-hae-yo, han beon-man bwa-ju-se-yo",
+        "context": "'Sorry, please let it slide this once' — to a teacher, guard or friend"
+      }
+    ]
+  },
+  "nuance": "In the 'let it slide' sense, 봐주다 is written as one word; in the 'look for someone' sense it's 봐 주다 with a space, though most people don't distinguish them in texting. 봐주다 also shows up in games and sports: 봐주지 마 means 'Don't go easy on me.'",
+  "tags": [
+    "double-verbs",
+    "requests",
+    "apology"
+  ]
+}

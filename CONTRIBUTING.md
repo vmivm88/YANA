@@ -18,6 +18,8 @@ Thanks for helping! This project collects Korean expressions that AI translators
    - `Texting & Online`
    - `Email & Formal Writing`
    - `K-pop & Fandom`
+
+   Some topic pages are built from tags instead of categories, so an entry can appear in both. Add the tag `double-verbs` to any compound or helper verb (빼먹다, 먹어 보다…) and it will also show up on the Double Verbs page.
 4. Run the checker:
    ```bash
    npm run validate

@@ -1,0 +1,43 @@
+{
+  "slug": "japatteda-flatly-deny",
+  "version": "0.5",
+  "korean": "잡아떼다",
+  "romanization": "ja-ba-tte-da",
+  "literal_meaning": "Grab and pull off",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "What Does 잡아떼다 Mean? | Flatly Denying Something in Korean",
+    "meta_description": "AI translates 잡아떼다 as 'grab and tear off'. It means flatly denying something you clearly did. Learn 잡아떼다 and 시치미를 떼다."
+  },
+  "ai_failure": {
+    "situation": "Your Korean friend complains about her younger brother: 내 과자 먹고 끝까지 아니라고 잡아떼.",
+    "ai_mistake": "Translates 잡아떼 as 'grabs and tears off'.",
+    "why_it_fails": "잡아떼다 means insisting you didn't do something when you clearly did — denying it to someone's face. It's always said about someone else, with frustration or amusement."
+  },
+  "natural_solution": {
+    "rule": "잡아떼다 = flatly deny, play innocent. Often with 모른다고 or 아니라고. Its twin idiom is 시치미를 떼다.",
+    "alternatives": [
+      {
+        "phrase": "모른다고 딱 잡아떼더라.",
+        "romanization": "mo-reun-da-go ttak ja-ba-tte-deo-ra",
+        "context": "'He flatly said he didn't know anything'"
+      },
+      {
+        "phrase": "시치미 떼지 마.",
+        "romanization": "si-chi-mi tte-ji ma",
+        "context": "'Don't play dumb' — teasing or annoyed"
+      },
+      {
+        "phrase": "끝까지 부인했어요.",
+        "romanization": "kkeut-kka-ji bu-in-hae-sseo-yo",
+        "context": "Neutral, formal: 'He denied it to the end' — the word used in news"
+      }
+    ]
+  },
+  "nuance": "Both 잡아떼다 and 시치미를 떼다 use 떼다 ('take off'). 시치미 was the name tag tied to a hunting falcon; removing it hid whose bird it was. So 'taking off the tag' became pretending you have nothing to do with something. Kids, partners and politicians are the usual subjects.",
+  "tags": [
+    "double-verbs",
+    "idiom",
+    "conflict"
+  ]
+}

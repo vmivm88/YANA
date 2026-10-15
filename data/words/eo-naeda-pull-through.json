@@ -1,0 +1,44 @@
+{
+  "slug": "eo-naeda-pull-through",
+  "version": "0.5",
+  "korean": "-아/어 내다",
+  "romanization": "-a/eo nae-da",
+  "literal_meaning": "Do and put out",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "해냈어! | Korean -아/어 내다 for Getting Through Something Hard",
+    "meta_description": "AI translates 'I did it!' as 내가 했어! Koreans say 해냈어! Learn -아/어 내다: 이겨 내다, 버텨 내다 — common in K-pop lyrics and speeches."
+  },
+  "ai_failure": {
+    "situation": "You passed TOPIK level 4 after two tries and want to text your Korean teacher 'I did it!'",
+    "ai_mistake": "Writes 내가 했어! or 제가 했어요!, which sounds like 'I was the one who did it.'",
+    "why_it_fails": "했어 just states who did it. 내다 after a verb adds 'all the way through, despite difficulty'. 해냈어요 is the triumphant 'I did it!' Koreans actually say."
+  },
+  "natural_solution": {
+    "rule": "Verb + 아/어 내다 = pull through, achieve against the odds. Use it when effort and difficulty are the point.",
+    "alternatives": [
+      {
+        "phrase": "선생님, 저 해냈어요!",
+        "romanization": "seon-saeng-nim, jeo hae-nae-sseo-yo",
+        "context": "To a teacher: 'I did it!'"
+      },
+      {
+        "phrase": "힘든 시간을 잘 버텨 냈어요.",
+        "romanization": "him-deun si-ga-neul jal beo-tyeo nae-sseo-yo",
+        "context": "'You got through a hard time' — praise or comfort"
+      },
+      {
+        "phrase": "원인을 알아냈어요.",
+        "romanization": "wo-ni-neul a-ra-nae-sseo-yo",
+        "context": "'I found out the cause' — figured out after digging"
+      }
+    ]
+  },
+  "nuance": "내다 ('put out, produce') turns effort into a result. It's everywhere in encouragement: 이겨 낼 수 있어 ('You can overcome this'), 견뎌 내다 ('endure'). That's why it's a favorite in K-pop lyrics, award speeches and comfort messages. Without 내다, the same sentences sound flat.",
+  "tags": [
+    "double-verbs",
+    "grammar",
+    "encouragement",
+    "kpop"
+  ]
+}
