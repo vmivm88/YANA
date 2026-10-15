@@ -21,6 +21,11 @@ OG_DIR = ROOT / "public" / "og"
 # 표제어 자체가 '올바른 표현'인 항목은 취소선을 긋지 않습니다
 # (v0.4~ 단어 설명형 항목: 소리꾼, 이중동사, 밥 표현 등)
 NO_STRIKE = {
+    "sinmenu-gods-menu-pun",
+    "hwa-fire-anger-flower",
+    "jjeolda-slang-awesome",
+    "baepsae-proverb-silver-spoon",
+    "kpop-fandom-words-choeae-ipdeok",
     "calling-older-friends-unni-oppa-hyung-nuna",
     "answering-negative-questions-eung-ani",
     "badameokda-korean-double-verbs",

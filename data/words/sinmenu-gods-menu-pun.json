@@ -1,0 +1,44 @@
+{
+  "slug": "sinmenu-gods-menu-pun",
+  "version": "0.6",
+  "korean": "神메뉴",
+  "romanization": "sin-me-nyu",
+  "literal_meaning": "God menu",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "神메뉴 Meaning | The 신메뉴 Pun in Stray Kids' God's Menu",
+    "meta_description": "AI translates 神메뉴 as 'God's Menu' and stops there. It's a pun on 신메뉴, the everyday word for a new menu item. Learn both, plus 신상 and 갓생."
+  },
+  "ai_failure": {
+    "situation": "You see Stray Kids' 2020 song title 神메뉴 and ask an AI tool what it means.",
+    "ai_mistake": "Answers 'God's Menu' and explains nothing more.",
+    "why_it_fails": "The joke only works in Korean. 신메뉴 is what every café and restaurant calls a new item. The title swaps the character for 'new' (新) with the one for 'god' (神), which sounds exactly the same: a new dish that's also god-tier."
+  },
+  "natural_solution": {
+    "rule": "Read 神메뉴 as a pun: 신메뉴 ('new menu item') + 神 ('god'). Learn the everyday word first — you'll see it on café signs all over Korea.",
+    "alternatives": [
+      {
+        "phrase": "신메뉴 나왔어요!",
+        "romanization": "sin-me-nyu na-wa-sseo-yo",
+        "context": "'New item out now!' — a typical café or restaurant sign"
+      },
+      {
+        "phrase": "신상 나왔어?",
+        "romanization": "sin-sang na-wa-sseo",
+        "context": "'Is there anything new?' — 신상 is short for 신상품, a new product"
+      },
+      {
+        "phrase": "요즘 갓생 살고 있어요.",
+        "romanization": "yo-jeum gat-saeng sal-go i-sseo-yo",
+        "context": "Slang: 갓 (from English 'god') + 생 (life) = living a very disciplined, productive life"
+      }
+    ]
+  },
+  "nuance": "Korean has many words that sound the same but come from different Chinese characters. Writers play with this by putting the character in the title, so readers see the double meaning at once. AI usually translates just one of the two. When a K-pop title mixes a Chinese character into Korean, look for the everyday word it sounds like.",
+  "tags": [
+    "kpop",
+    "pun",
+    "food",
+    "slang"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "kpop-fandom-words-choeae-ipdeok",
+  "version": "0.6",
+  "korean": "최애",
+  "romanization": "choe-ae",
+  "literal_meaning": "Most loved",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "K-pop Fandom Words: 최애, 입덕, 덕질 | Not 'Your Prejudice'",
+    "meta_description": "AI translates 'Who's your bias?' as 당신의 편견은 누구입니까? Korean fans say 최애가 누구예요? A guide to 최애, 입덕, 탈덕, 덕질 and 본진."
+  },
+  "ai_failure": {
+    "situation": "You want to ask a Korean fan at a concert: 'Who's your bias?'",
+    "ai_mistake": "Translates it as 당신의 편견은 누구입니까?",
+    "why_it_fails": "'Bias' is English fandom slang; AI translates the dictionary meaning, 편견 ('prejudice'). Korean fans have their own words. 최애 means your favorite member — and 당신 makes it sound stranger still."
+  },
+  "natural_solution": {
+    "rule": "Use Korean fandom words, not translated English ones: 최애 (favorite), 입덕 (became a fan), 덕질 (fan activities).",
+    "alternatives": [
+      {
+        "phrase": "최애가 누구예요?",
+        "romanization": "choe-ae-ga nu-gu-ye-yo",
+        "context": "'Who's your favorite member?' — 차애 is your second favorite"
+      },
+      {
+        "phrase": "작년에 입덕했어요.",
+        "romanization": "jang-nyeo-ne ip-deo-kae-sseo-yo",
+        "context": "'I became a fan last year.' The opposite is 탈덕 (leaving the fandom)."
+      },
+      {
+        "phrase": "덕질이 제 삶의 낙이에요.",
+        "romanization": "deok-ji-ri je sal-me na-gi-e-yo",
+        "context": "'Being a fan is what keeps me going' — 덕질 covers buying albums, streaming, going to concerts"
+      },
+      {
+        "phrase": "본진은 따로 있어요.",
+        "romanization": "bon-ji-neun tta-ro i-sseo-yo",
+        "context": "'My main group is a different one' — 본진 is your home fandom"
+      }
+    ]
+  },
+  "nuance": "The 덕 in 입덕, 탈덕 and 덕질 comes from 오덕후, the Korean spelling of the Japanese 'otaku'. Fandom also borrows everyday words with special meanings: 막내 (the youngest member, also used for the youngest in a family or office), 컴백 (a new release, even with no break), 떼창 (the crowd singing along) and 응원법 (official fan chants). Fans use these words freely among themselves, but outside fandom they can sound like jargon.",
+  "tags": [
+    "kpop",
+    "fandom",
+    "slang",
+    "vocabulary"
+  ]
+}

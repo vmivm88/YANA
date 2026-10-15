@@ -1,0 +1,43 @@
+{
+  "slug": "jjeolda-slang-awesome",
+  "version": "0.6",
+  "korean": "쩔어",
+  "romanization": "jjeo-reo",
+  "literal_meaning": "(Slang) It's intense",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "What Does 쩔어 Mean? | Korean Slang from BTS' Dope",
+    "meta_description": "AI confuses 쩔다 with 절다 ('to limp' or 'to be soaked'). It's slang for 'awesome' or 'intense' — and it can be bad, too. When not to use it."
+  },
+  "ai_failure": {
+    "situation": "You post a dance cover and a Korean friend comments: 와 쩐다.",
+    "ai_mistake": "Fails to recognize the slang, or confuses it with 절다, which means 'to limp' or 'to be soaked'.",
+    "why_it_fails": "쩔다 is casual slang for something extreme. Your friend is saying 'Wow, that's amazing.' BTS's 2015 song 쩔어 (English title 'Dope') made the word known to fans worldwide."
+  },
+  "natural_solution": {
+    "rule": "쩔다 = extreme, usually 'awesome'. Use it only with friends. With seniors, say 정말 대단하세요 or 멋있어요.",
+    "alternatives": [
+      {
+        "phrase": "와, 쩐다!",
+        "romanization": "wa, jjeon-da",
+        "context": "Friends: 'Wow, that's insane (in a good way)!'"
+      },
+      {
+        "phrase": "오늘 더위 쩐다.",
+        "romanization": "o-neul deo-wi jjeon-da",
+        "context": "It can be bad too: 'The heat today is brutal'"
+      },
+      {
+        "phrase": "정말 대단하세요.",
+        "romanization": "jeong-mal dae-dan-ha-se-yo",
+        "context": "Polite version to a teacher, boss or elder: 'That's really impressive'"
+      }
+    ]
+  },
+  "nuance": "쩔다 only says something is extreme; context decides whether it's praise or complaint. It sits with other casual intensifiers like 대박 and 미쳤다 ('that's crazy'). All of them are fine with friends and in comments, and all of them sound careless to a boss or an elder.",
+  "tags": [
+    "kpop",
+    "slang",
+    "compliments"
+  ]
+}
