@@ -1,0 +1,43 @@
+{
+  "slug": "neomeogada-let-it-go-fooled",
+  "version": "0.5",
+  "korean": "넘어가다",
+  "romanization": "neo-meo-ga-da",
+  "literal_meaning": "Go over",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "넘어가다 Meaning | Let It Go, Get Fooled, or Move On in Korean",
+    "meta_description": "AI confuses 넘어가다 with 넘어지다 ('fall down'). It means cross over, let something slide, get fooled, or move on. A guide with examples."
+  },
+  "ai_failure": {
+    "situation": "You apologize to a Korean friend for forgetting her birthday. She laughs: 이번엔 그냥 넘어갈게.",
+    "ai_mistake": "Translates it as 'This time I'll just fall over' or 'I'll go over it', confusing it with 넘어지다.",
+    "why_it_fails": "넘어지다 is 'fall down'; 넘어가다 is 'go over'. Here it means 'I'll let it go this time.' The same verb also means being fooled (말에 넘어가다) and moving to the next topic."
+  },
+  "natural_solution": {
+    "rule": "넘어가다 = go over. Let it slide (그냥 넘어가다), be fooled (~에 넘어가다), or move on (다음으로 넘어가다).",
+    "alternatives": [
+      {
+        "phrase": "이번엔 그냥 넘어갈게.",
+        "romanization": "i-beon-en geu-nyang neo-meo-gal-ge",
+        "context": "'I'll let it slide this time' — forgiving, a bit teasing"
+      },
+      {
+        "phrase": "그 광고에 완전히 넘어갔어.",
+        "romanization": "geu gwang-go-e wan-jeon-hi neo-meo-ga-sseo",
+        "context": "'I totally fell for that ad'"
+      },
+      {
+        "phrase": "다음 안건으로 넘어가겠습니다.",
+        "romanization": "da-eum an-geo-neu-ro neo-meo-ga-get-seum-ni-da",
+        "context": "In a meeting or presentation: 'Let's move on to the next item'"
+      }
+    ]
+  },
+  "nuance": "Many double verbs with 가다 describe movement that turned into meaning. 넘어가다 also pairs with 넘기다 ('let something pass, hand over'): 그냥 넘기지 마세요 means 'Don't just let it go.' In a relationship, 그냥 넘어갈 수 없어 ('I can't just let this go') signals that someone is genuinely upset.",
+  "tags": [
+    "double-verbs",
+    "forgiveness",
+    "meetings"
+  ]
+}

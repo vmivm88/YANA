@@ -1,0 +1,44 @@
+{
+  "slug": "eodeomeokda-being-treated-scolded",
+  "version": "0.5",
+  "korean": "얻어먹다",
+  "romanization": "eo-deo-meok-da",
+  "literal_meaning": "Get and eat",
+  "category": "Food & Dining",
+  "seo": {
+    "meta_title": "What Does 얻어먹다 Mean? | Being Treated (or Scolded) in Korean",
+    "meta_description": "얻어먹다 means someone else paid for your meal — and 욕을 얻어먹다 means getting scolded. Why Koreans keep track, and what to say next time."
+  },
+  "ai_failure": {
+    "situation": "Your Korean coworker has paid for lunch three times. A friend teases: 너 맨날 얻어먹기만 하네.",
+    "ai_mistake": "Translates it as 'You always just get and eat', missing that it's a gentle hint about paying.",
+    "why_it_fails": "얻어먹다 means eating on someone else's money. Saying you 'only' 얻어먹다 is a nudge: in Korea, treating is a cycle, and it's your turn. AI also misses 욕을 얻어먹다, which means 'get scolded'."
+  },
+  "natural_solution": {
+    "rule": "얻어먹다 = someone else paid. After being treated, thank them and promise the next one. 욕을 얻어먹다 = get told off.",
+    "alternatives": [
+      {
+        "phrase": "잘 얻어먹었습니다. 다음엔 제가 살게요!",
+        "romanization": "jal eo-deo-meo-geot-seum-ni-da. da-eum-en je-ga sal-ge-yo",
+        "context": "After someone treats you: 'Thanks for the meal — next time is on me!'"
+      },
+      {
+        "phrase": "맨날 얻어먹어서 죄송해요.",
+        "romanization": "maen-nal eo-deo-meo-geo-seo joe-song-hae-yo",
+        "context": "'Sorry, you always end up paying' — then actually pay next time"
+      },
+      {
+        "phrase": "늦어서 부장님한테 욕 얻어먹었어.",
+        "romanization": "neu-jeo-seo bu-jang-nim-han-te yok eo-deo-meo-geo-sseo",
+        "context": "Casual: 'I got chewed out by my manager for being late'"
+      }
+    ]
+  },
+  "nuance": "Seniors usually pay for juniors in Korea, so being treated by your boss is normal. With friends and peers, though, people quietly take turns. 다음엔 제가 살게요 is not just politeness — following through matters. The pattern 'X을/를 얻어먹다' with something unpleasant (욕, 핀잔) is common and always means receiving criticism.",
+  "tags": [
+    "double-verbs",
+    "food",
+    "paying",
+    "culture"
+  ]
+}

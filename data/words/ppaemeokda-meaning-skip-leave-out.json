@@ -1,0 +1,43 @@
+{
+  "slug": "ppaemeokda-meaning-skip-leave-out",
+  "version": "0.5",
+  "korean": "빼먹다",
+  "romanization": "ppae-meok-da",
+  "literal_meaning": "Take out and eat",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "What Does 빼먹다 Mean? | Not 'Take Out and Eat'",
+    "meta_description": "AI glosses 빼먹다 as 'take out and eat'. It means leaving something out by mistake, or skipping class or work. What to say to your boss instead."
+  },
+  "ai_failure": {
+    "situation": "Your team leader checks your report and says: 여기 한 줄 빼먹었네요.",
+    "ai_mistake": "Glosses it as 'You took out and ate one line here.'",
+    "why_it_fails": "빼먹다 means leaving something out by mistake, or skipping something on purpose (수업을 빼먹다, 'cut class'). Nothing is eaten. Your leader is pointing out a missing line."
+  },
+  "natural_solution": {
+    "rule": "빼먹다 = miss or skip. It's casual. About your own mistake at work, 빠뜨렸습니다 or 누락했습니다 sounds more professional.",
+    "alternatives": [
+      {
+        "phrase": "죄송합니다, 제가 빠뜨렸습니다. 바로 수정하겠습니다.",
+        "romanization": "joe-song-ham-ni-da, je-ga ppa-tteu-ryeot-seum-ni-da. ba-ro su-jeong-ha-get-seum-ni-da",
+        "context": "To your boss: 'Sorry, I missed it. I'll fix it right away.'"
+      },
+      {
+        "phrase": "하나 빼먹었다!",
+        "romanization": "ha-na ppae-meo-geot-da",
+        "context": "Casual, to yourself or friends: 'I forgot one!'"
+      },
+      {
+        "phrase": "오늘 수업 빼먹었어.",
+        "romanization": "o-neul su-eop ppae-meo-geo-sseo",
+        "context": "'I skipped class today' — sounds like playing hooky, not an excused absence"
+      }
+    ]
+  },
+  "nuance": "빼먹다 comes from 빼다 ('take out') + 먹다, and 먹다 here adds a sense of carelessness rather than eating. The same 먹다 shows up in 잊어먹다 (a casual 'forget'). Because it sounds careless, don't use it to describe a deliberate absence to your boss: 회사를 빼먹었어요 sounds like you skipped work for fun. For a real absence, say 결근했어요 or 쉬었어요.",
+  "tags": [
+    "double-verbs",
+    "workplace",
+    "mistakes"
+  ]
+}

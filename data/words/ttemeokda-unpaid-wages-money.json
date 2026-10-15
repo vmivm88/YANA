@@ -1,0 +1,44 @@
+{
+  "slug": "ttemeokda-unpaid-wages-money",
+  "version": "0.5",
+  "korean": "떼먹다",
+  "romanization": "tte-meok-da",
+  "literal_meaning": "Tear off and eat",
+  "category": "Workplace & Hierarchy",
+  "seo": {
+    "meta_title": "What Does 떼먹다 Mean? | Unpaid Wages and Money in Korean",
+    "meta_description": "AI reads 떼먹다 as 'tear off and eat'. It means not paying money you owe — including wages. Learn 떼먹다, 월급이 밀렸어요 and 임금 체불."
+  },
+  "ai_failure": {
+    "situation": "A coworker at your factory warns you: 그 사장님 월급 떼먹는 걸로 유명해.",
+    "ai_mistake": "Translates it as 'That boss is famous for tearing off and eating salaries.'",
+    "why_it_fails": "떼먹다 means keeping money you owe someone — not paying back a loan, or not paying wages. Your coworker is warning you that this employer doesn't pay people."
+  },
+  "natural_solution": {
+    "rule": "떼먹다 = not pay back what you owe (casual, accusing). For your own situation, especially if you need help, use 월급이 밀렸어요 or the official term 임금 체불.",
+    "alternatives": [
+      {
+        "phrase": "친구가 빌려 간 돈을 떼먹었어요.",
+        "romanization": "chin-gu-ga bil-lyeo gan do-neul tte-meo-geo-sseo-yo",
+        "context": "'My friend never paid back the money they borrowed'"
+      },
+      {
+        "phrase": "월급이 두 달째 밀렸어요.",
+        "romanization": "wol-geu-bi du dal-jjae mil-lyeo-sseo-yo",
+        "context": "'My pay is two months overdue' — clear and neutral"
+      },
+      {
+        "phrase": "임금 체불 신고하고 싶어요.",
+        "romanization": "im-geum che-bul sin-go-ha-go si-peo-yo",
+        "context": "'I want to report unpaid wages' — the official phrase to use with the labor office"
+      }
+    ]
+  },
+  "nuance": "떼먹다 is strong and accusing. Use it about someone else, not in a negotiation with your employer. If you're owed wages in Korea, 임금 체불 is the word officials use. The Ministry of Employment and Labor's helpline 1350 takes these reports.",
+  "tags": [
+    "double-verbs",
+    "money",
+    "workplace",
+    "foreign-workers"
+  ]
+}

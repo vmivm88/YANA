@@ -1,0 +1,43 @@
+{
+  "slug": "deureojuda-grant-a-request",
+  "version": "0.5",
+  "korean": "들어주다",
+  "romanization": "deu-reo-ju-da",
+  "literal_meaning": "Listen for someone",
+  "category": "Emotion & Relationships",
+  "seo": {
+    "meta_title": "부탁 들어줄래? Meaning | Korean 들어주다 Is More Than 'Listen'",
+    "meta_description": "AI reads 부탁 들어줄래? as 'Will you listen to my request?' It means 'Will you do me a favor?' How 들어주다 means both 'grant' and 'listen'."
+  },
+  "ai_failure": {
+    "situation": "Your Korean friend texts: 부탁 하나만 들어줄래?",
+    "ai_mistake": "Translates it as 'Will you listen to one request?', so you reply 'Sure, go ahead, I'm listening.'",
+    "why_it_fails": "With 부탁 (favor) or 소원 (wish), 들어주다 means 'grant' or 'do'. Your friend is asking you to agree to the favor, often before saying what it is. 'I'm listening' sounds like you haven't said yes."
+  },
+  "natural_solution": {
+    "rule": "부탁·소원 + 들어주다 = grant, say yes. 얘기·말 + 들어주다 = listen with care.",
+    "alternatives": [
+      {
+        "phrase": "그래, 뭔데?",
+        "romanization": "geu-rae, mwon-de",
+        "context": "Friendly reply to 부탁 들어줄래?: 'Sure, what is it?'"
+      },
+      {
+        "phrase": "제 부탁 좀 들어주실 수 있으세요?",
+        "romanization": "je bu-tak jom deu-reo-ju-sil su i-sseu-se-yo",
+        "context": "Polite way to ask a senior for a favor"
+      },
+      {
+        "phrase": "얘기 들어줘서 고마워.",
+        "romanization": "yae-gi deu-reo-jwo-seo go-ma-wo",
+        "context": "'Thanks for listening' — after you've shared something hard"
+      }
+    ]
+  },
+  "nuance": "Korean often asks for agreement before revealing the favor: 부탁 하나만 들어줄래? is a soft way to make saying no awkward. If you're unsure, 뭔데? ('What is it?') is a natural, friendly way to hear it first. In the listening sense, 들어주다 implies patience and support — it's what a good friend does.",
+  "tags": [
+    "double-verbs",
+    "requests",
+    "friends"
+  ]
+}

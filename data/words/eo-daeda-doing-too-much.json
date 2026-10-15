@@ -1,0 +1,43 @@
+{
+  "slug": "eo-daeda-doing-too-much",
+  "version": "0.5",
+  "korean": "-아/어 대다",
+  "romanization": "-a/eo dae-da",
+  "literal_meaning": "Do and touch",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "짖어 대다, 웃어 대다 | Korean -아/어 대다 for Annoying Repetition",
+    "meta_description": "Word glosses read 짖어 대다 as 'bark and touch'. -아/어 대다 means doing something over and over, annoyingly. Why not to use it about your boss."
+  },
+  "ai_failure": {
+    "situation": "Your neighbor says: 옆집 개가 밤새 짖어 대서 한숨도 못 잤어요.",
+    "ai_mistake": "Glosses 짖어 대서 as 'barked and touched', or drops it and translates simply 'the dog barked'.",
+    "why_it_fails": "대다 after a verb means doing it over and over, too much — and the speaker is annoyed. The dog didn't just bark; it wouldn't stop barking all night."
+  },
+  "natural_solution": {
+    "rule": "Verb + 아/어 대다 = keeps doing it, annoyingly. It carries complaint, so don't use it about someone you should respect.",
+    "alternatives": [
+      {
+        "phrase": "애가 장난감 사 달라고 졸라 대요.",
+        "romanization": "ae-ga jang-nan-gam sa dal-la-go jol-la dae-yo",
+        "context": "'My kid keeps begging for a toy'"
+      },
+      {
+        "phrase": "옆자리 사람이 계속 웃어 대서 집중이 안 돼.",
+        "romanization": "yeop-ja-ri sa-ra-mi gye-sok u-seo dae-seo jip-jung-i an dwae",
+        "context": "'The person next to me keeps laughing — I can't focus'"
+      },
+      {
+        "phrase": "부장님이 계속 전화하셨어요.",
+        "romanization": "bu-jang-ni-mi gye-sok jeon-hwa-ha-syeo-sseo-yo",
+        "context": "About a senior: say 계속 ('kept') instead. 전화해 대셨어요 would sound like complaining about them."
+      }
+    ]
+  },
+  "nuance": "Compare 먹다 ('eat') with 먹어 대다 ('stuff yourself, eat nonstop') or 떠들다 ('chat') with 떠들어 대다 ('won't stop yapping'). The 대다 version always has an edge. It's natural for kids, pets, noisy neighbors and yourself in a joke (요즘 과자를 먹어 대요), but risky about elders and bosses.",
+  "tags": [
+    "double-verbs",
+    "grammar",
+    "complaints"
+  ]
+}
