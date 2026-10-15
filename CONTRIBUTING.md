@@ -18,6 +18,7 @@ Thanks for helping! This project collects Korean expressions that AI translators
    - `Texting & Online`
    - `Email & Formal Writing`
    - `K-pop & Fandom`
+   - `Double Verbs`
 4. Run the checker:
    ```bash
    npm run validate

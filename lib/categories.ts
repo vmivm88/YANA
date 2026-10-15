@@ -82,6 +82,16 @@ export const CATEGORIES: CategoryInfo[] = [
     intro:
       "K-pop lyrics borrow traditional words, slang and grammar that word-for-word translation flattens, and fan letters translated by AI often sound stiff or oddly intimate. These are the words fans ask about most, and how Korean fans actually write to their idols.",
   },
+  {
+    slug: "double-verbs",
+    name: "Double Verbs",
+    title: "Korean Double Verbs: 먹어 버리다, 봐주다, 빼먹다 Explained",
+    heading: "Korean double verbs: when two verbs make a new meaning",
+    description:
+      "Why AI reads 빼먹다 as 'take out and eat' and 봐주세요 as 'look at me'. Korean compound and helper verbs like -아/어 보다, 주다, 버리다 explained.",
+    intro:
+      "Korean often joins two verbs into one: 먹어 보다 (try eating), 해 주다 (do for someone), 가 버리다 (leave for good). Sometimes the second verb adds an attitude, and sometimes the pair grows a whole new meaning — 빼먹다 is 'skip', not 'take out and eat'. Word-by-word translation breaks on exactly these. Read the first verb as how, the second as what, and check for a figurative meaning.",
+  },
 ];
 
 export function getCategoryBySlug(slug: string) {

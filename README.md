@@ -41,7 +41,7 @@ data/words/             ← 표현 하나당 JSON 파일 하나
 
 1. `data/words/`에 기존 파일을 복사해 새 JSON을 만듭니다.
 2. **파일명과 `slug`가 반드시 같아야 합니다** (다르면 빌드가 에러로 멈춥니다).
-3. `category`는 `Workplace & Hierarchy` / `Daily Life` / `Emotion & Relationships` / `Food & Dining` / `Texting & Online` / `Email & Formal Writing` / `K-pop & Fandom` 중 하나.
+3. `category`는 `Workplace & Hierarchy` / `Daily Life` / `Emotion & Relationships` / `Food & Dining` / `Texting & Online` / `Email & Formal Writing` / `K-pop & Fandom` / `Double Verbs` 중 하나.
 4. `nuance`(상세 해설), `alternatives[].romanization`은 선택 항목입니다.
 5. `npm run validate`로 검사 (빌드 전에도 자동 실행됩니다)
 6. commit & push → 사이트와 sitemap에 자동 반영. 자세한 기준은 [CONTRIBUTING.md](CONTRIBUTING.md) 참고.
