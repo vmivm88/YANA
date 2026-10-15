@@ -1,0 +1,44 @@
+{
+  "slug": "bread-is-not-bap",
+  "version": "0.4",
+  "korean": "빵은 밥이 아니다",
+  "romanization": "ppang-eun ba-bi a-ni-da",
+  "literal_meaning": "Bread is not rice / not a meal",
+  "category": "Food & Dining",
+  "seo": {
+    "meta_title": "Why Bread Isn't a Meal in Korea | 밥 vs 빵 Explained",
+    "meta_description": "You say you had a sandwich for lunch and a Korean replies 'So you haven't eaten?' Why 밥 means a real meal, and what to say instead."
+  },
+  "ai_failure": {
+    "situation": "Your Korean partner's mom asks 밥 먹었니? You had a sandwich, so you say 네, 빵 먹었어요. She frowns: 빵이 무슨 밥이야, and starts cooking.",
+    "ai_mistake": "Translates 밥 as 'meal' and treats any food as an answer, so her reaction seems confusing or even rude.",
+    "why_it_fails": "밥 means both 'cooked rice' and 'a meal'. For many Koreans, especially older ones, a real meal means rice with soup and side dishes. Bread, ramen or snacks are something you 'got by on', not a meal — so she heard 'I haven't eaten properly'."
+  },
+  "natural_solution": {
+    "rule": "밥 = a proper meal, usually rice. If you had bread or noodles, say you 'got by' (때웠어요) — and expect to be fed.",
+    "alternatives": [
+      {
+        "phrase": "빵으로 대충 때웠어요.",
+        "romanization": "ppang-eu-ro dae-chung ttae-wo-sseo-yo",
+        "context": "'I just got by on some bread' — honest, and Koreans will understand you haven't had a real meal"
+      },
+      {
+        "phrase": "아직 밥은 못 먹었어요.",
+        "romanization": "a-jik ba-beun mot meo-geo-sseo-yo",
+        "context": "'I haven't had a proper meal yet'"
+      },
+      {
+        "phrase": "네, 잘 먹었어요.",
+        "romanization": "ne, jal meo-geo-sseo-yo",
+        "context": "Use only if you really had a full meal — otherwise elders may feel misled"
+      }
+    ]
+  },
+  "nuance": "There's a saying that Koreans run on 밥심, 'rice power'. Rice is so central that 밥 became the word for any meal, and asking 밥 먹었어? is a way of caring for someone. Not every Korean thinks bread doesn't count — younger people eat sandwiches for lunch all the time — but with parents, in-laws and older coworkers, assume bread, ramen and coffee are 간식 (snacks). It's also why a Korean host may keep offering food after you've 'eaten'.",
+  "tags": [
+    "food",
+    "culture",
+    "family",
+    "in-laws"
+  ]
+}

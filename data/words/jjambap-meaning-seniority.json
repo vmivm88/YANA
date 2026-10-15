@@ -1,0 +1,49 @@
+{
+  "slug": "jjambap-meaning-seniority",
+  "version": "0.4",
+  "korean": "짬밥",
+  "romanization": "jjam-bap",
+  "literal_meaning": "Army mess food",
+  "category": "Food & Dining",
+  "seo": {
+    "meta_title": "What Does 짬밥 Mean? | Korean Slang for Experience and Seniority",
+    "meta_description": "AI translates 짬밥 as 'leftover rice' or 'army food'. In conversation it means years of experience. When to use it, and when it's rude."
+  },
+  "ai_failure": {
+    "situation": "An older coworker fixes a problem in two minutes and grins: 짬밥은 못 속이지.",
+    "ai_mistake": "Translates it as 'You can't fool army food' or 'leftover rice doesn't lie'.",
+    "why_it_fails": "짬밥 is military slang for mess-hall food. Soldiers counted service by how many meals they'd eaten, so 짬밥 came to mean experience and seniority. The coworker is saying 'Experience shows.'"
+  },
+  "natural_solution": {
+    "rule": "짬밥 = years of experience (casual slang). Use it about yourself or among peers. With seniors, say 경력 or 연차 instead.",
+    "alternatives": [
+      {
+        "phrase": "짬밥은 못 속여요.",
+        "romanization": "jjam-ba-beun mot so-gyeo-yo",
+        "context": "'Experience shows' — said when a veteran makes something look easy"
+      },
+      {
+        "phrase": "제가 이 일 짬밥이 좀 돼요.",
+        "romanization": "je-ga i il jjam-ba-bi jom dwae-yo",
+        "context": "Casual, a little boastful: 'I've been doing this a while'"
+      },
+      {
+        "phrase": "경력이 오래되셨네요.",
+        "romanization": "gyeong-ryeo-gi o-rae-doe-syeon-ne-yo",
+        "context": "Polite way to say the same thing to a senior"
+      },
+      {
+        "phrase": "연차가 어떻게 되세요?",
+        "romanization": "yeon-cha-ga eo-tteo-ke doe-se-yo",
+        "context": "Polite way to ask how many years someone has been at the company"
+      }
+    ]
+  },
+  "nuance": "Because most Korean men do military service, army words leak into office talk: 짬밥, 군기 (discipline), 고참 (old hand). They sound rough and a bit macho. Telling your manager '팀장님 짬밥이 대단하시네요' sounds like you're ranking them like a fellow soldier, not showing respect. Hear it, understand it, and use it about yourself or with friends.",
+  "tags": [
+    "slang",
+    "food",
+    "workplace",
+    "military"
+  ]
+}

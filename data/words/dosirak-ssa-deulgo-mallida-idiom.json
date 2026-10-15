@@ -1,0 +1,44 @@
+{
+  "slug": "dosirak-ssa-deulgo-mallida-idiom",
+  "version": "0.4",
+  "korean": "도시락 싸 들고 말리다",
+  "romanization": "do-si-rak ssa deul-go mal-li-da",
+  "literal_meaning": "Pack a lunchbox and stop (or dry) someone",
+  "category": "Food & Dining",
+  "seo": {
+    "meta_title": "도시락 싸 들고 말리다 | Not 'Pack a Lunch and Dry It'",
+    "meta_description": "말리다 means both 'dry' and 'stop', so AI translates this idiom as 'pack a lunchbox and dry it'. It means 'I'd do anything to stop you.'"
+  },
+  "ai_failure": {
+    "situation": "You tell a Korean friend you're thinking of quitting your job to invest everything in crypto. She says: 도시락 싸 들고 말리고 싶다.",
+    "ai_mistake": "Translates it as 'I want to pack a lunchbox and dry it.'",
+    "why_it_fails": "말리다 has two meanings: 'to dry' and 'to stop someone'. Here it's 'stop'. The picture is someone so determined to stop you that they'd pack a lunch and follow you around all day to talk you out of it."
+  },
+  "natural_solution": {
+    "rule": "도시락 싸 들고 (다니며) 말리다 = 'I'd do anything to stop you.' It's strong but humorous advice against something. Casual — with seniors, say it plainly.",
+    "alternatives": [
+      {
+        "phrase": "그건 도시락 싸 들고 말리고 싶어.",
+        "romanization": "geu-geon do-si-rak ssa deul-go mal-li-go si-peo",
+        "context": "Friends: 'I'd do anything to stop you doing that'"
+      },
+      {
+        "phrase": "저라면 안 할 것 같아요.",
+        "romanization": "jeo-ra-myeon an hal geot ga-ta-yo",
+        "context": "Gentle, polite version: 'If it were me, I wouldn't'"
+      },
+      {
+        "phrase": "다시 한번 생각해 보시는 게 어떨까요?",
+        "romanization": "da-si han-beon saeng-ga-kae bo-si-neun ge eo-tteol-kka-yo",
+        "context": "To a boss or elder: 'Might it be worth reconsidering?'"
+      }
+    ]
+  },
+  "nuance": "Korean food idioms often describe effort through meals: packing a 도시락 means you're committing a whole day. You'll also hear 도시락 싸 들고 다니면서 말린다 and the similar 쌍수 들고 반대하다 ('oppose with both hands raised'). Watch for 말리다 in general: 빨래를 말리다 is drying laundry, 싸움을 말리다 is breaking up a fight.",
+  "tags": [
+    "idiom",
+    "food",
+    "homonym",
+    "advice"
+  ]
+}

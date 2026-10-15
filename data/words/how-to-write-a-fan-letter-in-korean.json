@@ -1,0 +1,50 @@
+{
+  "slug": "how-to-write-a-fan-letter-in-korean",
+  "version": "0.4",
+  "korean": "팬레터",
+  "romanization": "paen-re-teo",
+  "literal_meaning": "Fan letter",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "How to Write a Fan Letter in Korean | What AI Gets Wrong",
+    "meta_description": "AI turns 'Dear ___, I love you' into 친애하는… 나는 당신을 사랑합니다. Here's how Korean fans actually write to their idols."
+  },
+  "ai_failure": {
+    "situation": "You're writing a fan letter, or a message on Weverse or Bubble, to your favorite idol. You type: 'Dear ___, I love you so much. Your music saved me.'",
+    "ai_mistake": "Produces 친애하는 ___에게, 나는 당신을 정말 사랑합니다. 당신의 음악이 나를 구했습니다.",
+    "why_it_fails": "친애하는 sounds like an old business letter. 당신 is what a spouse or an angry stranger says, not a fan. And mixing plain 나 with stiff -습니다 reads like a translated document. Korean letters drop 'I' and 'you' and sound warm through endings, not pronouns."
+  },
+  "natural_solution": {
+    "rule": "Open with the name + 오빠/언니 (or 님), write in the friendly polite -요 style, drop 나 and 당신, and close by promising to keep supporting them.",
+    "alternatives": [
+      {
+        "phrase": "___ 오빠에게 / ___ 언니에게",
+        "romanization": "o-ppa-e-ge / eon-ni-e-ge",
+        "context": "Opening for an idol older than you (female fans). Male fans use 형 or 누나."
+      },
+      {
+        "phrase": "___ 님께",
+        "romanization": "nim-kke",
+        "context": "Respectful opening if the idol is younger than you, or you prefer some distance"
+      },
+      {
+        "phrase": "노래 덕분에 힘든 시간을 버틸 수 있었어요.",
+        "romanization": "no-rae deok-bu-ne him-deun si-ga-neul beo-til su i-sseo-sseo-yo",
+        "context": "'Your songs got me through a hard time' — the natural version of 'your music saved me'"
+      },
+      {
+        "phrase": "건강 꼭 챙기세요. 항상 응원할게요!",
+        "romanization": "geon-gang kkok chaeng-gi-se-yo. hang-sang eung-won-hal-ge-yo",
+        "context": "Classic closing: take care of your health, I'll always support you"
+      }
+    ]
+  },
+  "nuance": "Korean fan letters have a recognizable shape: greeting with the name and a title, a short self-introduction ('저는 브라질에 사는 팬이에요'), a story of what their music meant to you, wishes for their health, and 응원할게요 at the end. Fans don't say 사랑합니다 in the stiff form; 사랑해요 is warmer. 오빠 and 언니 feel affectionate, which is exactly why many fans use them, but they assume the idol is older than you. If they're younger, the name alone or name + 님 is safer. Avoid 당신 entirely — in a love letter to a real partner it's fine, but to an idol it sounds strangely intimate or cold.",
+  "tags": [
+    "kpop",
+    "fan-letter",
+    "weverse",
+    "honorifics",
+    "writing"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "eo-beorida-not-throw-away",
+  "version": "0.4",
+  "korean": "-아/어 버리다",
+  "romanization": "-a/eo beo-ri-da",
+  "literal_meaning": "Do something and throw it away",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "먹어 버렸어 Doesn't Mean 'Throw Away' | Korean -아/어 버리다",
+    "meta_description": "Word-by-word tools read 버리다 as 'throw away'. After a verb it means 'completely, for good' — with regret, relief or coldness. Here's how to read it."
+  },
+  "ai_failure": {
+    "situation": "You see 다 먹어 버렸어 in a webtoon, or 가 버렸어 in a K-pop lyric, and break it down with a dictionary or AI gloss.",
+    "ai_mistake": "Glosses 버리다 as 'throw away', so 먹어 버렸어 becomes 'ate it and threw it away' and 가 버렸어 'went and threw away'.",
+    "why_it_fails": "After another verb, 버리다 stops meaning 'throw away'. It says the action is finished completely and can't be undone — and it adds a feeling: regret ('oops'), relief ('finally'), or coldness ('just gone')."
+  },
+  "natural_solution": {
+    "rule": "Verb + 아/어 버리다 = done completely, for good, with feeling. Read the feeling from the context.",
+    "alternatives": [
+      {
+        "phrase": "케이크를 다 먹어 버렸어.",
+        "romanization": "ke-i-keu-reul da meo-geo beo-ryeo-sseo",
+        "context": "Regret or cheekiness: 'Oops, I ate the whole cake'"
+      },
+      {
+        "phrase": "숙제 다 끝내 버렸어!",
+        "romanization": "suk-je da kkeun-nae beo-ryeo-sseo",
+        "context": "Relief or pride: 'I just got it all done!'"
+      },
+      {
+        "phrase": "그 사람이 그냥 가 버렸어.",
+        "romanization": "geu sa-ra-mi geu-nyang ga beo-ryeo-sseo",
+        "context": "Hurt: 'He just left (and isn't coming back)' — very common in ballads and lyrics"
+      },
+      {
+        "phrase": "그냥 줘 버려.",
+        "romanization": "geu-nyang jwo beo-ryeo",
+        "context": "Careful: 'Just give it away (get rid of it)'. Said about a gift, it sounds like you didn't value it."
+      }
+    ]
+  },
+  "nuance": "Korean often stacks a second verb onto the first to add an attitude instead of a separate action. 버리다 is the most emotional of these helpers. Some combinations have fused into one word: 잊어버리다 ('forget') and 잃어버리다 ('lose') no longer carry much feeling. But in speech, 해 버렸어 still tells the listener how you feel about what happened. A close cousin is -고 말다 (가고 말았다, 'ended up going'), which sounds more written and literary. In everyday speech, 해 버렸어 is the one you'll hear.",
+  "tags": [
+    "grammar",
+    "double-verbs",
+    "kpop",
+    "lyrics"
+  ]
+}

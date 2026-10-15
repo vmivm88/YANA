@@ -1,0 +1,49 @@
+{
+  "slug": "badameokda-korean-double-verbs",
+  "version": "0.4",
+  "korean": "받아먹다",
+  "romanization": "ba-da-meok-da",
+  "literal_meaning": "Receive and eat",
+  "category": "Daily Life",
+  "seo": {
+    "meta_title": "받아먹다, 사 먹다, 잡아먹다 | Korean Double Verbs AI Misreads",
+    "meta_description": "AI reads 받아먹다 as 'receive and eat'. In Korean double verbs, the first verb says how the second happens — and many have a figurative meaning."
+  },
+  "ai_failure": {
+    "situation": "You read 아기가 이유식을 잘 받아먹어요 on a parenting blog, then 뇌물을 받아먹었다 in a news headline.",
+    "ai_mistake": "Translates both literally as 'receive and eat', so the news reads as 'he received and ate a bribe'.",
+    "why_it_fails": "In a double verb, the first verb sets up how the second happens. 받아먹다 is eating what someone feeds you — a baby taking a spoon, a dog catching a treat. Figuratively, it means pocketing money or favors, and it's negative."
+  },
+  "natural_solution": {
+    "rule": "Read the first verb as 'how' and the second as 'what'. Then check whether the pair has a figurative meaning in news, dramas or lyrics.",
+    "alternatives": [
+      {
+        "phrase": "아기가 잘 받아먹어요.",
+        "romanization": "a-gi-ga jal ba-da-meo-geo-yo",
+        "context": "'The baby eats well when fed' — the literal, everyday use"
+      },
+      {
+        "phrase": "점심은 사 먹었어요. / 해 먹었어요.",
+        "romanization": "sa meo-geo-sseo-yo / hae meo-geo-sseo-yo",
+        "context": "'I bought my lunch' (ate out) vs 'I cooked it myself'. English just says 'I had lunch'."
+      },
+      {
+        "phrase": "잡아먹다",
+        "romanization": "ja-ba-meok-da",
+        "context": "Literally 'catch and eat' (a predator). Figuratively 'eat someone alive': 잡아먹을 듯이 쳐다봤어 — 'glared like he'd eat me'."
+      },
+      {
+        "phrase": "가져다드릴게요.",
+        "romanization": "ga-jyeo-da-deu-ril-ge-yo",
+        "context": "'I'll bring it to you' (polite). Three verbs — take, carry, give — in one."
+      }
+    ]
+  },
+  "nuance": "English uses one verb plus a preposition ('bring over', 'eat out'). Korean chains verbs instead: 들고 가다 (carry and go), 찾아오다 (look for and come = visit), 뛰어가다 (run and go). Most are transparent once you read them as 'how + what'. The tricky ones are those that grew a second meaning: 받아먹다 (take bribes), 잡아먹다 (bully, or 'eat up' time and money: 시간을 잡아먹다), 집어먹다 (help yourself, grab a bite). When a double verb shows up in a headline or an argument, assume the figurative meaning first.",
+  "tags": [
+    "grammar",
+    "double-verbs",
+    "food",
+    "vocabulary"
+  ]
+}

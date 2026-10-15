@@ -72,6 +72,16 @@ export const CATEGORIES: CategoryInfo[] = [
     intro:
       "Korean emails follow a simple, fixed shape: greet, say who you are, get to the point, close politely. English email idioms translated by AI break that shape. Here is how Koreans actually write.",
   },
+  {
+    slug: "kpop-fandom",
+    name: "K-pop & Fandom",
+    title: "K-pop Korean: Lyrics Words and Fan Letters AI Gets Wrong",
+    heading: "Korean for K-pop fans: lyrics, fan letters and fan talk",
+    description:
+      "What 소리꾼 really means, how to write a fan letter in Korean, and the K-pop lyric words AI translators misread — with what Korean fans actually say.",
+    intro:
+      "K-pop lyrics borrow traditional words, slang and grammar that word-for-word translation flattens, and fan letters translated by AI often sound stiff or oddly intimate. These are the words fans ask about most, and how Korean fans actually write to their idols.",
+  },
 ];
 
 export function getCategoryBySlug(slug: string) {
