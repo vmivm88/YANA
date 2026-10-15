@@ -1,0 +1,44 @@
+{
+  "slug": "hwa-fire-anger-flower",
+  "version": "0.6",
+  "korean": "화",
+  "romanization": "hwa",
+  "literal_meaning": "Fire / anger / flower",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "What Does 화 Mean? | Fire, Anger and Flower in One Korean Syllable",
+    "meta_description": "화 can mean fire, anger or flower. AI picks one meaning. Learn how (G)I-DLE's 화(火花) plays on it, and how to use 화나다 and 화 풀어 in real life."
+  },
+  "ai_failure": {
+    "situation": "You see (G)I-DLE's 2021 song title 화(火花) and ask an AI tool to translate it.",
+    "ai_mistake": "Gives a single meaning, such as 'Fire' or 'Anger', without explaining the characters in brackets.",
+    "why_it_fails": "화 is one syllable with several meanings from different Chinese characters: 火 (fire) and 花 (flower). Anger is also 화, written with 火 — in Korean, being angry is having fire inside. The title layers these on purpose, and 火花 together means 'spark'."
+  },
+  "natural_solution": {
+    "rule": "In everyday Korean, 화 alone almost always means anger. Learn it in set phrases rather than on its own.",
+    "alternatives": [
+      {
+        "phrase": "화났어요?",
+        "romanization": "hwa-na-sseo-yo",
+        "context": "'Are you angry?' — 화 + 나다 (to arise)"
+      },
+      {
+        "phrase": "화 풀어요.",
+        "romanization": "hwa pu-reo-yo",
+        "context": "'Please don't be mad anymore' — literally 'untie your anger', common between partners and friends"
+      },
+      {
+        "phrase": "화요일",
+        "romanization": "hwa-yo-il",
+        "context": "Tuesday — the 'fire day' of the week"
+      }
+    ]
+  },
+  "nuance": "Korean week days follow the elements: 월 (moon), 화 (fire), 수 (water), 목 (wood), 금 (metal), 토 (earth), 일 (sun). The fire in 화요일 is the same 火 as in anger. When a single Korean syllable appears in a title with Chinese characters next to it, the characters tell you which meanings the artist wants you to hear.",
+  "tags": [
+    "kpop",
+    "homonym",
+    "hanja",
+    "emotion"
+  ]
+}

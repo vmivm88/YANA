@@ -1,0 +1,44 @@
+{
+  "slug": "baepsae-proverb-silver-spoon",
+  "version": "0.6",
+  "korean": "뱁새",
+  "romanization": "baep-sae",
+  "literal_meaning": "Crow-tit (a tiny bird)",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "뱁새 Meaning | The Korean Proverb Behind BTS' Silver Spoon",
+    "meta_description": "AI translates 뱁새 as 'crow-tit' and misses the proverb: a tiny bird that chases a stork tears its legs. What it means, and 금수저 vs 흙수저."
+  },
+  "ai_failure": {
+    "situation": "You look up BTS's 2015 song 뱁새 (English title 'Silver Spoon') and ask AI what the word means.",
+    "ai_mistake": "Answers 'crow-tit, a small bird' and stops.",
+    "why_it_fails": "뱁새 points to a well-known proverb: 뱁새가 황새 따라가다 가랑이 찢어진다 — 'a crow-tit that tries to keep up with a stork splits its legs.' It means overreaching beyond your means. Without the proverb, the title makes no sense."
+  },
+  "natural_solution": {
+    "rule": "When a Korean animal or object shows up as a title, check whether it's the start of a proverb.",
+    "alternatives": [
+      {
+        "phrase": "뱁새가 황새 따라가다 가랑이 찢어져.",
+        "romanization": "baep-sae-ga hwang-sae tta-ra-ga-da ga-rang-i jji-jeo-jyeo",
+        "context": "Warning a friend not to copy someone who has far more money or ability"
+      },
+      {
+        "phrase": "금수저 / 흙수저",
+        "romanization": "geum-su-jeo / heuk-su-jeo",
+        "context": "'Gold spoon' (born rich) / 'dirt spoon' (born poor) — the class slang the English title 'Silver Spoon' points to"
+      },
+      {
+        "phrase": "분수에 맞게 살아야지.",
+        "romanization": "bun-su-e mat-ge sa-ra-ya-ji",
+        "context": "'You should live within your means' — the plain advice behind the proverb"
+      }
+    ]
+  },
+  "nuance": "The proverb is usually used to tell people to know their place, which can sound harsh. The song is often read as turning it around: questioning why young people are told to try harder when the starting line isn't equal. That's why its English title is 'Silver Spoon'. Korean spoon slang (금수저, 은수저, 흙수저) ranks people by family wealth, and it comes up often in conversations about jobs and money.",
+  "tags": [
+    "kpop",
+    "proverb",
+    "society",
+    "slang"
+  ]
+}
