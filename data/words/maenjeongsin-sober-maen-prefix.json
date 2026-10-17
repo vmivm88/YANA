@@ -1,0 +1,51 @@
+{
+  "slug": "maenjeongsin-sober-maen-prefix",
+  "version": "0.7",
+  "korean": "맨정신",
+  "romanization": "maen-jeong-sin",
+  "literal_meaning": "Bare mind",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "맨정신 Meaning | The Korean 맨- Prefix in BIGBANG's Sober",
+    "meta_description": "AI confuses the prefix 맨- (bare, nothing added) with 맨 (the very) and 맨날 (always). Learn 맨정신, 맨발, 맨손 and 맨밥."
+  },
+  "ai_failure": {
+    "situation": "You see 맨정신, 맨 앞 and 맨날 in the same chat and ask AI what 맨 means.",
+    "ai_mistake": "Gives one meaning for all three, or translates 맨정신 as 'man's mind'.",
+    "why_it_fails": "These are different 맨s. The prefix 맨- means 'bare, with nothing added': 맨정신 is a sober mind, with no alcohol. 맨 앞 uses a separate word meaning 'the very' (the very front), and 맨날 is spoken Korean for 'every day, always'. BIGBANG's 2015 song 맨정신 (English title 'Sober') uses the prefix form."
+  },
+  "natural_solution": {
+    "rule": "맨 attached to a noun (맨발, 맨손) = bare. 맨 before a position (맨 앞, 맨 위) = the very. 맨날 = always.",
+    "alternatives": [
+      {
+        "phrase": "맨정신으로는 못 하겠어요.",
+        "romanization": "maen-jeong-si-neu-ro-neun mot ha-ge-sseo-yo",
+        "context": "'I can't do it sober' — e.g. karaoke"
+      },
+      {
+        "phrase": "맨발 / 맨손 / 맨밥",
+        "romanization": "maen-bal / maen-son / maen-bap",
+        "context": "Bare feet / bare hands / plain rice with nothing on it"
+      },
+      {
+        "phrase": "맨 앞에 앉을게요.",
+        "romanization": "maen a-pe an-jeul-ge-yo",
+        "context": "'I'll sit at the very front' — a different 맨"
+      }
+    ]
+  },
+  "nuance": "맨얼굴 (a face without makeup) is common in beauty talk, though 생얼 is the more casual slang. In spelling, prefix 맨- is attached to the noun (맨발) while 맨 meaning 'the very' is written with a space (맨 앞).",
+  "tags": [
+    "kpop",
+    "song",
+    "prefix",
+    "vocabulary",
+    "grammar"
+  ],
+  "source": {
+    "artist": "BIGBANG",
+    "song": "맨정신",
+    "english_title": "Sober",
+    "year": 2015
+  }
+}

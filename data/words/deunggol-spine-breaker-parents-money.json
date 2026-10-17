@@ -1,0 +1,51 @@
+{
+  "slug": "deunggol-spine-breaker-parents-money",
+  "version": "0.7",
+  "korean": "등골",
+  "romanization": "deung-gol",
+  "literal_meaning": "Spine / the groove of the back",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "등골 Meaning | Korean Money Idioms Behind BTS' Spine Breaker",
+    "meta_description": "AI translates 등골 as 'spine' and stops. In Korean it's about money: 등골이 휘다, 등골 빼먹다, and the 2010s slang 등골브레이커."
+  },
+  "ai_failure": {
+    "situation": "You look up BTS's 2014 song 등골브레이커 (English title 'Spine Breaker') and ask AI what 등골 means.",
+    "ai_mistake": "Answers 'spine' or 'backbone' and stops there.",
+    "why_it_fails": "In everyday Korean, 등골 shows up mostly in idioms about money and burden. 등골이 휘다 means to be crushed by costs; 등골을 빼먹다 means to drain someone, usually parents, of money. In the early 2010s, 등골브레이커 was slang for expensive items teenagers pressed their parents to buy, such as pricey padded jackets."
+  },
+  "natural_solution": {
+    "rule": "When 등골 comes with money, read it as 'burden on the person paying'. When it comes with fear (오싹하다), it's a chill down the spine.",
+    "alternatives": [
+      {
+        "phrase": "학원비 때문에 등골이 휘어요.",
+        "romanization": "ha-gwon-bi ttae-mu-ne deung-go-ri hwi-eo-yo",
+        "context": "'Tutoring fees are breaking our backs' — a parent talking about costs"
+      },
+      {
+        "phrase": "부모님 등골 빼먹지 마.",
+        "romanization": "bu-mo-nim deung-gol ppae-meok-ji ma",
+        "context": "'Don't bleed your parents dry' — friends or family scolding someone"
+      },
+      {
+        "phrase": "등골이 오싹했어요.",
+        "romanization": "deung-go-ri o-ssak-hae-sseo-yo",
+        "context": "'A chill ran down my spine' — the one use that's about fear, not money"
+      }
+    ]
+  },
+  "nuance": "빼먹다 here is the double verb 빼다 (take out) + 먹다 (eat): taking something for yourself at someone else's cost. Spending on children's education is a big topic in Korea, so 등골 idioms come up often in news and family talk.",
+  "tags": [
+    "kpop",
+    "song",
+    "idiom",
+    "money",
+    "family"
+  ],
+  "source": {
+    "artist": "BTS",
+    "song": "등골브레이커",
+    "english_title": "Spine Breaker",
+    "year": 2014
+  }
+}

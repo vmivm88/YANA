@@ -1,0 +1,50 @@
+{
+  "slug": "buljangnan-playing-with-fire-fling",
+  "version": "0.7",
+  "korean": "불장난",
+  "romanization": "bul-jang-nan",
+  "literal_meaning": "Playing with fire",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "What Does 불장난 Mean? | Korean for a Reckless Fling, from BLACKPINK",
+    "meta_description": "불장난 is literally playing with fire, but about love it means a reckless, short-lived affair — and it sounds judgmental. When Koreans use it."
+  },
+  "ai_failure": {
+    "situation": "A friend describes someone's relationship as 그냥 불장난이야, and you ask AI what it means.",
+    "ai_mistake": "Translates it as 'It's just playing with fire', and you take it as 'It's risky'.",
+    "why_it_fails": "About relationships, 불장난 means a reckless fling that won't last, not just a risk. It carries a judgment: the speaker thinks it isn't serious love. BLACKPINK's 2016 song title 불장난 (English title 'Playing with Fire') uses the word."
+  },
+  "natural_solution": {
+    "rule": "Literal for children and matches; about love, 불장난 = a reckless, short-lived affair.",
+    "alternatives": [
+      {
+        "phrase": "그건 사랑이 아니라 불장난이야.",
+        "romanization": "geu-geon sa-rang-i a-ni-ra bul-jang-na-ni-ya",
+        "context": "'That's not love, it's just a fling' — judging someone's relationship"
+      },
+      {
+        "phrase": "애들 불장난 못 하게 해.",
+        "romanization": "ae-deul bul-jang-nan mot ha-ge hae",
+        "context": "'Don't let the kids play with fire' — the literal meaning"
+      },
+      {
+        "phrase": "불장난하면 밤에 오줌 싼다.",
+        "romanization": "bul-jang-nan-ha-myeon ba-me o-jum ssan-da",
+        "context": "An old saying adults tell children: 'Play with fire and you'll wet the bed tonight'"
+      }
+    ]
+  },
+  "nuance": "Because 불장난 dismisses a relationship, it can hurt if used about a friend's partner. To describe your own relationship, Koreans would rarely call it 불장난 unless joking or looking back with regret.",
+  "tags": [
+    "kpop",
+    "song",
+    "idiom",
+    "relationships"
+  ],
+  "source": {
+    "artist": "BLACKPINK",
+    "song": "불장난",
+    "english_title": "Playing with Fire",
+    "year": 2016
+  }
+}

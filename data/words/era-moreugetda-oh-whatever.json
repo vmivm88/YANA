@@ -1,0 +1,51 @@
+{
+  "slug": "era-moreugetda-oh-whatever",
+  "version": "0.7",
+  "korean": "에라 모르겠다",
+  "romanization": "e-ra mo-reu-get-da",
+  "literal_meaning": "Ugh, I don't know",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "에라 모르겠다 Meaning | Not 'I Don't Know' — From BIGBANG",
+    "meta_description": "AI translates 에라 모르겠다 as 'I don't know'. It means giving up and doing it anyway: 'Oh, whatever!' When to say it and when not to."
+  },
+  "ai_failure": {
+    "situation": "A friend stares at a menu for ages, then says 에라 모르겠다, 다 시키자! You ask AI what 에라 모르겠다 means.",
+    "ai_mistake": "Translates it as 'Well, I don't know', as if your friend is unsure of something.",
+    "why_it_fails": "It isn't about knowledge. 에라 모르겠다 means 'I'm done worrying — whatever happens, happens', usually right before an impulsive decision. Closer to 'Oh, whatever!' or 'Screw it'. BIGBANG's 2016 song 에라 모르겠다 (English title 'FXXK IT') used the phrase."
+  },
+  "natural_solution": {
+    "rule": "에라 모르겠다 = giving up on thinking, then acting. Say it to yourself or friends, never to a boss.",
+    "alternatives": [
+      {
+        "phrase": "에라 모르겠다, 그냥 다 시키자!",
+        "romanization": "e-ra mo-reu-get-da, geu-nyang da si-ki-ja",
+        "context": "'Oh whatever, let's just order everything!'"
+      },
+      {
+        "phrase": "에라 모르겠다, 일단 자자.",
+        "romanization": "e-ra mo-reu-get-da, il-dan ja-ja",
+        "context": "'Forget it, I'm going to sleep' — giving up on homework or work for the night"
+      },
+      {
+        "phrase": "잘 모르겠습니다.",
+        "romanization": "jal mo-reu-get-seum-ni-da",
+        "context": "Polite, at work: 'I'm not sure' — the actual 'I don't know'"
+      }
+    ]
+  },
+  "nuance": "에라 is an exclamation of frustration that only appears in phrases like this one. Said to a manager, 에라 모르겠다 would sound like you've stopped caring about the task.",
+  "tags": [
+    "kpop",
+    "song",
+    "slang",
+    "casual",
+    "exclamation"
+  ],
+  "source": {
+    "artist": "BIGBANG",
+    "song": "에라 모르겠다",
+    "english_title": "FXXK IT",
+    "year": 2016
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "ppittakhada-crooked-defiant",
+  "version": "0.7",
+  "korean": "삐딱하다",
+  "romanization": "ppi-ttak-ha-da",
+  "literal_meaning": "Slanted / tilted",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "삐딱하다 Meaning | Tilted or Defiant? From G-Dragon's Crooked",
+    "meta_description": "AI translates 삐딱하다 as 'tilted', so 왜 이렇게 삐딱해? sounds like a question about posture. About people, it means a defiant, cynical attitude."
+  },
+  "ai_failure": {
+    "situation": "Your Korean partner snaps 왜 이렇게 삐딱해? during an argument, and you ask AI what it means.",
+    "ai_mistake": "Translates it as 'Why are you so tilted?' and suggests it's about how you're sitting.",
+    "why_it_fails": "삐딱하다 is physically slanted, but about people it means having a twisted, defiant or cynical attitude — taking everything the wrong way on purpose. G-Dragon's 2013 song 삐딱하게 (English title 'Crooked') uses the word."
+  },
+  "natural_solution": {
+    "rule": "About objects: tilted. About a person or how they talk: defiant, cynical, contrary.",
+    "alternatives": [
+      {
+        "phrase": "말을 왜 그렇게 삐딱하게 해?",
+        "romanization": "ma-reul wae geu-reo-ke ppi-ttak-ha-ge hae",
+        "context": "'Why are you talking so snarkily?' — complaint in an argument"
+      },
+      {
+        "phrase": "모자를 삐딱하게 썼어요.",
+        "romanization": "mo-ja-reul ppi-ttak-ha-ge sseo-sseo-yo",
+        "context": "'I wore my hat tilted' — the physical meaning"
+      },
+      {
+        "phrase": "너무 삐딱하게 보지 마.",
+        "romanization": "neo-mu ppi-ttak-ha-ge bo-ji ma",
+        "context": "'Don't look at it so cynically'"
+      }
+    ]
+  },
+  "nuance": "Teachers and parents often use 삐딱하다 about teenagers. Calling an adult 삐딱하다 is a criticism of their attitude, so avoid it with seniors. A gentler way to raise it is 오늘 기분 안 좋아요? (Are you in a bad mood today?).",
+  "tags": [
+    "kpop",
+    "song",
+    "attitude",
+    "relationships",
+    "adjective"
+  ],
+  "source": {
+    "artist": "G-Dragon",
+    "song": "삐딱하게",
+    "english_title": "Crooked",
+    "year": 2013
+  }
+}

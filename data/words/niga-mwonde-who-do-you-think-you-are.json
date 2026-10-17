@@ -1,0 +1,51 @@
+{
+  "slug": "niga-mwonde-who-do-you-think-you-are",
+  "version": "0.7",
+  "korean": "니가 뭔데",
+  "romanization": "ni-ga mwon-de",
+  "literal_meaning": "You, what are you",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "니가 뭔데 Meaning | 'Who Do You Think You Are?' From G-Dragon",
+    "meta_description": "AI translates 니가 뭔데 as 'What are you?'. It means 'Who do you think you are?' — a rude challenge. Plus why Koreans say 니가 for 네가."
+  },
+  "ai_failure": {
+    "situation": "In a K-drama argument someone shouts 니가 뭔데? and the subtitles from an AI tool say 'What are you?'",
+    "ai_mistake": "Translates it as 'What are you?', a strange question about identity.",
+    "why_it_fails": "니가 뭔데 means 'Who do you think you are (to judge me / tell me what to do)?' It questions the other person's right to interfere and is openly rude. 니가 is the spoken form of 네가 (you, as subject), used because 네가 and 내가 (I) sound almost the same. G-Dragon's 2013 song 니가 뭔데 (English title 'Who You?') uses the phrase."
+  },
+  "natural_solution": {
+    "rule": "니가 뭔데 = a confrontational 'who are you to…?'. Don't use it unless you mean to start a fight.",
+    "alternatives": [
+      {
+        "phrase": "그건 제가 결정할게요.",
+        "romanization": "geu-geon je-ga gyeol-jeong-hal-ge-yo",
+        "context": "Polite way to push back: 'I'll decide that myself'"
+      },
+      {
+        "phrase": "네가 뭔데 나한테 그래?",
+        "romanization": "ne-ga mwon-de na-han-te geu-rae",
+        "context": "Written form, same meaning: 'Who are you to talk to me like that?' — very rude"
+      },
+      {
+        "phrase": "니가 해, 내가 할게.",
+        "romanization": "ni-ga hae, nae-ga hal-ge",
+        "context": "Casual speech: 니가 (you) and 내가 (me) are easy to tell apart when spoken"
+      }
+    ]
+  },
+  "nuance": "Many Koreans write 니가 in texts too, though 네가 is the standard spelling. Both 니가 and 너 are casual, so they're only for close friends or people younger than you; with anyone else, use their name or title instead.",
+  "tags": [
+    "kpop",
+    "song",
+    "rude",
+    "grammar",
+    "pronouns"
+  ],
+  "source": {
+    "artist": "G-Dragon",
+    "song": "니가 뭔데",
+    "english_title": "Who You?",
+    "year": 2013
+  }
+}
