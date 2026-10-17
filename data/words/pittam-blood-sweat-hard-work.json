@@ -1,0 +1,51 @@
+{
+  "slug": "pittam-blood-sweat-hard-work",
+  "version": "0.7",
+  "korean": "피땀",
+  "romanization": "pi-ttam",
+  "literal_meaning": "Blood and sweat",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "피땀 Meaning | Hard-Earned in Korean, from BTS' Blood Sweat & Tears",
+    "meta_description": "AI reads 피땀 literally, so 피땀 흘려 번 돈 sounds violent. It means hard-earned money. How Koreans use 피땀 about work and parents."
+  },
+  "ai_failure": {
+    "situation": "An older relative says 이거 다 피땀 흘려 번 돈이야, and you run it through an AI translator.",
+    "ai_mistake": "Translates it word for word as 'This is money earned by shedding blood and sweat', which sounds violent or medical.",
+    "why_it_fails": "피땀 is one fixed word for exhausting effort. 피땀 흘려 번 돈 simply means money earned the hard way. The same image is in BTS's 2016 song title 피 땀 눈물."
+  },
+  "natural_solution": {
+    "rule": "Read 피땀 as 'hard work' or 'everything someone put in', never literally.",
+    "alternatives": [
+      {
+        "phrase": "피땀 흘려 번 돈이에요.",
+        "romanization": "pi-ttam heul-lyeo beon do-ni-e-yo",
+        "context": "'It's hard-earned money' — often a reason not to waste it"
+      },
+      {
+        "phrase": "이 프로젝트에 피땀을 쏟았어요.",
+        "romanization": "i peu-ro-jek-teu-e pi-tta-meul sso-da-sseo-yo",
+        "context": "'I poured everything into this project'"
+      },
+      {
+        "phrase": "부모님 피땀으로 대학 다녔어요.",
+        "romanization": "bu-mo-nim pi-tta-meu-ro dae-hak da-nyeo-sseo-yo",
+        "context": "'My parents' hard work paid for my college'"
+      }
+    ]
+  },
+  "nuance": "English has 'blood, sweat and tears', but Korean 피땀 is an everyday word, not a dramatic phrase. You'll hear it most about money: parents' earnings, savings, a small business. Saying someone wasted your 피땀 is a serious complaint.",
+  "tags": [
+    "kpop",
+    "song",
+    "idiom",
+    "money",
+    "work"
+  ],
+  "source": {
+    "artist": "BTS",
+    "song": "피 땀 눈물",
+    "english_title": "Blood Sweat & Tears",
+    "year": 2016
+  }
+}

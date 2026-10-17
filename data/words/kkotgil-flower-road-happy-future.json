@@ -1,0 +1,51 @@
+{
+  "slug": "kkotgil-flower-road-happy-future",
+  "version": "0.7",
+  "korean": "꽃길",
+  "romanization": "kkot-gil",
+  "literal_meaning": "Flower road",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "꽃길 Meaning | 꽃길만 걷자, the Korean Wish from BIGBANG's Flower Road",
+    "meta_description": "AI translates 꽃길만 걷자 as 'Let's only walk flower roads'. It's a common wish for a happy future — on cards, at graduations, and from fans."
+  },
+  "ai_failure": {
+    "situation": "A Korean friend writes 꽃길만 걸으세요 in your farewell card, and AI translates it.",
+    "ai_mistake": "Gives 'Please only walk on flower roads', which sounds like strange advice about gardens.",
+    "why_it_fails": "꽃길 is a happy, smooth path through life. 꽃길만 걸으세요 means 'I wish you nothing but good things ahead' — a warm wish for graduations, new jobs, weddings, and from fans to their idols. BIGBANG's 2018 song 꽃 길 (English title 'Flower Road') uses the word."
+  },
+  "natural_solution": {
+    "rule": "Read 꽃길 as 'a happy future'. Use 꽃길만 걸으세요 in cards; 꽃길만 걷자 with friends.",
+    "alternatives": [
+      {
+        "phrase": "앞으로 꽃길만 걸으세요.",
+        "romanization": "a-peu-ro kkot-gil-man geo-reu-se-yo",
+        "context": "Polite wish in a card or speech: 'Wishing you only good things ahead'"
+      },
+      {
+        "phrase": "우리 꽃길만 걷자!",
+        "romanization": "u-ri kkot-gil-man geot-ja",
+        "context": "Between friends or from fans: 'Here's to happy days ahead!'"
+      },
+      {
+        "phrase": "가시밭길",
+        "romanization": "ga-si-bat-gil",
+        "context": "The opposite: a thorny road, a hard and painful path"
+      }
+    ]
+  },
+  "nuance": "꽃길 works for any big transition, so it's a safe phrase for a Korean colleague's farewell card. In fandom, fans often write it when a group debuts or signs a new contract.",
+  "tags": [
+    "kpop",
+    "song",
+    "wishes",
+    "fandom",
+    "writing"
+  ],
+  "source": {
+    "artist": "BIGBANG",
+    "song": "꽃 길",
+    "english_title": "Flower Road",
+    "year": 2018
+  }
+}

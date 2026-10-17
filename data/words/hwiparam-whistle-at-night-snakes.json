@@ -1,0 +1,51 @@
+{
+  "slug": "hwiparam-whistle-at-night-snakes",
+  "version": "0.7",
+  "korean": "휘파람",
+  "romanization": "hwi-pa-ram",
+  "literal_meaning": "Whistle (with the mouth)",
+  "category": "K-pop & Fandom",
+  "seo": {
+    "meta_title": "휘파람 Meaning | Why Koreans Say Don't Whistle at Night",
+    "meta_description": "AI says 휘파람 means 'whistle' and stops. It misses the superstition: whistling at night calls snakes. Learn 휘파람 불다 and the old saying."
+  },
+  "ai_failure": {
+    "situation": "You're whistling in the evening at a Korean friend's home, and their grandmother tells you to stop. You ask AI why.",
+    "ai_mistake": "Explains that 휘파람 means 'whistling' and that whistling may simply be noisy.",
+    "why_it_fails": "Many older Koreans grew up with the saying that whistling at night brings snakes (some say ghosts). The grandmother isn't calling you rude; she's repeating a superstition. BLACKPINK's 2016 song 휘파람 (English title 'Whistle') uses the word."
+  },
+  "natural_solution": {
+    "rule": "휘파람 is always 휘파람을 불다 (to blow a whistle with your mouth). If an elder stops you at night, it's the superstition — just stop, no need to apologize at length.",
+    "alternatives": [
+      {
+        "phrase": "휘파람 잘 부시네요!",
+        "romanization": "hwi-pa-ram jal bu-si-ne-yo",
+        "context": "'You're good at whistling!' — polite compliment; 불다 becomes 부시다"
+      },
+      {
+        "phrase": "밤에 휘파람 불면 뱀 나와.",
+        "romanization": "ba-me hwi-pa-ram bul-myeon baem na-wa",
+        "context": "The superstition: 'Whistle at night and snakes come out'"
+      },
+      {
+        "phrase": "호루라기",
+        "romanization": "ho-ru-ra-gi",
+        "context": "A whistle as an object — a referee's or PE teacher's whistle. Not 휘파람"
+      }
+    ]
+  },
+  "nuance": "Korean separates the mouth whistle (휘파람) from the object (호루라기). Night-time superstitions like this one, along with not cutting nails at night, are things younger Koreans may laugh at but still know.",
+  "tags": [
+    "kpop",
+    "song",
+    "superstition",
+    "vocabulary",
+    "culture"
+  ],
+  "source": {
+    "artist": "BLACKPINK",
+    "song": "휘파람",
+    "english_title": "Whistle",
+    "year": 2016
+  }
+}
