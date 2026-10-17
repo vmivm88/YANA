@@ -18,40 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WORDS = ROOT / "data" / "words"
 OG_DIR = ROOT / "public" / "og"
 
-# 표제어 자체가 '올바른 표현'인 항목은 취소선을 긋지 않습니다
-# ("song" 태그 항목은 자동으로 제외 — 노래 단어 설명형)
-# (v0.4~ 단어 설명형 항목: 소리꾼, 이중동사, 밥 표현 등)
-NO_STRIKE = {
-    "sinmenu-gods-menu-pun",
-    "hwa-fire-anger-flower",
-    "jjeolda-slang-awesome",
-    "baepsae-proverb-silver-spoon",
-    "kpop-fandom-words-choeae-ipdeok",
-    "calling-older-friends-unni-oppa-hyung-nuna",
-    "answering-negative-questions-eung-ani",
-    "badameokda-korean-double-verbs",
-    "bread-is-not-bap",
-    "bwajuda-let-it-slide",
-    "deureojuda-grant-a-request",
-    "doragasida-passed-away",
-    "dosirak-ssa-deulgo-mallida-idiom",
-    "eo-beorida-not-throw-away",
-    "eo-boda-try-not-sidohada",
-    "eo-daeda-doing-too-much",
-    "eo-duda-noda-in-advance",
-    "eo-juda-asking-favors",
-    "eo-naeda-pull-through",
-    "eodeomeokda-being-treated-scolded",
-    "how-to-write-a-fan-letter-in-korean",
-    "japatteda-flatly-deny",
-    "jjambap-meaning-seniority",
-    "marameokda-ruin-bomb",
-    "neomeogada-let-it-go-fooled",
-    "nunchitbap-meaning",
-    "ppaemeokda-meaning-skip-leave-out",
-    "sorikkun-meaning-kkun-suffix",
-    "ttemeokda-unpaid-wages-money",
-}
+# 단어 설명형 항목("type": "meaning")은 표제어가 틀린 말이 아니므로 취소선을 긋지 않습니다
 
 BASE_CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -94,7 +61,7 @@ def word_html(w, people):
 .badge {{ font-size: 20px; color: #b4432f; border: 2px solid #b4432f; border-radius: 999px; padding: 2px 14px; }}
 </style></head><body><div class="frame">
 <div class="brand"><span class="ko">맥락</span><span>Context Korean</span></div>
-<p class="ai ko{'' if w['slug'] in NO_STRIKE or 'song' in w.get('tags', []) else ' struck'}">{escape(ai)}</p>
+<p class="ai ko{'' if w.get('type') == 'meaning' else ' struck'}">{escape(ai)}</p>
 <p class="fix ko">{escape(fix)}</p>
 <p class="sit">{escape(w["ai_failure"]["situation"])}</p>
 <div class="foot">{f'<p class="credit">{credit}</p>' if credit else ''}<p>Korean that AI gets wrong · yanakorean.com</p></div>

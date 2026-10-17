@@ -32,6 +32,7 @@ Thanks for helping! This project collects Korean expressions that AI translators
 - **A concrete situation.** Who is speaking to whom matters more than the word itself.
 - **At least one natural alternative** with the context where it fits.
 - **Explain the why** in `nuance`: the relationship, hierarchy or cultural logic behind it.
+- **Pick the entry type.** If the headword itself is the mistake (e.g. 수고하세요 to a boss), leave `type` out — the page shows "Say instead". If the word is fine and you're explaining what it really means, add `"type": "meaning"` — the page shows "How it's used" and the preview image has no strike-through.
 - **Credit the song.** If the word comes from a song title or lyrics, add `source` (artist, song, English title, year) and the `song` tag. Explain the word only — don't quote lyrics or interpret the song.
   ```json
   "source": { "artist": "BTS", "song": "쩔어", "english_title": "Dope", "year": 2015 }
