@@ -7,3 +7,5 @@ next-env.d.ts
 .env*.local
 .DS_Store
 scripts/checklist.html
+scripts/checklist-ru.html
+__pycache__/

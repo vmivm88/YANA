@@ -6,7 +6,7 @@ import { SITE, COMPANY } from "@/lib/site";
 import { CATEGORIES } from "@/lib/categories";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+const inter = Inter({ subsets: ["latin", "cyrillic"], variable: "--font-inter", display: "swap" });
 const serifKr = Noto_Serif_KR({
   weight: ["500", "700"],
   subsets: ["latin"],
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", languages: { en: "/", ru: "/ru", "x-default": "/" } },
   openGraph: {
     type: "website",
     siteName: SITE.name,
@@ -56,6 +56,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="font-semibold tracking-tight">{SITE.name}</span>
             </Link>
             <div className="flex items-center gap-5 text-sm text-muted">
+              <Link href="/ru" lang="ru" hrefLang="ru" className="hover:text-ink">
+                RU
+              </Link>
               <Link href="/contributors" className="hidden hover:text-ink sm:inline">
                 Contributors
               </Link>

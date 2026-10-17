@@ -6,7 +6,8 @@ import { NextResponse } from "next/server";
 //   MAILERLITE_API_KEY     MailerLite → Integrations → API → Generate new token
 // 선택 환경변수 (그룹 ID — MailerLite → Subscribers → Groups. 비워 두면 그룹 없이 저장):
 //   MAILERLITE_GROUP_ID    모든 구독자를 넣을 기본 그룹 (예: "Newsletter")
-//   MAILERLITE_GROUP_RU    러시아어 버전에 관심 있는 사람
+//   MAILERLITE_GROUP_RU    러시아어 구독자. /ru 페이지에서 구독한 사람 + 영어 폼에서 "러시아어도" 체크한 사람
+//                          (러시아어 환영 메일 자동화는 이 그룹 가입을 트리거로 거세요)
 //   MAILERLITE_GROUP_WORK  직장·비즈니스
 //   MAILERLITE_GROUP_FAMILY 연인·가족
 //   MAILERLITE_GROUP_STUDY 공부·유학
@@ -29,6 +30,24 @@ type Body = {
   use?: unknown;
   source?: unknown;
   company?: unknown; // honeypot — 사람은 비워 둠
+  lang?: unknown; // "ru" = /ru 페이지 구독
+};
+
+const MSG = {
+  en: {
+    invalid: "Invalid request.",
+    email: "Please enter a valid email address.",
+    consent: "Please agree to the privacy notice to subscribe.",
+    closed: "Subscriptions aren't open yet. Please try again soon.",
+    failed: "Something went wrong. Please try again.",
+  },
+  ru: {
+    invalid: "Некорректный запрос.",
+    email: "Введите правильный адрес электронной почты.",
+    consent: "Чтобы подписаться, отметьте согласие с политикой конфиденциальности.",
+    closed: "Подписка пока не открыта. Попробуйте чуть позже.",
+    failed: "Что-то пошло не так. Попробуйте ещё раз.",
+  },
 };
 
 export async function POST(req: Request) {
@@ -36,8 +55,11 @@ export async function POST(req: Request) {
   try {
     body = await req.json();
   } catch {
-    return NextResponse.json({ error: "Invalid request." }, { status: 400 });
+    return NextResponse.json({ error: MSG.en.invalid }, { status: 400 });
   }
+
+  const ru = body.lang === "ru";
+  const m = ru ? MSG.ru : MSG.en;
 
   // 봇이 숨은 필드를 채웠으면 성공한 척하고 버립니다
   if (typeof body.company === "string" && body.company.trim() !== "") {
@@ -46,25 +68,27 @@ export async function POST(req: Request) {
 
   const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
   if (!EMAIL_RE.test(email) || email.length > 254) {
-    return NextResponse.json({ error: "Please enter a valid email address." }, { status: 400 });
+    return NextResponse.json({ error: m.email }, { status: 400 });
   }
   if (body.consent !== true) {
-    return NextResponse.json({ error: "Please agree to the privacy notice to subscribe." }, { status: 400 });
+    return NextResponse.json({ error: m.consent }, { status: 400 });
   }
 
   const apiKey = process.env.MAILERLITE_API_KEY;
   if (!apiKey) {
     console.error("[subscribe] MAILERLITE_API_KEY is not set");
     return NextResponse.json(
-      { error: "Subscriptions aren't open yet. Please try again soon." },
+      { error: m.closed },
       { status: 503 },
     );
   }
 
-  // 기본 그룹 + 관심사 그룹
+  // 영어 구독자: 기본 그룹 (+ 러시아어 체크 시 러시아어 그룹)
+  // 러시아어 페이지 구독자: 러시아어 그룹만 — 영어 환영 메일·영어 캠페인을 받지 않도록 기본 그룹에는 넣지 않음
+  // + 관심사 그룹 (둘 다)
   const groups: string[] = [];
-  if (process.env.MAILERLITE_GROUP_ID) groups.push(process.env.MAILERLITE_GROUP_ID);
-  if (body.russian === true && process.env.MAILERLITE_GROUP_RU) groups.push(process.env.MAILERLITE_GROUP_RU);
+  if (!ru && process.env.MAILERLITE_GROUP_ID) groups.push(process.env.MAILERLITE_GROUP_ID);
+  if ((ru || body.russian === true) && process.env.MAILERLITE_GROUP_RU) groups.push(process.env.MAILERLITE_GROUP_RU);
   if (typeof body.use === "string" && USE_GROUP_ENV[body.use]) {
     const id = process.env[USE_GROUP_ENV[body.use]];
     if (id) groups.push(id);
@@ -90,7 +114,7 @@ export async function POST(req: Request) {
     if (!res.ok) throw new Error(`mailerlite: ${res.status} ${await res.text()}`);
   } catch (e) {
     console.error("[subscribe]", e);
-    return NextResponse.json({ error: "Something went wrong. Please try again." }, { status: 502 });
+    return NextResponse.json({ error: m.failed }, { status: 502 });
   }
 
   return NextResponse.json({ ok: true });
