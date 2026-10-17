@@ -1,0 +1,51 @@
+{
+  "slug": "nora-juda-play-with-take-you-on",
+  "version": "0.8",
+  "korean": "놀아 주다",
+  "romanization": "no-ra ju-da",
+  "literal_meaning": "Play (for someone)",
+  "category": "K-pop & Fandom",
+  "type": "meaning",
+  "seo": {
+    "meta_title": "놀아 주다 Meaning | 'Play With' or 'Take You On'? From A2O LITE's NEON",
+    "meta_description": "AI translates 놀아 줄게 as 'I'll hang out with you'. 놀아 주다 is what adults do for kids — so between equals it can sound teasing or cocky."
+  },
+  "ai_failure": {
+    "situation": "Your Korean coworker says 주말에 조카랑 놀아 줘야 해요, and later a friend jokes 내가 놀아 줄게. You ask AI about both.",
+    "ai_mistake": "Translates both as 'hang out with', missing the -아/어 주다 that changes who is doing whom a favor.",
+    "why_it_fails": "놀다 is to play or hang out; adding 주다 makes it a favor. 놀아 주다 is what a parent or older relative does for a child. Between equals, 내가 놀아 줄게 can sound playful-cocky: 'I'll take you on' or 'I'll humor you'. The phrase appears in A2O LITE's 2026 debut song NEON."
+  },
+  "natural_solution": {
+    "rule": "With kids and pets: 놀아 주다 is warm. With adults: say 같이 놀자 for 'let's hang out'; 놀아 줄게 sounds like you're doing them a favor.",
+    "alternatives": [
+      {
+        "phrase": "주말에 조카랑 놀아 줘야 해요.",
+        "romanization": "ju-ma-re jo-ka-rang no-ra jwo-ya hae-yo",
+        "context": "'I have to play with my nephew this weekend' — adult with a child"
+      },
+      {
+        "phrase": "주말에 같이 놀자!",
+        "romanization": "ju-ma-re ga-chi nol-ja",
+        "context": "'Let's hang out this weekend!' — the normal invitation between friends"
+      },
+      {
+        "phrase": "나랑 놀아 줘.",
+        "romanization": "na-rang no-ra jwo",
+        "context": "'Play with me' — what a child says, or an adult whining jokingly"
+      }
+    ]
+  },
+  "nuance": "This is the same -아/어 주다 that turns verbs into favors: 들어 주다 (grant a request), 봐 주다 (let it slide). Who gives the favor matters, so the same verb can sound kind, needy or cocky depending on who says it to whom.",
+  "tags": [
+    "kpop",
+    "song",
+    "double-verbs",
+    "grammar",
+    "relationships"
+  ],
+  "source": {
+    "artist": "A2O LITE",
+    "song": "NEON",
+    "year": 2026
+  }
+}

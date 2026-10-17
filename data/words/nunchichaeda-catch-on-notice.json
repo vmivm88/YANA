@@ -1,0 +1,51 @@
+{
+  "slug": "nunchichaeda-catch-on-notice",
+  "version": "0.8",
+  "korean": "눈치채다",
+  "romanization": "nun-chi-chae-da",
+  "literal_meaning": "Catch the eye-sense",
+  "category": "K-pop & Fandom",
+  "type": "meaning",
+  "seo": {
+    "meta_title": "눈치채다 Meaning | To Catch On in Korean, from A2O LITE's NEON",
+    "meta_description": "AI translates 눈치채다 as 'notice', but it means sensing something hidden — a secret, a mood, a plan. Plus 눈치 없다 and 눈치 보다."
+  },
+  "ai_failure": {
+    "situation": "You're planning a surprise party and your Korean friend whispers 걔 눈치챘어? You ask AI what it means.",
+    "ai_mistake": "Translates it as 'Did she notice?', so you think it's about seeing something in plain view.",
+    "why_it_fails": "눈치채다 means sensing something that hasn't been said: a secret, a plan, someone's real feelings. It comes from 눈치, the Korean skill of reading the room. The word appears in A2O LITE's 2026 debut song NEON."
+  },
+  "natural_solution": {
+    "rule": "Use 눈치채다 for hidden things (secrets, feelings, plans). For something you simply see, use 알아차리다 or 보다.",
+    "alternatives": [
+      {
+        "phrase": "걔 눈치챘어?",
+        "romanization": "gyae nun-chi-chae-sseo",
+        "context": "'Did she catch on?' — about a surprise or a secret"
+      },
+      {
+        "phrase": "너 진짜 눈치 없다.",
+        "romanization": "neo jin-jja nun-chi eop-da",
+        "context": "'You're so clueless' — a common, mildly rude complaint among friends"
+      },
+      {
+        "phrase": "상사 눈치 보느라 퇴근을 못 했어요.",
+        "romanization": "sang-sa nun-chi bo-neu-ra toe-geu-neul mot hae-sseo-yo",
+        "context": "'I couldn't leave because I was watching my boss's mood'"
+      }
+    ]
+  },
+  "nuance": "눈치 is one of the most important ideas in Korean social life: reading what others want without being told. 눈치 빠르다 (quick to read the room) is praise; 눈치 없다 is a criticism. See also 눈칫밥, eating while feeling unwelcome. 눈치채다 is written as one word.",
+  "tags": [
+    "kpop",
+    "song",
+    "nunchi",
+    "culture",
+    "social"
+  ],
+  "source": {
+    "artist": "A2O LITE",
+    "song": "NEON",
+    "year": 2026
+  }
+}
