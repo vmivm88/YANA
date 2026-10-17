@@ -195,6 +195,15 @@ export default async function WordPage({ params }: Props) {
         </section>
       )}
 
+      {/* 설명을 다 읽은 직후 = 관심이 가장 높은 지점. 관련 표현 아래에 있던 폼을 여기로 올림 */}
+      <div className="mt-12">
+        <SubscribeForm
+          source={`/words/${word.slug}`}
+          heading="Before you send Korean an AI wrote, run this check."
+          compact
+        />
+      </div>
+
       <ul className="mt-8 flex flex-wrap gap-2" aria-label="Tags">
         {word.tags.map((t) => (
           <li key={t} className="rounded-full border border-line bg-white px-3 py-1 text-xs text-muted">
@@ -227,14 +236,6 @@ export default async function WordPage({ params }: Props) {
           ))}
         </section>
       )}
-
-      <div className="mt-12">
-        <SubscribeForm
-          source={`/words/${word.slug}`}
-          heading="Get all 20 traps in one printable checklist."
-          compact
-        />
-      </div>
 
       <section className="mt-12" aria-labelledby="share-heading">
         <h2 id="share-heading" className="text-sm font-medium text-muted">Share this entry</h2>

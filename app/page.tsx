@@ -51,24 +51,40 @@ export default function HomePage() {
             v{SITE.version} Released: {words.length} Critical Nuances AI Gets Wrong
           </span>
 
-          <h1 className="mt-6 max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">
-            Why Korean is different, and why generic AI fails to teach it.
-          </h1>
+          <div className="mt-6 grid gap-10 lg:grid-cols-[1fr_minmax(0,26rem)] lg:items-start">
+            <div>
+              <h1 className="max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">
+                Your AI translated the words. Not the relationship.
+              </h1>
 
-          <div className="mt-6 grid max-w-3xl gap-4 text-lg leading-relaxed text-muted sm:grid-cols-2">
-            <p>
-              Korean is a language of <strong className="text-ink">relationships</strong>. Who you&apos;re
-              talking to — older, younger, your boss, a stranger — changes the words themselves.
-            </p>
-            <p>
-              AI translators map words one-to-one and miss that. This open project collects the phrases they get
-              wrong, and what Koreans actually say instead.
-            </p>
+              <div className="mt-6 grid max-w-3xl gap-4 text-lg leading-relaxed text-muted">
+                <p>
+                  Korean is a language of <strong className="text-ink">relationships</strong>. Who you&apos;re
+                  talking to — older, younger, your boss, a stranger — changes the words themselves.
+                </p>
+                <p>
+                  AI translators map words one-to-one and miss that. This open project collects the phrases they
+                  get wrong, and what Koreans actually say instead.
+                </p>
+              </div>
+
+              <a href="#expressions" className="mt-6 inline-block text-sm font-medium text-accent underline">
+                Browse all {words.length} expressions ↓
+              </a>
+            </div>
+
+            <div id="checklist" className="scroll-mt-24">
+              <SubscribeForm
+                source="/#hero"
+                heading="Before you send Korean an AI wrote, run this check."
+                compact
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+      <div id="expressions" className="mx-auto max-w-6xl scroll-mt-24 px-4 py-10 sm:px-6">
         <WordGrid words={words} categories={categories} />
       </div>
 
