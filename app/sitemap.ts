@@ -4,6 +4,7 @@ import path from "node:path";
 import { getAllWords } from "@/lib/words";
 import { CATEGORIES, getWordsForTopic } from "@/lib/categories";
 import { SITE } from "@/lib/site";
+import { getRuSlugs } from "@/lib/words-ru";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const dir = path.join(process.cwd(), "data", "words");
@@ -34,6 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/ru`, changeFrequency: "monthly", priority: 0.8 },
     ...topics,
     ...words,
+    ...getRuSlugs().map((slug) => ({
+      url: `${SITE.url}/ru/words/${slug}`,
+      lastModified: fs.statSync(path.join(process.cwd(), "data", "words-ru", `${slug}.json`)).mtime,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     { url: `${SITE.url}/contributors`, changeFrequency: "weekly", priority: 0.5 },
     { url: `${SITE.url}/about`, changeFrequency: "yearly", priority: 0.3 },
   ];

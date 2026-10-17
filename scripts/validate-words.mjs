@@ -110,8 +110,31 @@ for (const file of files) {
   }
 }
 
+// 러시아어 항목 검증 (data/words-ru)
+const RU_DIR = path.join(process.cwd(), "data", "words-ru");
+const ruFiles = fs.existsSync(RU_DIR) ? fs.readdirSync(RU_DIR).filter((f) => f.endsWith(".json")) : [];
+const RU_REQUIRED = ["slug", "korean", "translit", "literal", "title", "description", "situation",
+  "ai_mistake", "why_it_fails", "rule", "alternatives", "ru_note"];
+for (const file of ruFiles) {
+  const err = (m) => errors.push(`words-ru/${file}: ${m}`);
+  let d;
+  try {
+    d = JSON.parse(fs.readFileSync(path.join(RU_DIR, file), "utf8"));
+  } catch (e) {
+    err(`JSON 형식 오류 — ${e.message}`);
+    continue;
+  }
+  for (const k of RU_REQUIRED) if (!d[k]) err(`"${k}" 필드가 없습니다`);
+  if (d.slug !== file.replace(/\.json$/, "")) err("slug가 파일명과 다릅니다");
+  if (!fs.existsSync(path.join(DIR, file))) err("같은 slug의 영어 항목(data/words)이 없습니다");
+  if (!["fix", "meaning"].includes(d.type)) err('type은 "fix" 또는 "meaning"이어야 합니다');
+  (d.alternatives ?? []).forEach((a, i) => {
+    if (!a?.phrase || !a?.translit || !a?.context) err(`alternatives[${i}]: phrase·translit·context가 모두 필요합니다`);
+  });
+}
+
 if (errors.length) {
   console.error(`✕ ${errors.length}개 문제 발견:\n` + errors.map((e) => `  - ${e}`).join("\n"));
   process.exit(1);
 }
-console.log(`✓ ${files.length}개 표현 모두 통과`);
+console.log(`✓ ${files.length}개 표현 + 러시아어 ${ruFiles.length}개 모두 통과`);
