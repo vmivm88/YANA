@@ -92,6 +92,16 @@ for (const file of files) {
       });
   }
 
+  // 노래에서 가져온 단어는 출처(가수·곡·연도) 필수. 가사는 인용하지 않는다.
+  const isSong = Array.isArray(d.tags) && d.tags.includes("song");
+  if (isSong && !d.source) err('"song" 태그가 있으면 source(artist·song·year)가 필요합니다');
+  if (d.source !== undefined) {
+    if (!d.source?.artist) err("source.artist가 없습니다");
+    if (!d.source?.song) err("source.song이 없습니다");
+    if (!Number.isInteger(d.source?.year) || d.source.year < 1900) err("source.year는 연도 숫자여야 합니다 (예: 2015)");
+    if (!isSong) err('source가 있으면 tags에 "song"을 넣어 주세요');
+  }
+
   if (d.korean) {
     if (seenKorean.has(d.korean)) err(`"${d.korean}"은(는) ${seenKorean.get(d.korean)}와 중복됩니다`);
     seenKorean.set(d.korean, file);

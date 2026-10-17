@@ -39,6 +39,13 @@
     "kpop",
     "homonym",
     "hanja",
-    "emotion"
-  ]
+    "emotion",
+    "song"
+  ],
+  "source": {
+    "artist": "(G)I-DLE",
+    "song": "화(火花)",
+    "english_title": "HWAA",
+    "year": 2021
+  }
 }

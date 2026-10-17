@@ -39,6 +39,13 @@
     "kpop",
     "pun",
     "food",
-    "slang"
-  ]
+    "slang",
+    "song"
+  ],
+  "source": {
+    "artist": "Stray Kids",
+    "song": "神메뉴",
+    "english_title": "God's Menu",
+    "year": 2020
+  }
 }
