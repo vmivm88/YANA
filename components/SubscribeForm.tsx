@@ -167,20 +167,19 @@ export default function SubscribeForm({ source, heading, compact = false, lang =
         className="hidden"
       />
 
-      {!compact && (
-        <select
-          aria-label={t.usesLabel}
-          value={use}
-          onChange={(e) => setUse(e.target.value)}
-          className="mt-3 w-full rounded-full border border-line bg-paper px-4 py-2.5 text-sm text-muted outline-none focus:border-accent sm:w-auto"
-        >
-          {t.uses.map((u) => (
-            <option key={u.value} value={u.value}>
-              {u.label}
-            </option>
-          ))}
-        </select>
-      )}
+      {/* 사용 목적 — 1순위 페르소나를 정하는 데이터. 표현 페이지(compact) 구독이 대부분이라 compact에서도 보여 줌 */}
+      <select
+        aria-label={t.usesLabel}
+        value={use}
+        onChange={(e) => setUse(e.target.value)}
+        className="mt-3 w-full rounded-full border border-line bg-paper px-4 py-2.5 text-sm text-muted outline-none focus:border-accent sm:w-auto"
+      >
+        {t.uses.map((u) => (
+          <option key={u.value} value={u.value}>
+            {u.label}
+          </option>
+        ))}
+      </select>
 
       <div className="mt-4 space-y-2 text-sm">
         {lang === "en" && (

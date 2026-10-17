@@ -107,6 +107,13 @@ export default function RussianPage() {
               ошибаются, и то, что на самом деле говорят корейцы.
             </p>
           </div>
+
+          <a
+            href="#checklist"
+            className="mt-6 inline-block rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper hover:bg-accent"
+          >
+            Бесплатный чек-лист «Ловушки ИИ в корейском» ↓
+          </a>
         </div>
       </section>
 
@@ -160,7 +167,7 @@ export default function RussianPage() {
       </section>
 
       {/* Subscribe */}
-      <section className="mx-auto max-w-6xl px-4 pb-12 sm:px-6" aria-label="Подписка">
+      <section id="checklist" className="mx-auto max-w-6xl scroll-mt-24 px-4 pb-12 sm:px-6" aria-label="Подписка">
         <SubscribeForm source="/ru" lang="ru" />
       </section>
 

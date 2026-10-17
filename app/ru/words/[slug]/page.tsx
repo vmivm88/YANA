@@ -142,6 +142,15 @@ export default async function RuWordPage({ params }: Props) {
         </section>
       )}
 
+      <div className="mt-12">
+        <SubscribeForm
+          source={`/ru/words/${slug}`}
+          heading="Перед отправкой текста от ИИ — проверьте его по чек-листу."
+          compact
+          lang="ru"
+        />
+      </div>
+
       {related.length > 0 && (
         <section className="mt-14" aria-labelledby="related-heading">
           <h2 id="related-heading" className="text-2xl font-semibold tracking-tight">Ещё ошибки ИИ</h2>
@@ -163,10 +172,6 @@ export default async function RuWordPage({ params }: Props) {
           </Link>
         </section>
       )}
-
-      <div className="mt-12">
-        <SubscribeForm source={`/ru/words/${slug}`} heading="Все 20 ловушек в одном чек-листе для печати." compact lang="ru" />
-      </div>
 
       <section className="mt-12" aria-labelledby="share-heading">
         <h2 id="share-heading" className="text-sm font-medium text-muted">Поделиться</h2>
