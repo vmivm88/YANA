@@ -10,7 +10,8 @@
     "validate": "node scripts/validate-words.mjs",
     "prebuild": "node scripts/validate-words.mjs",
     "checklist": "python3 scripts/build-checklist.py",
-    "og": "python3 scripts/build-og.py"
+    "og": "python3 scripts/build-og.py",
+    "checklist:ru": "python3 scripts/build-checklist-ru.py"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",

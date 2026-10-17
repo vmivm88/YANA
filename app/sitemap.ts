@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     { url: SITE.url, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
+    { url: `${SITE.url}/ru`, changeFrequency: "monthly", priority: 0.8 },
     ...topics,
     ...words,
     { url: `${SITE.url}/contributors`, changeFrequency: "weekly", priority: 0.5 },
