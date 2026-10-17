@@ -1,0 +1,52 @@
+{
+  "slug": "zalpha-saedae-gen-z-alpha",
+  "version": "0.8",
+  "korean": "잘파세대",
+  "romanization": "jal-pa-se-dae",
+  "literal_meaning": "Z + Alpha generation",
+  "category": "K-pop & Fandom",
+  "type": "meaning",
+  "seo": {
+    "meta_title": "잘파세대 Meaning | Korea's 'Zalpha' Generation, from A2O LITE's NEON",
+    "meta_description": "AI can't parse 잘파세대 or 'Zalpha'. It's a Korean media term joining Gen Z and Gen Alpha. Learn it with MZ세대 and 알파세대."
+  },
+  "ai_failure": {
+    "situation": "You read a Korean news headline about 잘파세대 and ask AI what it means.",
+    "ai_mistake": "Treats 잘파 as a name or a typo and gives no meaning.",
+    "why_it_fails": "잘파 is Z + 알파 (alpha): a Korean coinage that groups Gen Z and Gen Alpha together. It's mainly used by media and marketers, like the older MZ세대. A2O LITE's 2026 debut song NEON uses it, written in English letters as Zalpha."
+  },
+  "natural_solution": {
+    "rule": "When a Korean word ends in 세대, it names a generation. Split the front part into letters or words: MZ = Millennials + Gen Z, 잘파 = Gen Z + Alpha.",
+    "alternatives": [
+      {
+        "phrase": "잘파세대를 겨냥한 상품",
+        "romanization": "jal-pa-se-dae-reul gyeo-nyang-han sang-pum",
+        "context": "'Products aimed at Gen Zalpha' — typical news or marketing phrase"
+      },
+      {
+        "phrase": "MZ세대",
+        "romanization": "em-ji-se-dae (also em-je-teu-se-dae)",
+        "context": "Millennials + Gen Z — the term you'll see most in Korean news"
+      },
+      {
+        "phrase": "알파세대",
+        "romanization": "al-pa-se-dae",
+        "context": "Gen Alpha — children born in the 2010s and later"
+      }
+    ]
+  },
+  "nuance": "Labels like MZ세대 are common in Korean headlines and job ads, and young Koreans sometimes joke about or push back against being lumped in. Say 요즘 젊은 사람들 (young people these days) in everyday conversation.",
+  "tags": [
+    "kpop",
+    "song",
+    "slang",
+    "news",
+    "society",
+    "generations"
+  ],
+  "source": {
+    "artist": "A2O LITE",
+    "song": "NEON",
+    "year": 2026
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "siseon-gojeong-all-eyes-here",
+  "version": "0.8",
+  "korean": "시선 고정",
+  "romanization": "si-seon go-jeong",
+  "literal_meaning": "Gaze fixed",
+  "category": "K-pop & Fandom",
+  "type": "meaning",
+  "seo": {
+    "meta_title": "시선 고정 Meaning | 'All Eyes Here' in Korean, from A2O LITE's NEON",
+    "meta_description": "AI translates 시선 고정 as 'gaze fixation', which sounds medical. It means 'All eyes on this!' — a TV caption and a fun compliment."
+  },
+  "ai_failure": {
+    "situation": "A Korean variety show puts the caption 시선 고정 on screen and you ask AI to translate it.",
+    "ai_mistake": "Gives 'gaze fixation' or 'fixed line of sight', which sounds like an eye exam.",
+    "why_it_fails": "시선 고정 is a catchphrase meaning 'All eyes on this' or 'Can't look away'. TV editors use it in captions, and people use it to say something is eye-catching. The phrase appears in A2O LITE's 2026 debut song NEON."
+  },
+  "natural_solution": {
+    "rule": "시선 고정 = can't look away / all eyes here. Its stronger cousin is 시선 강탈 (stealing everyone's attention).",
+    "alternatives": [
+      {
+        "phrase": "이 장면 시선 고정!",
+        "romanization": "i jang-myeon si-seon go-jeong",
+        "context": "'All eyes on this scene!' — a caption or a post"
+      },
+      {
+        "phrase": "오늘 패션 시선 강탈이네.",
+        "romanization": "o-neul pae-syeon si-seon gang-ta-ri-ne",
+        "context": "'Your outfit is stealing the show today' — a compliment between friends"
+      },
+      {
+        "phrase": "시선이 느껴져요.",
+        "romanization": "si-seo-ni neu-kkyeo-jyeo-yo",
+        "context": "'I can feel someone staring' — 시선 on its own, in daily life"
+      }
+    ]
+  },
+  "nuance": "Korean TV captions (자막) use many short, noun-only phrases like this: 시선 고정, 깜짝, 폭소. They read like headlines, without a verb. Learners who watch variety shows will see them constantly.",
+  "tags": [
+    "kpop",
+    "song",
+    "tv",
+    "captions",
+    "compliments"
+  ],
+  "source": {
+    "artist": "A2O LITE",
+    "song": "NEON",
+    "year": 2026
+  }
+}

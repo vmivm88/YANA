@@ -1,0 +1,52 @@
+{
+  "slug": "poseu-force-aura-presence",
+  "version": "0.8",
+  "korean": "포스",
+  "romanization": "po-seu",
+  "literal_meaning": "Force (from English)",
+  "category": "K-pop & Fandom",
+  "type": "meaning",
+  "seo": {
+    "meta_title": "포스 Meaning | Not 'Force' — Korean for Aura, from A2O LITE's NEON",
+    "meta_description": "AI translates 포스 as 'force'. In Korean it means a strong presence or aura: 포스 있다, 포스가 장난 아니다. How to use it as a compliment."
+  },
+  "ai_failure": {
+    "situation": "A friend sees your photo and comments 포스 장난 아닌데? You ask AI what it means.",
+    "ai_mistake": "Translates 포스 as 'force' or 'power', so the comment sounds like 'Your force is no joke' — confusing, maybe even aggressive.",
+    "why_it_fails": "포스 is borrowed from English 'force', but in Korean it means a commanding presence or aura: the vibe that makes people notice you. 포스 장난 아닌데 means 'You look seriously impressive.' The word appears in A2O LITE's 2026 debut song NEON."
+  },
+  "natural_solution": {
+    "rule": "포스 = presence, aura, a strong vibe. Almost always a compliment. Use it with friends and about celebrities, not directly to a boss.",
+    "alternatives": [
+      {
+        "phrase": "포스 장난 아닌데?",
+        "romanization": "po-seu jang-nan a-nin-de",
+        "context": "'You look seriously impressive' — friends, comments on photos"
+      },
+      {
+        "phrase": "저 선배는 포스가 있어요.",
+        "romanization": "jeo seon-bae-neun po-seu-ga i-sseo-yo",
+        "context": "'That senior has real presence' — about someone, not to them"
+      },
+      {
+        "phrase": "카리스마 있으세요.",
+        "romanization": "ka-ri-seu-ma i-sseu-se-yo",
+        "context": "More polite way to say it to the person directly: 'You have charisma'"
+      }
+    ]
+  },
+  "nuance": "포스 is one of many English loanwords whose meaning shifted in Korean. Others in the same family: 텐션 (energy, not stress), 멘탈 (mental strength), 오라 (aura, newer slang). AI often translates them back to the English original and loses the Korean meaning.",
+  "tags": [
+    "kpop",
+    "song",
+    "loanword",
+    "konglish",
+    "compliments",
+    "slang"
+  ],
+  "source": {
+    "artist": "A2O LITE",
+    "song": "NEON",
+    "year": 2026
+  }
+}
