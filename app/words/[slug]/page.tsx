@@ -11,6 +11,7 @@ import SubscribeForm from "@/components/SubscribeForm";
 import ShareLinks from "@/components/ShareLinks";
 import FoundingBadge from "@/components/FoundingBadge";
 import { creditsFor, ROLE_LABEL } from "@/lib/contributors";
+import { hasRu } from "@/lib/words-ru";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -33,7 +34,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: { absolute: word.seo.meta_title },
     description: word.seo.meta_description,
     keywords: [word.korean, word.romanization, ...word.tags],
-    alternates: { canonical: url },
+    alternates: hasRu(word.slug)
+      ? { canonical: url, languages: { en: url, ru: `/ru${url}`, "x-default": url } }
+      : { canonical: url },
     openGraph: {
       type: "article",
       title: word.seo.meta_title,
@@ -110,12 +113,19 @@ export default async function WordPage({ params }: Props) {
     <article className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <nav aria-label="Breadcrumb" className="text-sm text-muted">
-        <Link href="/" className="hover:text-ink">All expressions</Link> <span aria-hidden>/</span>{" "}
-        {topic ? (
-          <Link href={`/topics/${topic.slug}`} className="hover:text-ink">{word.category}</Link>
-        ) : (
-          word.category
+      <nav aria-label="Breadcrumb" className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted">
+        <span>
+          <Link href="/" className="hover:text-ink">All expressions</Link> <span aria-hidden>/</span>{" "}
+          {topic ? (
+            <Link href={`/topics/${topic.slug}`} className="hover:text-ink">{word.category}</Link>
+          ) : (
+            word.category
+          )}
+        </span>
+        {hasRu(word.slug) && (
+          <Link href={`/ru/words/${word.slug}`} hrefLang="ru" lang="ru" className="hover:text-ink">
+            По-русски
+          </Link>
         )}
       </nav>
 

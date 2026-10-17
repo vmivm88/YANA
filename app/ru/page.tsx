@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import SubscribeForm from "@/components/SubscribeForm";
-import { getAllWords } from "@/lib/words";
+import { getAllWords, getWordBySlug } from "@/lib/words";
+import { getAllRuWords, RU_CATEGORY } from "@/lib/words-ru";
 import { SITE } from "@/lib/site";
 
 // 러시아어 랜딩 페이지. 표현 항목은 아직 영어라서, 여기서는 대표 예시만 러시아어로 보여 주고
@@ -73,6 +74,14 @@ const EXAMPLES: Example[] = [
 
 export default function RussianPage() {
   const count = getAllWords().length;
+  const ruWords = getAllRuWords();
+  // 영어 항목의 카테고리로 묶기
+  const groups = new Map<string, typeof ruWords>();
+  for (const w of ruWords) {
+    const en = getWordBySlug(w.slug);
+    const name = en ? RU_CATEGORY[en.category] : "Другое";
+    groups.set(name, [...(groups.get(name) ?? []), w]);
+  }
 
   return (
     <div lang="ru">
@@ -118,16 +127,36 @@ export default function RussianPage() {
               </p>
               <p className="mt-1 text-sm text-muted">{e.translit}</p>
               <p className="mt-3 leading-relaxed">{e.why}</p>
-              <Link
-                href={`/words/${e.slug}`}
-                hrefLang="en"
-                className="mt-3 inline-block text-sm text-accent underline"
-              >
-                Подробнее (на английском)
+              <Link href={`/ru/words/${e.slug}`} className="mt-3 inline-block text-sm text-accent underline">
+                Подробнее
               </Link>
             </li>
           ))}
         </ul>
+      </section>
+
+      {/* All Russian entries */}
+      <section className="mx-auto max-w-6xl px-4 pb-12 sm:px-6" aria-labelledby="all-ru">
+        <h2 id="all-ru" className="text-2xl font-semibold tracking-tight">
+          Все выражения на русском · {ruWords.length}
+        </h2>
+        <div className="mt-6 grid gap-8 sm:grid-cols-2">
+          {[...groups.entries()].map(([name, list]) => (
+            <div key={name}>
+              <h3 className="text-sm font-semibold text-muted">{name}</h3>
+              <ul className="mt-2 divide-y divide-line border-y border-line">
+                {list.map((w) => (
+                  <li key={w.slug}>
+                    <Link href={`/ru/words/${w.slug}`} className="flex items-baseline gap-3 py-2.5 hover:text-accent">
+                      <span lang="ko" className="font-serif text-lg font-bold">{w.korean}</span>
+                      <span className="text-sm text-muted">{w.situation}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Subscribe */}
@@ -144,11 +173,12 @@ export default function RussianPage() {
             изучал русский язык и литературу и жил в Бишкеке. Поэтому мы начинаем русскую версию.
           </p>
           <p>
-            Сейчас на русском есть чек-лист. Рассылка и все {count} статей пока доступны{" "}
+            На русском уже есть {ruWords.length} статей и чек-лист — с объяснениями через русский язык и
+            культуру. Рассылка и все {count} статей доступны{" "}
             <Link href="/" hrefLang="en" className="text-accent underline">
               на английском
             </Link>
-            . Чем больше будет подписчиков, тем быстрее мы переведём остальное.
+            . Чем больше будет читателей, тем быстрее мы переведём остальное.
           </p>
           <p className="text-muted">
             Встретили странный корейский перевод от ИИ? Напишите на{" "}
