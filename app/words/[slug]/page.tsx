@@ -121,6 +121,14 @@ export default async function WordPage({ params }: Props) {
         <p className="mt-2 text-muted">
           {word.romanization} · literally <span className="italic">“{word.literal_meaning}”</span>
         </p>
+        {word.source && (
+          <p className="mt-2 text-sm text-muted">
+            ♪ From the song{" "}
+            <cite lang="ko" className="font-medium not-italic text-ink">{word.source.song}</cite>
+            {word.source.english_title && <> (“{word.source.english_title}”)</>} by{" "}
+            <span className="font-medium text-ink">{word.source.artist}</span>, {word.source.year}
+          </p>
+        )}
         <p className="mt-6 text-lg">
           <span className="font-medium">Situation:</span> {fail.situation}
         </p>

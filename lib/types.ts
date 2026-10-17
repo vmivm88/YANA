@@ -40,6 +40,18 @@ export interface WordEntry {
   tags: string[];
   /** 이 항목에 기여한 사람 (data/contributors.json 의 id) */
   contributors?: ContributorRef[];
+  /** 노래 제목·가사에서 가져온 단어라면 출처 (케이팝 항목은 필수) */
+  source?: SongSource;
+}
+
+/** 단어를 가져온 곡. 가사는 인용하지 않고 곡 정보만 표기한다. */
+export interface SongSource {
+  artist: string;
+  /** 한국어 원제 */
+  song: string;
+  /** 공식 영어 제목 (있으면) */
+  english_title?: string;
+  year: number;
 }
 
 /** 항목 → 기여자 연결. role: 제보 / 작성 / 원어민 검수 */

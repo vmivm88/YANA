@@ -38,6 +38,13 @@
   "tags": [
     "kpop",
     "slang",
-    "compliments"
-  ]
+    "compliments",
+    "song"
+  ],
+  "source": {
+    "artist": "BTS",
+    "song": "쩔어",
+    "english_title": "Dope",
+    "year": 2015
+  }
 }

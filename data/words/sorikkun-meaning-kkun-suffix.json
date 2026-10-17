@@ -44,6 +44,13 @@
     "kpop",
     "lyrics",
     "suffix",
-    "vocabulary"
-  ]
+    "vocabulary",
+    "song"
+  ],
+  "source": {
+    "artist": "Stray Kids",
+    "song": "소리꾼",
+    "english_title": "Thunderous",
+    "year": 2021
+  }
 }

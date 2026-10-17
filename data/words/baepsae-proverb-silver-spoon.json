@@ -39,6 +39,13 @@
     "kpop",
     "proverb",
     "society",
-    "slang"
-  ]
+    "slang",
+    "song"
+  ],
+  "source": {
+    "artist": "BTS",
+    "song": "뱁새",
+    "english_title": "Silver Spoon",
+    "year": 2015
+  }
 }

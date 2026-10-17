@@ -32,6 +32,10 @@ Thanks for helping! This project collects Korean expressions that AI translators
 - **A concrete situation.** Who is speaking to whom matters more than the word itself.
 - **At least one natural alternative** with the context where it fits.
 - **Explain the why** in `nuance`: the relationship, hierarchy or cultural logic behind it.
+- **Credit the song.** If the word comes from a song title or lyrics, add `source` (artist, song, English title, year) and the `song` tag. Explain the word only — don't quote lyrics or interpret the song.
+  ```json
+  "source": { "artist": "BTS", "song": "쩔어", "english_title": "Dope", "year": 2015 }
+  ```
 - **Keep SEO text short:** `meta_title` 70 characters or fewer, `meta_description` 160 or fewer.
 
 All entries are reviewed by a native speaker before release.
