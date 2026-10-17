@@ -5,6 +5,7 @@
   "romanization": "a-jik an kkeun-na-sseo",
   "literal_meaning": "(You're) not finished yet?",
   "category": "Daily Life",
+  "type": "meaning",
   "seo": {
     "meta_title": "Yes or No to Negative Questions in Korean | '아직 안 끝났어?'",
     "meta_description": "Why Koreans answer '응' to 'You're not done yet?' when they aren't done. How 네 and 아니요 work with negative questions, and why AI gets it backwards."
@@ -35,5 +36,10 @@
     ]
   },
   "nuance": "English yes and no follow the fact: if you're not done, you say 'no' whatever the question was. Korean 네 and 아니요 work more like 'Right' and 'That's not right' — they respond to the speaker's sentence. So when someone asks a negative question (아직 안 끝났어?, 안 매워요?, 내일 안 와요?), agreeing that the negative is true means saying 네/응. This trips up learners in both directions, and a mismatch can lead to real misunderstandings: a manager who hears '아니요' to '보고서 아직 안 보냈어요?' (You haven't sent the report yet?) will assume it has been sent. The safest habit is to follow 네 or 아니요 with the full verb, so the meaning survives even if the first word lands wrong: 네, 아직 안 보냈어요 / 아니요, 아까 보냈어요.",
-  "tags": ["yes-no", "negative-questions", "grammar", "misunderstood"]
+  "tags": [
+    "yes-no",
+    "negative-questions",
+    "grammar",
+    "misunderstood"
+  ]
 }

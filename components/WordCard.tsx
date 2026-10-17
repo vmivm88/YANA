@@ -27,7 +27,9 @@ export default function WordCard({ word, headingLevel = 2 }: { word: WordEntry; 
 
       {top && (
         <div className="mt-3 rounded-lg bg-ok-soft px-3 py-2 text-sm">
-          <span className="mr-1.5 font-semibold text-ok">Say instead:</span>
+          <span className="mr-1.5 font-semibold text-ok">
+            {word.type === "meaning" ? "How it's used:" : "Say instead:"}
+          </span>
           <span className="font-serif font-medium">{top.phrase}</span>
         </div>
       )}

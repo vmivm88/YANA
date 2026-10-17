@@ -60,6 +60,7 @@ export default async function WordPage({ params }: Props) {
   const topic = getCategoryByName(word.category);
   const tagTopics = getTagTopicsFor(word);
   const credits = creditsFor(word);
+  const isMeaning = word.type === "meaning";
 
   // 관련 표현: 같은 카테고리 먼저, 모자라면 다른 카테고리에서 채움 (내부 링크 → 검색 노출에 도움)
   const others = getAllWords().filter((w) => w.slug !== word.slug);
@@ -82,7 +83,9 @@ export default async function WordPage({ params }: Props) {
           },
           {
             "@type": "Question",
-            name: `What should I say instead of "${word.korean}"?`,
+            name: isMeaning
+              ? `What does "${word.korean}" really mean?`
+              : `What should I say instead of "${word.korean}"?`,
             acceptedAnswer: {
               "@type": "Answer",
               text: fix.alternatives.map((a) => `${a.phrase} — ${a.context}`).join(" / "),
@@ -159,7 +162,9 @@ export default async function WordPage({ params }: Props) {
         </div>
 
         <div className="rounded-2xl border border-ok/20 bg-ok-soft p-6">
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-ok">✓ What Koreans actually say</h2>
+          <h2 className="text-xs font-semibold uppercase tracking-wider text-ok">
+            {isMeaning ? "✓ How it's used" : "✓ What Koreans actually say"}
+          </h2>
           <p className="mt-3 font-medium">{fix.rule}</p>
           <ul className="mt-4 space-y-3 border-t border-ok/15 pt-4">
             {fix.alternatives.map((a) => (

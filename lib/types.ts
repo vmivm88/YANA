@@ -22,6 +22,11 @@ export interface WordEntry {
   romanization: string;
   literal_meaning: string;
   category: Category;
+  /**
+   * fix (기본): 표제어가 틀린 표현 → "Say instead"
+   * meaning: 표제어는 맞고 뜻·쓰임을 설명 → "How it's used" (노래 단어, 이중동사 등)
+   */
+  type?: "fix" | "meaning";
   seo: {
     meta_title: string;
     meta_description: string;

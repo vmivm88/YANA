@@ -95,6 +95,8 @@ for (const file of files) {
   // 노래에서 가져온 단어는 출처(가수·곡·연도) 필수. 가사는 인용하지 않는다.
   const isSong = Array.isArray(d.tags) && d.tags.includes("song");
   if (isSong && !d.source) err('"song" 태그가 있으면 source(artist·song·year)가 필요합니다');
+  if (d.type !== undefined && !["fix", "meaning"].includes(d.type)) err('type은 "fix" 또는 "meaning"이어야 합니다');
+  if (isSong && d.type !== "meaning") err('"song" 태그 항목은 type: "meaning"이어야 합니다');
   if (d.source !== undefined) {
     if (!d.source?.artist) err("source.artist가 없습니다");
     if (!d.source?.song) err("source.song이 없습니다");
