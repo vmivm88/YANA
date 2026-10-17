@@ -6,8 +6,8 @@ import { NextResponse } from "next/server";
 //   MAILERLITE_API_KEY     MailerLite → Integrations → API → Generate new token
 // 선택 환경변수 (그룹 ID — MailerLite → Subscribers → Groups. 비워 두면 그룹 없이 저장):
 //   MAILERLITE_GROUP_ID    모든 구독자를 넣을 기본 그룹 (예: "Newsletter")
-//   MAILERLITE_GROUP_RU    러시아어 구독자. /ru 페이지에서 구독한 사람 + 영어 폼에서 "러시아어도" 체크한 사람
-//                          (러시아어 환영 메일 자동화는 이 그룹 가입을 트리거로 거세요)
+//   MAILERLITE_GROUP_RU    러시아어권 수요 집계용 꼬리표. /ru 페이지에서 구독한 사람 + 영어 폼에서 "러시아어도" 체크한 사람
+//                          (뉴스레터는 영어 하나로 모두에게 발송. 이 그룹에 별도 메일은 걸지 않음)
 //   MAILERLITE_GROUP_WORK  직장·비즈니스
 //   MAILERLITE_GROUP_FAMILY 연인·가족
 //   MAILERLITE_GROUP_STUDY 공부·유학
@@ -83,11 +83,9 @@ export async function POST(req: Request) {
     );
   }
 
-  // 영어 구독자: 기본 그룹 (+ 러시아어 체크 시 러시아어 그룹)
-  // 러시아어 페이지 구독자: 러시아어 그룹만 — 영어 환영 메일·영어 캠페인을 받지 않도록 기본 그룹에는 넣지 않음
-  // + 관심사 그룹 (둘 다)
+  // 모두 기본 그룹(영어 뉴스레터) + 러시아어 관심이면 러시아어 꼬리표 + 관심사 그룹
   const groups: string[] = [];
-  if (!ru && process.env.MAILERLITE_GROUP_ID) groups.push(process.env.MAILERLITE_GROUP_ID);
+  if (process.env.MAILERLITE_GROUP_ID) groups.push(process.env.MAILERLITE_GROUP_ID);
   if ((ru || body.russian === true) && process.env.MAILERLITE_GROUP_RU) groups.push(process.env.MAILERLITE_GROUP_RU);
   if (typeof body.use === "string" && USE_GROUP_ENV[body.use]) {
     const id = process.env[USE_GROUP_ENV[body.use]];
